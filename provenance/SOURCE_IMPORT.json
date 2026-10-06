@@ -1,0 +1,256 @@
+{
+  "source_packet_name": "Knowledge_Decay_Parts_Whole_2026-10-05.zip",
+  "source_packet_sha256": "60c816fd5be224ff3b13470b71a2c5f846f6db2038c651f7772cf4a696bdc532",
+  "source_packet_size_bytes": 2118555,
+  "original_member_count": 30,
+  "snapshot_manifest_is_new": true,
+  "note": "Repository contains readable project documents and source-status indexes. Full claim texts and selected source bytes are in the separately delivered companion archive; broad source history remains original-archive-only. No absent source is represented as published.",
+  "members": [
+    {
+      "original_path": "ASSEMBLY_RECOVERY.json",
+      "size_bytes": 776,
+      "sha256": "443b9a61b92f2ff3c8411d3fa460437671ef5e913597b2fbd2c350233cd65cf2",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "CITATION_LOCATORS.json",
+      "size_bytes": 948,
+      "sha256": "8271ca0f8a257178585de547035b3ec240c5ecbc62c1ec6e617bea10a4af6c2e",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "CLAIM_REGISTER.json",
+      "size_bytes": 121471,
+      "sha256": "4e231fc90be9432aad31c82ccbcb574d3b2304e54a0be1120930f2b87ea5603f",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "CURRENT_RESEARCH_WORDING.txt",
+      "size_bytes": 588,
+      "sha256": "76bded0c40e7bb8068e6de31c5e71611811358529b85d726122a141419e5d512",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "research/CURRENT_RESEARCH_WORDING.txt"
+    },
+    {
+      "original_path": "EXECUTION_STATE.json",
+      "size_bytes": 483,
+      "sha256": "7c69c5c77ff75b2ce29001506c5c926c581e315a3bef5dbcaa17577ffd998aac",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "INVENTORY_SUMMARY.json",
+      "size_bytes": 690,
+      "sha256": "01c199277909fd8195189acfe0232bfcb44d8161de9ed250d98424f52e216ae7",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "KNOWLEDGE_DECAY_PARTS_AND_WHOLE.txt",
+      "size_bytes": 14464,
+      "sha256": "4d73cad81d3cc0aa5670b27a13c78a3446a785582f7de5ad53b2dcfe16385699",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "research/KNOWLEDGE_DECAY_PARTS_AND_WHOLE.txt"
+    },
+    {
+      "original_path": "MANIFEST.json",
+      "size_bytes": 5057,
+      "sha256": "e53532116f1c865abdbf7df3372e0bf8016033a7ae8d5e3a8f490388ab6b9098",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "PROOF_QUALIFICATIONS.txt",
+      "size_bytes": 2790,
+      "sha256": "8d9f541838c71285111149136523b9fb7d08bde79502f88916a9e0134b846fa3",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "research/PROOF_QUALIFICATIONS.txt"
+    },
+    {
+      "original_path": "RECOVERY_LOG.json",
+      "size_bytes": 3409,
+      "sha256": "3530eb3b50657a61ac22bbe9cdffcbf468a5d39a03de556234c6f513d588e797",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "RECOVERY_PLAN.json",
+      "size_bytes": 1929,
+      "sha256": "43c9df029cd119bfa368baf34b6c5c5fb5d6e487b8fed99f2bf7674439aa44f1",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "REQUIREMENT_MAP.json",
+      "size_bytes": 3088,
+      "sha256": "071437ab0f9785a10c4cb595a68f3fa9528e6d2d6c676ce639e6282ee3358c56",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "research/REQUIREMENT_MAP.json"
+    },
+    {
+      "original_path": "SELECTED_OLDER_RECORDS.json",
+      "size_bytes": 67742,
+      "sha256": "c50a95151b01e34c376bcb49be77a3f3d7a44d0e658122cf7860efa314bcde6a",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "SHARED_RECORD_PROPOSAL.json",
+      "size_bytes": 1887,
+      "sha256": "c66b97a1d22cf14cc7e50d8229fae6c31463a8a2452441c73a2ecb97038f4689",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "examples/SHARED_RECORD_PROPOSAL.json"
+    },
+    {
+      "original_path": "SMALLEST_WORKED_EXAMPLE.txt",
+      "size_bytes": 1405,
+      "sha256": "e2191d6d6a708f01a791b8ad4a73c387c74896ba60bdfcb7a72b1b54d19f2584",
+      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
+      "reason": "Project-specific original bytes copied unchanged.",
+      "repository_path": "examples/SMALLEST_WORKED_EXAMPLE.txt"
+    },
+    {
+      "original_path": "SOURCE_REGISTRY.json",
+      "size_bytes": 6635,
+      "sha256": "04a540142ea199a26aeb2f5172472fdd4f21b2c3b63136e67687e645ac3f4eed",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "VERIFICATION.json",
+      "size_bytes": 1922,
+      "sha256": "598d8ce93045f3fcb728a39334f23613c9da488edb5063b93d64af48be2db1aa",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/2026-10-04_WEED_MAP.json",
+      "size_bytes": 3494,
+      "sha256": "6769bfe3440e0f89ae3cab699147689aa43017e046f6f3077390452c936bd539",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/2026-10-05_PRE_COMMON_CORE_A0_CURRENT.md",
+      "size_bytes": 10707,
+      "sha256": "f5075a5e23f17a471b60430b985479eb0a208c9403447bc9779cb0cae87c1cbc",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/CONNECTED_ARCHITECTURE_MAP_2026-10-01_v3_0.md",
+      "size_bytes": 4238,
+      "sha256": "333255134b8a017d355c161e92e0fb9a61dea3000f24d4603a1d650bd1d79ad5",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/INVARIANT_ATLAS_2026-09-29.json",
+      "size_bytes": 15953621,
+      "sha256": "543c66de792f039b60cdf315c65df3cb59d272e565fd576c6f77818d45e2148a",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Broad history catalog, not needed to publish all other research.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/NEWER_FULL_READ_0.json",
+      "size_bytes": 150515,
+      "sha256": "46560a83034919bcc9a2640b3f15f1f347643bd379c1140705b9585f67beb382",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/PIVOT_FONT_LIFECYCLE_SOURCE_2026-10-02.txt",
+      "size_bytes": 20351,
+      "sha256": "c291eb2e9f39b62d6b2e9350633fdc5289db448cb4214a2366db57eb8d35ea8e",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/recovered_bridge_discovery_kernel.md",
+      "size_bytes": 15202,
+      "sha256": "0147a2b700db65aeca3ad930b6403a47ebd0ab83c22a289a78c0c3525deee4f7",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/recovered_meta_theory.md",
+      "size_bytes": 20862,
+      "sha256": "eec15fe11a54bc9fb1667a80de5cfbd75c5935ef49d86535cab0292314554f01",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/recovered_proof_text_00.md",
+      "size_bytes": 40320,
+      "sha256": "f675cfeceefc97417f39b487a351576b0a162c92387e584f4329584b8e92fb70",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/recovered_proof_text_01.md",
+      "size_bytes": 40320,
+      "sha256": "f675cfeceefc97417f39b487a351576b0a162c92387e584f4329584b8e92fb70",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "sources/recovered_theories_side_by_side.md",
+      "size_bytes": 24735,
+      "sha256": "49df36b7476f531bace76949fd7271b1a84a2e4f4f5fba322265cedcaa7852f2",
+      "disposition": "COMPANION_ARCHIVE_ONLY",
+      "reason": "Retained unchanged in the companion research archive, not represented as repository file.",
+      "repository_path": null
+    },
+    {
+      "original_path": "tools/assemble_record.py",
+      "size_bytes": 44523,
+      "sha256": "8fd09ccf4cfaf54caf14db85c62cc38ea454cff8bf17a8aa0664e86ebf05dce2",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    },
+    {
+      "original_path": "tools/verify_record.py",
+      "size_bytes": 5033,
+      "sha256": "94c72d26fc882d0aaaae23c313cf58f41b7977805e0fb125728dd99cfe5a9dcc",
+      "disposition": "ORIGINAL_ARCHIVE_ONLY",
+      "reason": "Raw retrieval or session-specific audit/assembly machinery; retained in original archive, not represented as live project execution.",
+      "repository_path": null
+    }
+  ],
+  "companion_snapshot_name": "Knowledge_Decay_Research_Sources_2026-10-05.tar.xz",
+  "companion_snapshot_sha256": "2825085a0905112e039ece65c4163e2db3825c7a5dc12919bef32c17b4b56000",
+  "companion_snapshot_size_bytes": 72532,
+  "companion_snapshot_status": "DELIVERED_IN_ORIGINATING_CHAT_NOT_UPLOADED_TO_GITHUB",
+  "companion_original_member_count": 19,
+  "original_files_published_readably": 6
+}

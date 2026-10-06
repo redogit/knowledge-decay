@@ -1,0 +1,63 @@
+{
+  "schema": "knowledge-decay/research-record-proposal/1",
+  "implementation_status": "PROPOSED_ENVELOPE_NOT_DEPLOYED",
+  "object_id": "example:role-A",
+  "revision_id": "example:role-A:r1",
+  "predecessor_revision_ids": [],
+  "source_occurrence": {
+    "id": "example:occurrence-1",
+    "original_expression": "A depends on the output of B.",
+    "source_kind": "HYPOTHETICAL_EXAMPLE"
+  },
+  "claim": {
+    "id": "example:claim-1",
+    "kind": "hypothesis",
+    "statement": "A depends on the output of B.",
+    "scope": "example whole W, revision 1",
+    "assumptions": [],
+    "proof_or_evidence_refs": [],
+    "source_declared_status": "HYPOTHESIS",
+    "review_status": "NOT_TESTED"
+  },
+  "whole_reference": {
+    "object_id": "example:whole-W",
+    "revision_id": "example:whole-W:r1",
+    "view_scope": "shared orientation; role-specific dependencies"
+  },
+  "relations": [
+    {
+      "type": "PART_OF",
+      "target_id": "example:whole-W",
+      "status": "DECLARED_FOR_EXAMPLE"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "target_id": "example:role-B",
+      "status": "HYPOTHESIS",
+      "evidence_refs": []
+    }
+  ],
+  "group_memberships": [
+    {
+      "group_id": "example:workflow-G",
+      "criterion_version": "example:G:c1",
+      "status": "CANDIDATE"
+    }
+  ],
+  "unknowns": [
+    "Whether the dependency is necessary rather than merely correlated."
+  ],
+  "next_step": {
+    "action": "Compare outcomes with the dependency present and absent under a frozen obligation.",
+    "on_supported": "Record bounded evidence and propose a reviewed relation.",
+    "on_counterexample": "Retain failure and revise the relation.",
+    "on_insufficient_access": "UNRESOLVED; retain source and recovery route."
+  },
+  "recovery": {
+    "preserve_predecessor": true,
+    "source_refs": [
+      "example:occurrence-1"
+    ],
+    "destructive_update_authorized": false
+  }
+}

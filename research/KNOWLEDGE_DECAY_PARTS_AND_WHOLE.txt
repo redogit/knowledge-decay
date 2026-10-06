@@ -1,0 +1,243 @@
+KNOWLEDGE DECAY — PARTS, WHOLES, IDENTITY, AND LEARNING
+Research integration record | Project date: 2026-10-05
+Status: BOUNDED SOURCE RECOVERY + EXPLICITLY SCOPED ARGUMENT REVIEW
+
+START HERE
+This record connects the current request to recovered research. It does not
+claim that knowledge itself has been broken, that all projects are one theory,
+or that a declaration of PROVED constitutes proof. The underlying works remain
+separate and their failures remain part of the record.
+
+1. THE HUMAN PURPOSE COMES FIRST
+Your clarification in this conversation makes Knowledge Decay a way to leave a
+habitual frame of thought: imagine an unfamiliar possibility, examine fragments,
+test what can be tested, and learn without claiming to reconstruct everything.
+The identity, relation, state and language machinery below is an application of
+that purpose, not a replacement definition reducing it to software or mathematics.
+The prior response equating your idea with a communal layer was an interpretation
+you rejected; it is not carried forward as your definition.
+
+2. THE CURRENT PROBLEM
+Your present goal is for parts to be informed about their position within the
+whole, with self-identification, updating, reflection, pathing, mapping, strict
+identity and clarity, grouping, and a shared language format. Your research wording
+is preserved in CURRENT_RESEARCH_WORDING.txt.
+
+Proposed operational question (assistant synthesis, not an attributed quotation):
+How can each part maintain an accurate, revisable, source-backed account of what
+it is, what it depends on, what whole it belongs to, what changed, and what it still
+does not know—while keeping routes to correction and new experience available?
+
+'Equally informed' remains your goal. Equal information in every part, equal
+access to a shared orientation, and sufficient information for each role are
+not mathematically identical requirements. A candidate implementation is a common
+referenced whole-state and accountable update rules, with role-specific views
+and visible unknowns. This is a proposal, not a silent substitution for your words.
+No claim about people being interchangeable, or one occupation being less worthy,
+follows from modeling dependencies among their roles.
+
+3. OLD WORK THAT DIRECTLY MEETS THIS PROBLEM
+
+Epistemic Mereology / MP-006 and MP-044
+The whole-to-part transfer criterion says that whole-level evidence supports a
+part-specific answer exactly when that answer is constant across all whole-states
+consistent with the evidence. The complementary counterexample retains every
+part but changes a relation. Identical parts then require different answers.
+Practical lesson: preserve the meaningful relationships, not just an inventory.
+Source: S1.2; explicit short proofs reviewed in this record.
+
+UUCOID / identity and provenance
+S3's reported user INPUT13/14 names Universally Unique CHAINED object Identifiers,
+relationalObjectId, clarityObjectId, lexicalObjectId, semanticObjectId, synonym and
+antonym object IDs, and SelfUpdatingSemanticAxiomsDefinitionsReasoningTypesAndConclusiveOutcome.
+That is a close source-backed match for the present request. Your current CHANGE
+wording is not silently renamed CHAINED. S2/CL-00026 already distinguishes durable
+object IDs, handles, revisions and content hashes. MP-043 explains why identical
+current endpoints may still require different historical/provenance treatment.
+These are identity contracts and scoped arguments, not a proof that an arbitrary
+identifier scheme is globally collision-free or that assigning an ID proves meaning.
+
+Continuation / MP-034 and MP-035
+Two records can answer today's question equally and need different updates next.
+An abstract update is well-defined exactly when equal summaries remain equal
+after each declared concrete action. Preserve the distinction, recover it, or
+refuse the unsupported update. A self-updating label is not enough.
+
+Sphere of Webs
+S4 preserves identity while changing viewpoint and permits overlapping memberships.
+It explicitly separates geometric adjacency from semantic relation, front-facing
+position from authority, and the back of the sphere from obsolescence. Thus the
+whole can be navigable without imposing one permanent center or inventing bridges.
+The geometry is a navigation design; its historical reported counts are not rerun.
+
+C. elegans / boundary-handshake work
+S5 keeps directional transport, reverse lookup, cross-boundary handshakes,
+minimal wiring and recovery paths as organizational mechanisms. S5 and S6
+explicitly do not use anatomy as theorem authority. Transfer the experiment method:
+compare a proposed boundary link with a matched no-link case, charge its costs,
+and preserve failure. Do not transfer mathematical proof status from an analogy.
+
+Stairs of State
+The name is present in this conversation. A standalone source establishing its
+exact specification was not recovered by the searches used here. It remains a
+named lead, not a verified synonym for the earlier assistant's proposed state loop.
+The available MP-034/035 results can be linked as applicable mathematics, without
+pretending they are the original Stairs of State source.
+
+Learning by experiment / MP-067 through MP-076
+The recovered Bridge Discovery From Experience kernel is the closest match to
+your earlier 'imagine something new and test it' explanation. Its finite candidate
+elimination theorem is straightforward: provided the true case is in the finite
+model and a lawful distinguishing experiment remains available at every unresolved
+stage, each outcome eliminates at least one false candidate; at most N-1 such
+steps reach one answer class. It does not promise that the candidate list is
+complete or that the experiment is easy to find, accessible, cheap or safe.
+The general empirical A9 program is recorded as planned rather than executed.
+
+4. WHAT EACH 'SELF-' PROPERTY WOULD HAVE TO DO
+
+Self-identifying; strict identity
+  Relevant earlier work: CL-00026, CL-00310, MP-043.
+  Proposed application: Persistent object, exact occurrence, revision, content digest, and semantic interpretation are separate.
+  Boundary: Identity-policy requirement; no universal collision-freedom established.
+
+Self-updating
+  Relevant earlier work: MP-013, MP-034, MP-035.
+  Proposed application: Propose a versioned update; validate the complete successor; retain predecessor and rollback.
+  Boundary: Conditional safety; sound verifier and correct state abstraction are not automatic.
+
+Self-reflecting
+  Relevant earlier work: MP-033, MP-043, MP-066.
+  Proposed application: Compare intention, observation, inference, failure and unresolved remainder.
+  Boundary: Operational proposal; reflection is not independent corroboration.
+
+Self-Pathing
+  Relevant earlier work: MP-004, MP-069, MP-070.
+  Proposed application: Every attempted step names its reason, conditional successors, stop condition and usable recovery route.
+  Boundary: A predetermined transition rule does not predetermine an unknown experimental result.
+
+Self-mapping; part-whole position
+  Relevant earlier work: MP-006, MP-044, MP-065.
+  Proposed application: Maintain typed part-of, depends-on, contradicts and interpretation relations to a referenced whole-state.
+  Boundary: Whole/part knowledge transfer is target-relative; all relations are not known by default.
+
+Strict clarity
+  Relevant earlier work: MP-001, CL-01033, CL-01034.
+  Proposed application: Specify target, scope, assumptions, original wording, version, and what remains unknown.
+  Boundary: Explicit uncertainty is compatible with strict clarity.
+
+Move toward in-groups and away from out-groups
+  Relevant earlier work: MP-014, MP-036, MP-038.
+  Proposed application: Use declared compatibility constraints; preserve nonmembers, overlapping memberships, and unresolved relations.
+  Boundary: Grouping motion is a hypothesis, not an established convergence theorem; pairwise compatibility is insufficient.
+
+Strict shared language format
+  Relevant earlier work: CL-00313, MP-059, MP-066.
+  Proposed application: Shared typed envelope with versioned meanings and source-preserving translations.
+  Boundary: Shared syntax does not establish shared interpretation, truth, or authority.
+
+5. PROOF, THEORY, DEDUCTION, INTUITION — DO NOT FLATTEN THEM
+
+Proved within a stated mathematical model: the short arguments for carrier
+factorization, whole/part transfer, relation loss, transition congruence,
+first-loss existence and finite candidate elimination. Their domains and premises
+remain attached. Some statements need qualifications listed separately.
+
+Theories/formalisms: Epistemic Mereology, consequential continuity, Homeward,
+Survivor carriers, minimal future-safe repair and the shared comparison framework.
+They organize questions; their general human or implementation validity is not
+established by the elementary lemmas alone.
+
+Corollaries: target-relative information may be smaller than full identity
+(CL-00341); new copies of one lossy report need not add distinguishing information
+(CL-00348 / MP-039); preserving relations is a distinct obligation from preserving
+parts (MP-044). These applications are bounded by their stated models.
+
+Current deductions / assistant applications:
+- Stable identity can coexist with changing classifications and revisions.
+- Shared orientation does not logically require identical detailed views.
+- Shared syntax requires explicit meaning, version and translation contracts.
+- Self-reflection can expose a gap without supplying independent evidence.
+- Predetermining allowed next steps is compatible with not knowing the next outcome.
+
+Intuitions and hypotheses retained without premature promotion:
+- Better whole/part orientation may help people learn and coordinate.
+- Moving toward compatible groups and away from incompatible groups may organize
+  work effectively. No general convergence, correctness or human-benefit theorem
+  was recovered for that movement rule.
+- Strict shared descriptions may reduce misunderstanding. This needs actual
+  use/testing; it must not erase ambiguous meanings or original expressions.
+
+Bounded source-reported results: historical continuity-field tests, C. elegans-
+inspired carrier trials and compiler/language experiments remain labeled
+source-reported, not rerun or promoted into universal evidence.
+
+6. GROUPING NEEDS A DIFFERENT TEST FROM IDENTITY
+
+The Sphere already allows one object in several webs. Moving an object does not
+change its identity, and an object outside a current group can remain relevant.
+A useful strictness is: state the membership criterion, scope, evidence and revision.
+Unknown membership is not automatic exclusion. Disagreement can be information.
+
+Pairwise compatibility can be insufficient for one shared group obligation.
+For example, the allowed choices {a,b}, {b,c}, and {a,c} overlap pairwise but have
+no choice common to all three. This does not refute every possible grouping rule;
+it refutes substituting pairwise agreement for the stated whole-group requirement.
+
+7. A SHARED LANGUAGE WITHOUT FORCED CERTAINTY
+
+SHARED_RECORD_PROPOSAL.json provides a proposed example envelope:
+object and revision; original expression; claim type; assumptions and scope;
+evidence/proof references; whole-state version; typed relations; membership
+criteria; unknowns; conditional next action; recovery material.
+
+The record does not self-authorize. A separate process performs an update, checks
+its consequences and records a new revision. A newer axiom set is a new versioned
+context; an old theorem remains conditional on its old premises until rechecked.
+
+Strict clarity should make uncertainty explicit, not require guessing.
+Strict identity should preserve distinctions, not force one interpretation.
+Strict grouping should be accountable, not erase useful outsiders.
+
+8. SMALLEST WORKED EXAMPLE AND NEXT BOUNDARY
+See SMALLEST_WORKED_EXAMPLE.txt. The parts A and B are identical across two worlds;
+only their dependency differs. A parts-only view cannot say whether B must run
+before A. A correctly obtained relation record can. Missing or stale relation
+information should lead to refresh or UNRESOLVED rather than a fabricated answer.
+
+The next proposed experiment is frozen there with outcomes and a stop condition.
+It was not executed as a software or human study in this recovery.
+
+9. RECOVERY BOUNDARIES AND CORRECTIONS
+The source packet contains six materialized archival files plus five extracted
+text occurrences (the two partial ledger occurrences duplicate each other).
+The proof ledger capture contains 1000 of its reported 1282 lines; MP-045 is
+cut off. Native direct retrieval failed and title search returned no results.
+A lookup failure does not establish absence. The exact Stairs of State source and
+an earlier exact in-group/out-group specification remain unrecovered.
+
+No full-history, sole-authorship, novelty, biological-validity, live-repository,
+production-deployment, human-benefit or complete proof-certification claim is made.
+No earlier sources or codebases were modified. Computational and mathematical
+results from other domains remain separate from this Knowledge Decay application.
+
+PROOF_QUALIFICATIONS.txt records substantive scope repairs: decoder domain,
+randomized safe-action quantifiers, retained past observations, jointly executable
+tests and diagnostic-access probability versus guessed-answer accuracy.
+The source wording remains unchanged so these differences stay visible.
+
+10. FILE GUIDE
+SOURCE_REGISTRY.json: exact source IDs, paths, hashes and capture coverage.
+CLAIM_REGISTER.json: recovered statements, historical labels and current review.
+SELECTED_OLDER_RECORDS.json: 14 source-preserving catalog records.
+REQUIREMENT_MAP.json: the eight current properties mapped to prior work.
+SHARED_RECORD_PROPOSAL.json: proposed shared record, not deployed code.
+PROOF_QUALIFICATIONS.txt: explicit proof boundaries and corrections.
+SMALLEST_WORKED_EXAMPLE.txt: tiny model and predetermined unexecuted next test.
+RECOVERY_LOG.json: actual retrieval/recovery outcomes, not an invented transcript.
+VERIFICATION.json and MANIFEST.json: checks and file integrity, not proof validation.
+sources/: unmodified raw archival files and marked text extractions.
+tools/: the assembly and verification programs used to produce this packet.
+
+The goal of this packet is to keep a way back to the evidence and to the question,
+so that a new frame of thought does not require starting your work over.

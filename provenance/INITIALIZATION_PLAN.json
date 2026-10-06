@@ -1,0 +1,50 @@
+{
+  "scope": "Initialize existing empty public redogit/knowledge-decay from the already-authorized Parts and Whole design. No new autonomous runtime, proof admission, external deployment or licensing.",
+  "created_at_utc": "2026-10-06T03:43:36.522564+00:00",
+  "prior_read_only_work": "Confirmed redogit identity, public empty repository, and inspected source packet and verification script; no remote write yet.",
+  "steps": [
+    {
+      "id": "P1",
+      "action": "Check archive and source hashes, claim IDs, extraction spans, and referenced records",
+      "success": "P2",
+      "failure": "STOP_WITH_LOCAL_PACKET"
+    },
+    {
+      "id": "P2",
+      "action": "Select project-scoped research content; exclude broad history/retrieval dumps and font files",
+      "success": "P3",
+      "failure": "STOP_WITH_LOCAL_PACKET"
+    },
+    {
+      "id": "P3",
+      "action": "Prepare README, source-preserving snapshot, inventories and outstanding-work description; inspect exact outputs",
+      "success": "P4",
+      "failure": "REPAIR_LOCAL_THEN_P3"
+    },
+    {
+      "id": "P4",
+      "action": "Seed confirmed-empty repository; do not overwrite a concurrent new file",
+      "success": "P5",
+      "failure": "READ_REMOTE_AND_STOP"
+    },
+    {
+      "id": "P5",
+      "action": "Create repository tree of readable documents and indexes based on observed seed; preserve each published original file digest. Record companion archive as not uploaded.",
+      "success": "P6",
+      "failure": "REPORT_PARTIAL_REMOTE_STATE"
+    },
+    {
+      "id": "P6",
+      "action": "Create commit; update main with expected-head lease; create bounded next-step issue",
+      "success": "P7",
+      "failure": "READ_REMOTE_AND_STOP"
+    },
+    {
+      "id": "P7",
+      "action": "Read remote tree and files; compare Git blob digests and claim counts; save actual receipt",
+      "success": "FINISHED_PROJECT_INITIALIZATION",
+      "failure": "REPORT_VERIFICATION_FAILURE"
+    }
+  ],
+  "scope_amendment_before_P5": "Publish readable project documents and indexes; preserve larger source archive as separately delivered companion. Do not claim the source archive is uploaded. The public original member disposition is recorded explicitly."
+}

@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-06T03:43:36.685902+00:00",
+  "checks": [
+    {
+      "check": "archive CRC",
+      "passed": true
+    },
+    {
+      "check": "all original manifest entries",
+      "passed": true
+    },
+    {
+      "check": "all registered source hashes",
+      "passed": true
+    },
+    {
+      "check": "64 distinct claim sections",
+      "passed": true
+    },
+    {
+      "check": "all source body spans",
+      "passed": true
+    },
+    {
+      "check": "14 selected records match atlas",
+      "passed": true
+    },
+    {
+      "check": "historical and reviewed statuses separate",
+      "passed": true
+    },
+    {
+      "check": "MP045 explicitly incomplete",
+      "passed": true
+    },
+    {
+      "check": "eight requirement references resolve",
+      "passed": true
+    }
+  ],
+  "scope": "Read-only artifact/source consistency; not theorem or implementation certification."
+}

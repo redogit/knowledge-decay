@@ -1,0 +1,48 @@
+PROOF-REVIEW QUALIFICATIONS — SOURCE TEXTS RETAINED UNCHANGED
+
+These are this review's mathematical qualifications, not claims that the original
+source has been edited or that all proof obligations have been audited.
+
+1. MP-001 and MP-058: decoder domain.
+The proof defines a decoder on the image of the carrier. Use d:P(X)->Z.
+A total decoder on unused carrier values additionally needs an available value
+in Z. No algorithmic efficiency or human intelligibility follows from existence.
+
+2. MP-036 / MP-064: safe actions and randomization.
+The deterministic common-action criterion is sound. The randomized support
+argument is safe for finite/discrete action models. Without qualifications it
+need not extend to uncountable action spaces with pointwise almost-sure safety:
+each state x could forbid just action x in [0,1]; uniform random action violates
+no fixed state's rule with positive probability, although the intersection of
+all allowed-action sets is empty. Fix the intended safety quantifiers.
+
+3. MP-070: retained history matters.
+Identical future observations do not erase an earlier observation that already
+resolved the target. Apply the claim only to candidates compatible with the same
+complete retained transcript. Otherwise a remembered earlier answer is a direct
+counterexample to the unqualified assertion.
+
+4. MP-074: obtainability of the joint experiment vector.
+Individually available tests may be mutually incompatible in an irreversible
+world. The factorization proof is correct for the joint vector, but operational
+discovery also requires that the vector can be obtained from the required common
+context or via another justified protocol.
+
+5. MP-075: define success.
+The source's at-most-1/2 bound proves a limit on choosing the diagnostic experiment
+without using the cue. It does not automatically bound accuracy when guessing the
+hidden bit is allowed. With uniformly random bit, p=1/2 diagnostic access and fair
+guessing otherwise gives (1/2)*1+(1/2)*(1/2)=3/4 accuracy. The contextual strategy
+still guarantees diagnostic access in the stated family. Preserve that claim,
+not an overstated probability bound.
+
+6. PIVOT lifecycle source: status declarations are not demonstrations.
+Its reported user requests are useful provenance. Broad assistant OUTPUT claims,
+including the final 'Q.E.D.' status, do not supply mathematical proofs, biological
+validation, language universality, or verified production implementation.
+
+7. Grouping and identity.
+Closeness, agreement, a shared group, identical text, or a shared identifier format
+cannot themselves establish evidence independence or semantic identity. The
+historical Chained-object identifier and current Change-object wording remain
+separately recorded until the user establishes their intended relation.

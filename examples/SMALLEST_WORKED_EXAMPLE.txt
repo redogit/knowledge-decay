@@ -1,0 +1,26 @@
+BOUNDED MODEL DEMONSTRATION — NOT AN IMPLEMENTATION BENCHMARK
+
+Two candidate worlds contain the same parts A and B, with the same part identities.
+W0: A and B are independent.
+W1: A requires B's output before it can proceed.
+Protected question Q: Must B run before A?
+
+Parts-only observation K gives {A,B} in both worlds.
+Q(W0)=NO and Q(W1)=YES.
+Thus no answer based on K alone is correct in both worlds (MP-001/MP-044).
+
+Supplement R records whether the dependency relation is present.
+Then (K,R) separates W0 and W1. In this deliberately specified two-world model,
+it is sufficient for Q (MP-004). Merely naming a supplemental field without
+observing its correct value would not supply this information.
+
+A common whole-state reference plus role-specific relation records could expose
+this distinction to both roles. That is a proposed implementation, not a proof
+that distributed replicas are synchronized or that humans interpret it correctly.
+
+Predetermined next investigation, NOT EXECUTED:
+1. Freeze this two-world input and its target question.
+2. Compare parts-only, shared-version + relation, and stale-version records.
+3. Admit a bounded result only if the correct target and source version are recoverable.
+4. A stale or missing version must lead to explicit refresh/UNRESOLVED, not a guessed answer.
+5. Preserve success or failure and STOP. No universal theorem is inferred from this test.
