@@ -1,30 +1,33 @@
 # Project charter
 
 ## Purpose
-Help humans learn beyond their habitual frame by connecting surviving evidence, imaginative reconstruction, explicit tests, and preserved failures. The technical organization serves that purpose.
+Support learning through historical evidence, alternative explanations, explicit tests, and the preservation of context. Technical models and tools serve this purpose rather than replace it.
 
-## Current scope
-A source-aware research foundation for self-identifying, self-updating, self-reflecting, self-pathing, self-mapping parts with strict identity, clarity, accountable grouping, and a shared language format.
+## Scope
+Investigate stable identity, controlled revision, reflective evaluation, traceable execution, relational context, explicit interpretation, criteria-based grouping, and a versioned shared language.
 
-The initial deliverable is the retained research corpus, a requirements map, a proposed record envelope, and a bounded next experiment. It is not an implemented autonomous knowledge system.
+The current deliverables are research summaries, source-status indexes, a requirement map, a proposed record format, and a bounded experiment design. They do not constitute an implemented autonomous knowledge system.
 
 ## Identity and change
-An object ID, occurrence ID, revision ID, content hash, semantic interpretation, and membership assignment answer different questions. A new view or location does not automatically create a new object. A common name, output, group, or digest does not establish common provenance or authority. Preserve both the historical CHAINED identifier wording and the newer CHANGE wording until their relationship is resolved.
+Object identity, occurrence, revision, content digest, interpretation, and membership are distinct. A different viewpoint or classification need not create a new object. Matching content does not establish common provenance or authority. Chained and Change identifier terminology remains separate until its relationship is established.
 
-## Shared orientation
-"Equally informed about the position of the whole" is the originating requirement. Identical detailed knowledge, equal access to orientation, and task-sufficient role-specific views are candidate interpretations, not synonyms. Do not select one without an explicit research decision.
+## Shared context
+Components should be able to establish their relationship to the whole they participate in. The required information model remains unresolved: identical knowledge, equal access to an overview, and task-specific views impose different obligations. Choosing among them requires an explicit design decision and appropriate evaluation.
 
 ## Grouping
-The in-group/out-group movement rule is a research hypothesis. State its criterion, version, obligation, evidence, and cost. Allow overlapping memberships and visible nonmembership. Unknown membership is not automatic rejection, and disagreement is not loss of value. Check whole-group obligations rather than assuming pairwise checks suffice.
+Grouping uses declared compatibility criteria, scope, evidence, and revision. Overlap, exceptions, nonmembership, and unresolved membership remain representable. Pairwise compatibility must not substitute for a requirement applying to an entire group. General convergence and human benefit remain hypotheses to test.
 
-## Updating and reflection
-Each proposed update retains the prior version, intended obligation, observed result, limitations, and rollback/recovery route. Self-reflection may diagnose a gap but does not provide independent corroboration. Changed axioms or definitions create a new context; old arguments remain attached to their original premises until rechecked.
+## Revision and evaluation
+Each change records the prior version, purpose, result, limitations, and recovery route. Internal evaluation can identify inconsistencies but is not independent corroboration. Revised axioms or definitions create a new context; earlier proofs must be reassessed before their conclusions are applied to it.
 
-## Admission
-Record source-declared status separately from current review status. Retain counterexamples and unsuccessful experiments. Do not promote retrieval, repetition, analogy, file integrity, or local software success into mathematical or human-benefit evidence.
+## Evidence
+Maintain separate records of source-declared status and current review. Retain counterexamples and unsuccessful experiments. Retrieval, repetition, resemblance, file integrity, and local software success are not interchangeable forms of evidence.
 
-## Predetermined next steps
-Before execution, record an action, inputs, budget, success condition, counterexample condition, unresolved condition, stopping condition, and successor for each outcome. The next permitted action can be predetermined without pretending that the experimental result is known.
+## Execution
+Before an action, define its inputs, scope, budget, success and failure conditions, unresolved outcome, stop condition, and permitted successor for each outcome. Predetermining the procedure does not predetermine the observations.
 
-## Non-goals of initialization
-No P-versus-NP or Hodge proof claim, biological validation, social ranking scheme, complete-history claim, production deployment, automatic source ingestion, or permission to overwrite neighboring projects.
+## Publication
+Publish clear research summaries, not conversational transcripts or personal commentary. Preserve attribution and technical precision without exposing private source material. Publication permissions are distinct from access and preservation permissions; see PUBLICATION_POLICY.md.
+
+## Exclusions
+This foundation makes no P-versus-NP or Hodge proof claim, biological validation claim, social ranking claim, complete-history claim, or production-deployment claim. It does not authorize autonomous ingestion, new licensing, or changes to other repositories.

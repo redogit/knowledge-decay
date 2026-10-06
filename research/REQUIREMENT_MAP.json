@@ -1,90 +1,90 @@
 [
   {
     "id": "R-IDENTITY",
-    "user_property": "Self-identifying; strict identity",
     "related_claims": [
       "CL-00026",
       "CL-00310",
       "MP-043"
     ],
     "proposed_application": "Persistent object, exact occurrence, revision, content digest, and semantic interpretation are separate.",
-    "boundary": "Identity-policy requirement; no universal collision-freedom established."
+    "boundary": "Identity-policy requirement; no universal collision-freedom established.",
+    "requirement": "Stable identity"
   },
   {
     "id": "R-UPDATE",
-    "user_property": "Self-updating",
     "related_claims": [
       "MP-013",
       "MP-034",
       "MP-035"
     ],
     "proposed_application": "Propose a versioned update; validate the complete successor; retain predecessor and rollback.",
-    "boundary": "Conditional safety; sound verifier and correct state abstraction are not automatic."
+    "boundary": "Conditional safety; sound verifier and correct state abstraction are not automatic.",
+    "requirement": "Controlled revision"
   },
   {
     "id": "R-REFLECT",
-    "user_property": "Self-reflecting",
     "related_claims": [
       "MP-033",
       "MP-043",
       "MP-066"
     ],
     "proposed_application": "Compare intention, observation, inference, failure and unresolved remainder.",
-    "boundary": "Operational proposal; reflection is not independent corroboration."
+    "boundary": "Operational proposal; reflection is not independent corroboration.",
+    "requirement": "Reflective evaluation"
   },
   {
     "id": "R-PATH",
-    "user_property": "Self-Pathing",
     "related_claims": [
       "MP-004",
       "MP-069",
       "MP-070"
     ],
     "proposed_application": "Every attempted step names its reason, conditional successors, stop condition and usable recovery route.",
-    "boundary": "A predetermined transition rule does not predetermine an unknown experimental result."
+    "boundary": "A predetermined transition rule does not predetermine an unknown experimental result.",
+    "requirement": "Traceable execution"
   },
   {
     "id": "R-MAP",
-    "user_property": "Self-mapping; part-whole position",
     "related_claims": [
       "MP-006",
       "MP-044",
       "MP-065"
     ],
     "proposed_application": "Maintain typed part-of, depends-on, contradicts and interpretation relations to a referenced whole-state.",
-    "boundary": "Whole/part knowledge transfer is target-relative; all relations are not known by default."
+    "boundary": "Whole/part knowledge transfer is target-relative; all relations are not known by default.",
+    "requirement": "Relational context"
   },
   {
     "id": "R-CLARITY",
-    "user_property": "Strict clarity",
     "related_claims": [
       "MP-001",
       "CL-01033",
       "CL-01034"
     ],
-    "proposed_application": "Specify target, scope, assumptions, original wording, version, and what remains unknown.",
-    "boundary": "Explicit uncertainty is compatible with strict clarity."
+    "proposed_application": "Specify the target, scope, assumptions, interpretation, revision, and unresolved questions; retain source references under appropriate access controls.",
+    "boundary": "Explicit uncertainty is compatible with strict clarity.",
+    "requirement": "Explicit interpretation"
   },
   {
     "id": "R-GROUP",
-    "user_property": "Move toward in-groups and away from out-groups",
     "related_claims": [
       "MP-014",
       "MP-036",
       "MP-038"
     ],
     "proposed_application": "Use declared compatibility constraints; preserve nonmembers, overlapping memberships, and unresolved relations.",
-    "boundary": "Grouping motion is a hypothesis, not an established convergence theorem; pairwise compatibility is insufficient."
+    "boundary": "Grouping motion is a hypothesis, not an established convergence theorem; pairwise compatibility is insufficient.",
+    "requirement": "Criteria-based grouping"
   },
   {
     "id": "R-LANGUAGE",
-    "user_property": "Strict shared language format",
     "related_claims": [
       "CL-00313",
       "MP-059",
       "MP-066"
     ],
-    "proposed_application": "Shared typed envelope with versioned meanings and source-preserving translations.",
-    "boundary": "Shared syntax does not establish shared interpretation, truth, or authority."
+    "proposed_application": "Use a shared typed record with versioned meanings and traceable translations; publish only authorized content.",
+    "boundary": "Shared syntax does not establish shared interpretation, truth, or authority.",
+    "requirement": "Versioned shared language"
   }
 ]

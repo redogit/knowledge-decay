@@ -4,7 +4,7 @@
   "source_packet_size_bytes": 2118555,
   "original_member_count": 30,
   "snapshot_manifest_is_new": true,
-  "note": "Repository contains readable project documents and source-status indexes. Full claim texts and selected source bytes are in the separately delivered companion archive; broad source history remains original-archive-only. No absent source is represented as published.",
+  "note": "Current public documents include edited summaries rather than private working text. Original hashes identify archival sources, not their editorial replacements. Full claim texts and selected source bytes remain outside this repository; no absent source is represented as publicly accessible.",
   "members": [
     {
       "original_path": "ASSEMBLY_RECOVERY.json",
@@ -34,9 +34,10 @@
       "original_path": "CURRENT_RESEARCH_WORDING.txt",
       "size_bytes": 588,
       "sha256": "76bded0c40e7bb8068e6de31c5e71611811358529b85d726122a141419e5d512",
-      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
-      "reason": "Project-specific original bytes copied unchanged.",
-      "repository_path": "research/CURRENT_RESEARCH_WORDING.txt"
+      "disposition": "PUBLIC_EDITORIAL_SUMMARY_ORIGINAL_NOT_IN_CURRENT_TREE",
+      "reason": "Public-facing summary replaces the source wording; the original digest identifies archival bytes, not this edited file.",
+      "repository_path": "research/RESEARCH_OVERVIEW.md",
+      "repository_file_sha256": "6edacdde148869900aa30731a6f6eb59d49ea23360be3f2fe684537b8d7b3dcb"
     },
     {
       "original_path": "EXECUTION_STATE.json",
@@ -58,9 +59,10 @@
       "original_path": "KNOWLEDGE_DECAY_PARTS_AND_WHOLE.txt",
       "size_bytes": 14464,
       "sha256": "4d73cad81d3cc0aa5670b27a13c78a3446a785582f7de5ad53b2dcfe16385699",
-      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
-      "reason": "Project-specific original bytes copied unchanged.",
-      "repository_path": "research/KNOWLEDGE_DECAY_PARTS_AND_WHOLE.txt"
+      "disposition": "PUBLIC_EDITORIAL_SUMMARY_ORIGINAL_NOT_IN_CURRENT_TREE",
+      "reason": "Public-facing summary replaces the source wording; the original digest identifies archival bytes, not this edited file.",
+      "repository_path": "research/KNOWLEDGE_DECAY_PARTS_AND_WHOLE.txt",
+      "repository_file_sha256": "1a769d08c344a9b06905f0b13c0d273098f2c3c8664253c4003985757abd122c"
     },
     {
       "original_path": "MANIFEST.json",
@@ -98,9 +100,10 @@
       "original_path": "REQUIREMENT_MAP.json",
       "size_bytes": 3088,
       "sha256": "071437ab0f9785a10c4cb595a68f3fa9528e6d2d6c676ce639e6282ee3358c56",
-      "disposition": "UNCHANGED_READABLE_FILE_IN_REPOSITORY",
-      "reason": "Project-specific original bytes copied unchanged.",
-      "repository_path": "research/REQUIREMENT_MAP.json"
+      "disposition": "PUBLIC_EDITORIAL_SUMMARY_ORIGINAL_NOT_IN_CURRENT_TREE",
+      "reason": "Public-facing summary replaces the source wording; the original digest identifies archival bytes, not this edited file.",
+      "repository_path": "research/REQUIREMENT_MAP.json",
+      "repository_file_sha256": "cf812846d4d94e8cf224c6b8561faf3b9cb7c017bc27c73d6a53e35a31e68f21"
     },
     {
       "original_path": "SELECTED_OLDER_RECORDS.json",
@@ -252,5 +255,11 @@
   "companion_snapshot_size_bytes": 72532,
   "companion_snapshot_status": "DELIVERED_IN_ORIGINATING_CHAT_NOT_UPLOADED_TO_GITHUB",
   "companion_original_member_count": 19,
-  "original_files_published_readably": 6
+  "original_files_published_readably": 3,
+  "publication_policy": "PUBLICATION_POLICY.md",
+  "editorial_revision": {
+    "base_commit": "0ae32037f74df9c6eafb1b891d52391c9c75dc3d",
+    "scope": "Current-branch public writing; no historical erasure or new research verification.",
+    "source_status": "Original digests retained; current editorial summaries separately identified."
+  }
 }
