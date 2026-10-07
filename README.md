@@ -49,6 +49,14 @@ The method is a research discipline, not a claim of universal correctness or an 
 
 The [application seams](research/APPLICATION_SEAMS.md) preserve source-verified examples from higher-dimensional physics, full-shape cosmology, simulation/world-model design, and interpretation hygiene. They are examples of the method only: their evidence stays with the native source domain.
 
+## Focused research modules
+
+- [Tautology primitives and verified state cycles](research/tautology-primitives/README.md) separates constant-TRUE generation, tautology recognition, and functional completeness; it includes the factory/builder refactor of the verified DPLL state cycle, exact binary-Boolean classification evidence, and the current Episteme integration boundary.
+
+## Integration provenance
+
+Authorized public-safe snapshots of the accessible Linear workspace and concretely recoverable Figma artifacts are under [provenance/integrations](provenance/integrations/). Service metadata remains provenance rather than mathematical evidence.
+
 ## Scope and evidence
 
 Definitions, hypotheses, deductions, mathematical arguments, and experimental findings retain separate statuses. Similarity between projects does not transfer evidence. File integrity and software tests do not, by themselves, establish mathematical correctness or human benefit.

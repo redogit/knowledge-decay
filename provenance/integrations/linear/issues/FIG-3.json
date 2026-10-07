@@ -1,0 +1,55 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-3",
+    "uuid": "26803d28-3012-4646-b626-048c1d64bdc1",
+    "title": "Import your data",
+    "description": "Sync data between Linear and your other tools.\n\n<linear-image>{\"type\":\"image\",\"attrs\":{\"src\":\"https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/80d7e050-dd1f-4d4f-8257-b29c16087017/65c16454-30f3-4f4a-8f25-c2428d64ff57\",\"title\":\"import-your-data.png\",\"width\":2880,\"height\":1769,\"displayWidth\":560}}</linear-image>\n\nWhether you're exploring Linear, running a pilot, or ready for full migration, we’ve got you covered. \n\n### **Exploring Linear:**\n\n* [**Pitch Linear**](<https://linear.app/switch/pitch-guide>)\n  Build your business case and get organizational buy-in\n* [**Run a pilot**](<https://linear.app/switch/pilot-guide>)\n  Test Linear with a small team before rolling out company-wide\n\n### **Ready to migrate:**\n\n* [**Migration guide**](<https://linear.app/switch/migration-guide>) \n  Step-by-step process for importing data and rolling out Linear\n\n---\n\nIf you have any questions hit `?` in the bottom left > Contact us.\n\n<linear-image>{\"type\":\"image\",\"attrs\":{\"src\":\"https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/191f6985-8562-4f62-9482-a094b69c4756/0e4ff63b-3da2-4699-912b-04afb68511e8\",\"title\":\"contactlinear (1).gif\",\"width\":1920,\"height\":1080,\"displayWidth\":603}}</linear-image>",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-3/import-your-data",
+    "gitBranchName": "ryanapril/fig-3-import-your-data",
+    "createdAt": "2026-09-19T09:00:04.238Z",
+    "updatedAt": "2026-09-19T09:00:04.238Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "37ccf9c3-9ceb-46a2-9149-8e0ffc97d075",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-19T09:00:04.238Z",
+        "endedAt": null
+      }
+    ],
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

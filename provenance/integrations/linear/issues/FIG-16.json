@@ -1,0 +1,87 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-16",
+    "uuid": "d4fd899a-120c-4253-960a-d3d61d1150d5",
+    "title": "W114 exchange-wall Compass rotation",
+    "description": "New exact search equivalence from independent external even-degree Fermat census, with arithmetic edges rechecked locally.\n\nW114 wall:\nA=(1,7,78,79,86,91)\nB=(1,13,43,72,103,110)\nC=(1,13,43,80,102,103)\n\nExternal source reports these three are a complete claim-equivalence triangle under exchange moves and remain unresolved by its closure family. We independently reconstructed exact exchanges:\n\nA -> B:\nunit 85 on B gives (2,7,78,79,85,91).\nShared S=(7,78,79,91).\nExchanger q_AB=(1,29,86,112), grade-2 across all units.\n\nA -> C:\nunit 79 on C gives (1,43,50,78,79,91).\nShared S=(1,78,79,91).\nExchanger q_AC=(7,64,71,86), grade-2.\n\nB -> C:\nshared S=(1,13,43,103).\nExchanger q_BC=(12,34,72,110), grade-2 and Galois/permutation equivalent to a p=3 Aoki-standard surface character.\n\nMore structured A -> C 3-entry exchange:\nshared S=(1,79,91);\nA-rem=(7,78,86), C'-rem=(43,50,78);\nq=(7,36,64,71,78,86),\nwhich splits into zero-sum triples (7,36,71) and (64,78,86), so the exchanger is \\*-split.\n\nSearch policy:\nAny explicit carrier found for A, B, or C is eligible as a candidate after explicitly compiling the exchange correspondence back to A. Do not transfer evidence from the external census without receiver-local verification.\n\nNegative calibration:\nAll three have identical weighted exponent complexity {114,114,114,114,57,19}; all fail pair-separated weighted cancellation and simple pair-CI screens. The rotation expands the search presentation but does not trivialize the geometry.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-16/w114-exchange-wall-compass-rotation",
+    "gitBranchName": "ryanapril/fig-16-w114-exchange-wall-compass-rotation",
+    "createdAt": "2026-10-05T08:52:07.283Z",
+    "updatedAt": "2026-10-05T08:52:07.875Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-05T08:52:07.283Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

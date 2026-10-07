@@ -1,0 +1,79 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-14",
+    "uuid": "bfc85ed6-1b33-49c4-85ae-e508ee754263",
+    "title": "No-go: skew Koszul deformations do not create the W114 primitive class",
+    "description": "Compass-generated negative family.\n\nStart from Q=f^T g with three pair factorizations and deform\nF=f+Sg, S^T=-S,\nso F^T g=Q identically.\n\nA concrete degree-(113,1) construction with\nh=x1^7*x3^42*x5^63\nwas designed so an individual Jacobian-determinant term lands at the W114 target exponent (0,6,77,78,85,90). Exact finite-field coefficient extraction mod 457 (rho of order 228) found four target-contributing determinant terms whose signed sum is exactly zero.\n\nStructural explanation to formalize:\nin the wedge dF_1∧dg_1∧...∧dF_3∧dg_3, the S-dependent terms reduce to contributions containing dQ (plus repeated df_i/dg_i terms); in Jac(Q), dQ=0. Therefore these skew/gauge deformations cannot change the primitive Favero–Kelly class.\n\nStatus: strong derived lemma + exact counterprobe; needs a clean symbolic proof before promotion to general no-go.\n\nCompost value:\nvisible deformation can preserve Q yet be cohomologically gauge-trivial. Future MF/CI generators must change the K-class/Jacobian image, not only the presentation.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-14/no-go-skew-koszul-deformations-do-not-create-the-w114-primitive-class",
+    "gitBranchName": "ryanapril/fig-14-no-go-skew-koszul-deformations-do-not-create-the-w114",
+    "createdAt": "2026-10-04T12:34:19.265Z",
+    "updatedAt": "2026-10-04T21:08:15.091Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T12:34:19.265Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

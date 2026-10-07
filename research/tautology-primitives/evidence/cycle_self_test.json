@@ -1,0 +1,28 @@
+{
+  "anchor_s3": 8800120086943,
+  "anchor_word": 31,
+  "anchor_sat": true,
+  "carrier_cases": 55,
+  "nonword_bits": 46,
+  "word_cases": 128,
+  "mutation_rejections": 5,
+  "tautology_singletons": [
+    "NOR",
+    "XNOR",
+    "Y_IMPLIES_X",
+    "X_IMPLIES_Y",
+    "NAND",
+    "TRUE"
+  ],
+  "basis_cases": 136,
+  "basis_true": 93,
+  "basis_false": 43,
+  "trace": [
+    "cycle.states.derived@2",
+    "cycle.cnf.full-lifecycle@2",
+    "cycle.dpll.verify@1"
+  ],
+  "dpll_calls": 287,
+  "branches": 0,
+  "unit_propagations": 286
+}

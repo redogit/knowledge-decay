@@ -1,0 +1,95 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-12",
+    "uuid": "c0ac077a-e8c9-47d7-a4db-e78672428690",
+    "title": "Compost ledger: turn retired Hodge routes into reusable constraints",
+    "description": "Maintain the research compost pile.\n\nFor every retired, failed, corrected, or heuristic Hodge/W114 route, record:\n\n1. Original hypothesis/ansatz.\n2. Exact reason it failed or was superseded.\n3. Smallest valid negative conclusion.\n4. Reusable mathematical residue:\n   * exclusion criterion,\n   * invariant,\n   * counterexample,\n   * normalization correction,\n   * projector/sign convention,\n   * search-space pruning rule,\n   * regression test,\n   * or candidate condition for the next family.\n5. What would be required to revive the route.\n6. Link to the original preserved evidence.\n\nInitial compost:\n\n* naive 3+3 simple surface-divisor tensors -> bounded partition/Hodge obstruction;\n* support-≤2 rank-3 homogeneous Koszul family -> zero W114 coefficient in that family;\n* pair-separated quadratic-twisted Tate-plane lift -> no residual-character support;\n* raw q=7-zeta_3 sign -> corrected to 3(7-zeta_3);\n* reversed plane projector orientation -> corrected homological convention;\n* arithmetic-sign/geometric-direction receipt mapping -> regression-tested correction;\n* 35+35 / K5 / visualization analogies -> heuristic only until an explicit Hodge comparison map exists.\n\nAcceptance: nothing leaves the active spine without yielding a concise reusable residue.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-12/compost-ledger-turn-retired-hodge-routes-into-reusable-constraints",
+    "gitBranchName": "ryanapril/fig-12-compost-ledger-turn-retired-hodge-routes-into-reusable",
+    "createdAt": "2026-10-04T11:53:19.527Z",
+    "updatedAt": "2026-10-05T08:52:11.798Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:53:19.527Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        },
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-17",
+          "title": "T_A Hodge atomicity forces a coupled exceptional carrier"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-14",
+          "title": "No-go: skew Koszul deformations do not create the W114 primitive class"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

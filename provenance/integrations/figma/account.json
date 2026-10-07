@@ -1,0 +1,20 @@
+{
+  "schema": "knowledge-decay.figma.account.v1",
+  "exported_date": "2026-10-07",
+  "whoami": {
+    "handle": "Ryan April",
+    "plans": [
+      {
+        "name": "Ryan April's team",
+        "seat": "View",
+        "tier": "starter",
+        "key": "team::1683415803676853782",
+        "role": "admin"
+      }
+    ]
+  },
+  "generative_plugins": {
+    "items": [],
+    "nextCursor": null
+  }
+}

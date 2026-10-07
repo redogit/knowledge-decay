@@ -1,0 +1,64 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-20",
+    "uuid": "3b582ef9-eb09-47a8-b20f-10df1f133594",
+    "title": "Admit one bounded executable STEM/NLP primitive with a versioned contract",
+    "description": "Purpose: advance recorded input9 from STEM/NLP phrase themes to an executable primitive with a precise machine contract.\n\nCurrent boundary: production pattern forms are lit/ref/alt/seq; the18 catalog fragments remain phrase/data declarations. The current progression audits existing obligation algebra. A literal-substring witness reference, if present in research evidence, is not a production Op or general NLP competence.\n\nAcceptance criteria:\n\n* Select one bounded operation from the reviewed research contract and explicitly state the supported domain.\n* Serialize its version, structural input/output relation, human-readable meaning, mathematical definition, effects, cost unit, source identity, and unresolved limits.\n* Implement through the existing headless machine architecture; preserve exact original input strings, catalog declarations, and existing APIs.\n* Verify positive, negative, boundary, invalid, zero-budget, and exhausted-budget behavior against an independent oracle. Exhaustion must never become a false negative claim.\n* Record actual composition behavior and declared obligations; separate executable evidence from lexical/semantic truth and broader generator mining.\n* Update live operation/reference coverage and source-pinned evidence only after implementation.\n\nStarting sources: src/core/20-primitives.js; src/core/30-language.js; src/core/43-obligations.js; docs/progression/mathematical-contract.md; docs/progression/research-support.md.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-20/admit-one-bounded-executable-stemnlp-primitive-with-a-versioned",
+    "gitBranchName": "ryanapril/fig-20-admit-one-bounded-executable-stemnlp-primitive-with-a",
+    "createdAt": "2026-10-06T17:02:49.348Z",
+    "updatedAt": "2026-10-06T17:17:14.542Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "37ccf9c3-9ceb-46a2-9149-8e0ffc97d075",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-06T17:02:49.348Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Episteme — machine-oriented generator language",
+    "projectId": "788579b5-8769-4e91-8b11-80945f317245",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "FIG-19",
+          "title": "Verify obligation conjunction and preserve destination defaults during fragment insertion"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-7",
+    "uuid": "ec950544-12ea-45c3-b1ad-06673537acb9",
+    "title": "Reconstruct and grade the W114 evidence lineage",
+    "description": "Inventory every W114/Hodge attempt and assign one evidence class:\nFORMAL/EXACT, EXHAUSTIVE_FINITE, TESTED, STRUCTURAL_REDUCTION, NEGATIVE_FAMILY_RESULT, HEURISTIC, SUPERSEDED_CORRECTION, OPEN.\n\nInclude:\n\n* character/partition screens;\n* Shioda/Aoki reductions;\n* p=229 order-114 Jacobi calculation;\n* corrected sign 3(7-zeta_3) and p=571 counterprobe;\n* matrix-factorization/Koszul screens;\n* 114->57 deck/double-cover route;\n* projector/join/motivic composition;\n* 4D/K5/visual analogies;\n* failed and corrected software receipts.\n\nAcceptance: every item has scope, dependency, counterprobe, and explicit “does not imply” boundary.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-7/reconstruct-and-grade-the-w114-evidence-lineage",
+    "gitBranchName": "ryanapril/fig-7-reconstruct-and-grade-the-w114-evidence-lineage",
+    "createdAt": "2026-10-04T11:47:49.834Z",
+    "updatedAt": "2026-10-04T11:48:08.741Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:49.834Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [
+        {
+          "id": "FIG-17",
+          "title": "T_A Hodge atomicity forces a coupled exceptional carrier"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-14",
+          "title": "No-go: skew Koszul deformations do not create the W114 primitive class"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        }
+      ],
+      "blockedBy": [
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "schema": "knowledge-decay.figma.shaders.v1",
+  "exported_date": "2026-10-07",
+  "inventory": {
+    "items": [
+      {
+        "id": "2e7f7880-a499-458f-8739-62f3ae9e4a01",
+        "name": "Moving blobs",
+        "description": "Animated liquid-blob distortion effect: warps the layer beneath through a simplex-noise field with refraction, displacement, bulge/pinch, hue-shift, and invert modes, plus dispersion and drop shadow.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "e0c56fc6-264b-4417-9b8f-1af0caff082f",
+        "name": "CRT Screen",
+        "description": "Retro CRT monitor effect over the layer beneath — scanlines, screen curvature, phosphor glow, and chromatic distortion.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "9a757249-ea3f-4d24-a714-215fea81c68f",
+        "name": "Light rays",
+        "description": "Adds volumetric light rays and edge glow emanating from a positionable light source over the layer beneath.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "1d907e64-229f-4445-9fc0-290db4940e88",
+        "name": "Bokeh blur",
+        "description": "Brightness-weighted disc gather that blooms highlights into bokeh discs.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "4963541f-0a0e-4f7e-91fc-ab36b3b6b11e",
+        "name": "Channel mixer",
+        "description": "Mixes RGB channels by blending each output channel against a configurable tint color, with optional sRGB/Linear color space selection.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "b66cbbf2-f23f-4360-9165-8eac40c0a951",
+        "name": "Shape-based particles",
+        "description": "Interactive shape-based particle system effect over the layer beneath — emits and simulates particles with velocity fields that react to the pointer position.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "92c33e91-4b96-4a18-8c19-4de03828c95a",
+        "name": "Chromatic metal",
+        "description": "Chromatic metal shader effect with configurable gradient, noise, blur, and RGB split controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "d4c18108-ee0c-455e-bbb4-2daa7af72d86",
+        "name": "Bloom",
+        "description": "Multi-pass bloom effect with brightness extraction, Gaussian blur at half and quarter resolution, tinted glow composite, vignette, and a spotlight mask",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "d22a8814-e106-4808-82c1-d1046f3c93ef",
+        "name": "Color adjust",
+        "description": "Photo-style color adjustment effect — exposure, contrast, levels, highlights/shadows, temperature, tint, color filter, vibrance, saturation, brilliance, and definition/clarity controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "163623c4-6aee-413a-9123-4906ad38e9f7",
+        "name": "Halftone",
+        "description": "Halftone effect with dot and blended patterns, CMYK/RGB/BW color modes, and configurable dot size, scale, softness, rotation, and center",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "e52966ab-19cc-45b2-9e93-7d39a5b1f73a",
+        "name": "Lens distortion",
+        "description": "Barrel/pincushion lens distortion with chromatic aberration — lateral, longitudinal, and anamorphic modes",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "b97afdde-e17f-4291-ade3-686068c703b2",
+        "name": "Hatching",
+        "description": "Luminance-driven hatching effect with circle, wave, and zigzag patterns, configurable density, softness, transform, and dual-color controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "35f678a7-a283-4d50-b341-1ac77a31fc64",
+        "name": "Outlines",
+        "description": "JFA-based SDF outline rings with gradient, phase animation, and smoothing",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "f1a4fc0f-dcc1-45e3-bad6-ec82abb7c7eb",
+        "name": "Pattern refraction",
+        "description": "Refracts a layer through procedural patterns (lenticular, zigzag, waves, circular, curved/flat square) with IOR dispersion, frost, and configurable edge wrap",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "67b200dd-9342-42cf-befb-cfb7f4248e40",
+        "name": "Glowing particles",
+        "description": "Scatters glowing bokeh-like light particles across the layer, sampling bright areas of the source image to seed particle positions and color",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "49f7c510-0f6c-45b1-94a2-56977c25f0dd",
+        "name": "Pixel stretch",
+        "description": "Distorts a layer by stretching pixels along a line segment with offset, smoothness, and falloff controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "b1ca7112-1210-47bc-9603-c41536c84455",
+        "name": "Pixelate",
+        "description": "Pixelate effect with rectangle, ellipse, hexagon, and triangle pixel shapes, configurable size, gap, color trim, dissolve, and region controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "2bd9fcdf-e3e6-4c33-98f3-dc9d4e02c91d",
+        "name": "Slice shift",
+        "description": "Slices the layer into vertical bands and shifts alternating slices horizontally, with configurable shift, softness, random jitter, and a point-angle-radius transform control.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "d8a77bb4-c4e3-4e90-b8e0-6c64a06037e0",
+        "name": "Warp",
+        "description": "Warp effect with sine wave, twist, bulge, pinch, ripple, flag, squeeze, and swirl distortion modes",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "387983ae-52a3-4033-898c-6f6e5559e972",
+        "name": "Duotone",
+        "description": "Maps layer luminance to a two-color ramp with contrast, midpoint, and mix controls",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "f5c0a2ff-247f-434e-ada4-ecce79213874",
+        "name": "Dither",
+        "description": "Compute-shader dithering with Atkinson, Floyd-Steinberg, Bayer, Blue Noise, Riemersma and more",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "bf1fec3e-3a92-4662-a402-288c7df7e4ba",
+        "name": "Gradient map",
+        "description": "Maps pixel luminance to a configurable multi-stop gradient ramp, with scatter dithering, repeat/mirror tiling, frequency, offset, and sRGB/Linear/OKLab mix space controls.",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "998af535-8dc8-48c8-a0b0-ee6232e1f523",
+        "name": "Colored edges",
+        "description": "Detects edges using Sobel operators and renders a customizable colored gradient outline around layer content",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "b03c0f29-755c-4b86-9354-7c3de41cf887",
+        "name": "Gooey merge",
+        "description": "Gooey blob-merge effect using multi-pass Gaussian blur and alpha-threshold thresholding to merge nearby shapes into organic blobs",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "d6d92ec0-377e-4ec2-87f7-6cfb475ca216",
+        "name": "Filter presets",
+        "description": "Photo-style filter presets — Grayscale, Sepia, Vintage, Cool, Warm, Fade, High Contrast, Vivid, and Noir — with adjustable intensity",
+        "type": "effect",
+        "owner": "figma"
+      },
+      {
+        "id": "26f994fa-8aff-404a-9ca4-1c61beb152c1",
+        "name": "Glowing wave",
+        "description": "Animated glowing sine wave fill with configurable color, amplitude, glow intensity, scale, phase, and transform controls",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "92e3865a-cafa-46dd-bafc-81fac7478aaf",
+        "name": "Moving gradient",
+        "description": "Animated 3D mesh gradient fill that procedurally renders a flowing, shaded multi-color mesh gradient.",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "4491720d-d6c3-47a1-825b-db425b77fa5c",
+        "name": "Mesh gradient",
+        "description": "Bicubic mesh gradient fill with 16 color-point handles, Catmull-Rom interpolation, and 4x MSAA anti-aliasing",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "0f589a1a-c327-4aeb-b739-6eb0c15e624e",
+        "name": "Concentric patterns",
+        "description": "Concentric ring patterns in triangle, circle, or square shapes with configurable ring count, falloff, color, offset, and transform controls",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "aac98cc8-94ee-49c7-9d3b-93b5151dca8b",
+        "name": "Pattern grid",
+        "description": "Procedural pattern grid fill with configurable shapes, grid layouts, size, zoom, colors, stroke, softness, clip-to-cell, offset, and transform controls",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "d978f407-2bfa-49ec-9f0d-d01db7c533d1",
+        "name": "Clouds",
+        "description": "Procedural cloud fill with sky gradient, coverage, density, brightness, warp, stretch, and transform controls",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "78022e92-625e-4131-af68-e527f73488a5",
+        "name": "Fractal noise",
+        "description": "Generates static layered procedural noise as a custom fill",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "25a4596b-d4ad-4593-9507-52e53cfdf47e",
+        "name": "Nebula",
+        "description": "Animated nebula fill with layered star fields and procedural nebula clouds",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "5cf01aa1-d490-4c75-b0b6-1f0418415ce2",
+        "name": "Moire",
+        "description": "Moire interference pattern fill with warped sine-wave lines, RGB split, zoom, and warp origin controls",
+        "type": "fill",
+        "owner": "figma"
+      },
+      {
+        "id": "9cd7048d-3c21-4074-b883-e14725fdf05b",
+        "name": "Water caustic",
+        "description": "Water caustic procedural fill — iterative interference pattern generating shimmering caustic light patterns in configurable water and highlight colors",
+        "type": "fill",
+        "owner": "figma"
+      }
+    ],
+    "nextCursor": null
+  }
+}

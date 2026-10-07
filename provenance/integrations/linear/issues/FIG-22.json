@@ -1,0 +1,116 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-22",
+    "uuid": "4705ea0e-e60f-41c3-b1e5-dd232a1e8705",
+    "title": "Classify tautology-generating Boolean primitives",
+    "description": "Goal: identify the primitive mechanisms by which Boolean formulas become tautologies, while keeping semantic validity, syntactic proof, and computational recognition separate.\n\nTarget contract:\n\n* Standard two-valued propositional logic.\n* First bounded theorem: classify a single binary connective g, with variables allowed but no Boolean constants, by whether some g-only formula can be a tautology.\n* Preserve ordered valuations; do not collapse 01 and 10 through XOR.\n* TAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION != FUNCTIONAL_COMPLETENESS.\n* FINITE_ENUMERATION != OPEN_COMPLEXITY_RESULT.\n\nWorkstreams:\n\n1. Mathbox — prove the structural reduction: if any g-only n-variable tautology exists, identifying all variables yields a one-variable tautology. Therefore the classification reduces to the unary term closure {0,1,x,NOT x}. Derive the six-connective classification analytically.\n2. Exa — source-check Cook 1971, Post functional completeness, Sheffer functions, and proof-system completeness. Record which claims are established literature versus our derived classification framing.\n3. Wolfram — exact independent enumeration of all 16 binary truth tables. Current cross-check: TRUE is generable for NOR, XNOR, either implication direction, NAND, and TRUE; only NOR and NAND generate all 16 two-variable Boolean functions.\n4. Linear — maintain claim ceilings, accepted results, counterprobes, and next obligations.\n\nCurrent derived mechanism split:\n\n* Reflexive/diagonal TRUE: g(x,x)=1 for XNOR, x->y, y->x, TRUE.\n* Complement route: NAND generates NOT x as g(x,x), then TRUE as g(x,NOT x).\n* Zero-then-TRUE route: NOR generates NOT x, then 0 from NOR(x,NOT x), then 1 from NOR(0,0).\n\nNext obligations:\n\n* Finish a hand-checkable proof that no other binary connective can generate constant TRUE.\n* Reproduce the six-connective result with an independent exact enumeration.\n* Classify minimum tree depth / shared-DAG gate count for generating TRUE.\n* Extend from one-connective bases to small operator sets using Post's five-class criterion.\n* Map the resulting primitives to Decision Field semantics without using XOR as a lossy primary classifier.\n* Keep Cook's recognition-complexity claims separate from algebraic generation results.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-22/classify-tautology-generating-boolean-primitives",
+    "gitBranchName": "ryanapril/fig-22-classify-tautology-generating-boolean-primitives",
+    "createdAt": "2026-10-07T12:22:36.011Z",
+    "updatedAt": "2026-10-07T13:19:51.823Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-10-07T12:22:36.222Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "In Progress",
+    "statusType": "started",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "19376718-8455-4605-a13c-ea2b6e722165",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-07T12:22:36.011Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "MOK / P-vs-NP Hard-Core",
+    "projectId": "7aded8bb-2ed8-498a-b5d4-df4f80597241",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "FIG-5",
+          "title": "FIG-5: Measure bounded SAT family growth after v0.10"
+        },
+        {
+          "id": "FIG-23",
+          "title": "Bind tautology factories to Episteme's versioned factory contract"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [
+      {
+        "id": "bf274ae2-3847-4bb6-b001-0b71e635891b",
+        "body": "GitHub preservation checkpoint: https://github.com/redogit/knowledge-decay/pull/4\n\nCurrent implementation/evidence is under `research/tautology-primitives/` on PR #4.\n\nVerified:\n- factory/builder/SOLID refactor is 793 lines and matches the tested generated implementation exactly;\n- 3/3 self-contained regression tests pass;\n- all 16 binary singleton operators classified;\n- all 136 singleton/pair bases checked; 93 generate TRUE, 43 do not;\n- all two-obstruction predictions match;\n- full state-cycle carrier/word/mutation evidence is preserved.\n\nEpisteme architecture transfer is documented; direct runtime binding remains a separate FIG-23 obligation.\n\nClaim ceilings remain unchanged:\nTAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION\nGENERATES_TRUE != FUNCTIONALLY_COMPLETE\nSOFTWARE_VERIFICATION != MATHEMATICAL_PROOF\nFINITE_ENUMERATION != P_VS_NP_RESULT",
+        "attachments": [],
+        "createdAt": "2026-10-07T13:19:51.862Z",
+        "updatedAt": "2026-10-07T13:19:51.823Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "dd2f2869-0412-4bb4-994f-d3969e105fc2",
+        "body": "Checkpoint — binary-basis extension and proof audit\n\nMathbox self-review verdict:\nPROVED AS WRITTEN under the explicit scope:\n- standard two-valued Boolean semantics;\n- connectives are binary Boolean operations;\n- formulas have variable leaves;\n- no primitive nullary constants are assumed;\n- a binary constant-valued operation such as truth table 1111 is still allowed as one of the 16 binary connectives.\n\nStronger theorem for arbitrary sets S of binary Boolean operations:\nA tautology is expressible from S iff\n1. S is not contained in P0, the 0-preserving binary operations; and\n2. S is not contained in D, the self-dual binary operations.\n\nFor the 16 binary truth tables in order 00,01,10,11:\n- P0 = ids 0..7, exactly those with g(0,0)=0.\n- D = {3,5,10,12} = {x,y,NOT y,NOT x}.\n\nNecessity:\n- compositions of 0-preserving operations remain 0-preserving, while constant TRUE is not 0-preserving;\n- compositions of self-dual operations remain self-dual, while constant TRUE is not self-dual.\n\nSufficiency for binary bases:\n- if S escapes both classes, choose f in S\\P0 and g in S\\D; this gives a singleton or pair basis that escapes both obstructions;\n- exhaustive exact closure over all 16 singleton bases and all C(16,2)=120 pair bases checked all 136 cases;\n- exactly 93 bases generated constant TRUE and exactly those 93 were the bases not contained in P0 and not contained in D;\n- 43 failed: the 36 singleton/pair bases wholly inside P0 plus 7 remaining bases wholly inside D.\n\nIndependent enumeration agreed exactly with the Wolfram result.\n\nThis is weaker than Post functional completeness:\n- TRUE generation needs escape from two obstructions here;\n- full functional completeness requires escaping all five Post classes.\n\nNext route:\ngeneralize beyond binary connectives / verify the exact arbitrary-arity constant-TRUE clone criterion from an authoritative Post-lattice source before promoting it.",
+        "attachments": [],
+        "createdAt": "2026-10-07T12:26:13.633Z",
+        "updatedAt": "2026-10-07T12:26:13.590Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "48f3fd23-392b-4bed-8041-9dd9589b5f0e",
+        "body": "Checkpoint — single-binary-connective tautology generation\n\nResult: PROVED BY STRUCTURAL REDUCTION + FINITE CLASSIFICATION; independently cross-checked computationally.\n\nLet g:{0,1}^2->{0,1}, with truth-table entries\na=g(0,0), b=g(0,1), c=g(1,0), d=g(1,1).\n\nClaim:\nA tautology can be expressed using g alone and variables, with no Boolean constants, iff g is one of:\n- NOR: 1000\n- XNOR: 1001\n- reverse implication y->x: 1011\n- implication x->y: 1101\n- NAND: 1110\n- TRUE: 1111\nwhere vectors are ordered 00,01,10,11.\n\nReduction:\nIf T(x1,...,xn) is any g-only tautology, substitute the same variable x for every xi. Then U(x)=T(x,...,x) is a g-only unary tautology. Conversely, a unary constant-TRUE term is already a tautology. Thus the arbitrary-arity existence question reduces to the unary term closure generated from x.\n\nCase proof:\n1. (a,d)=(0,1): g(x,x)=x. Unary closure stays {x}; no TRUE.\n2. (a,d)=(0,0): g(x,x)=0. Closure stays within {x,0}; no TRUE.\n3. (a,d)=(1,1): g(x,x)=1 immediately. Four choices of b,c give XNOR, the two implications, and TRUE.\n4. (a,d)=(1,0): g(x,x)=NOT x.\n   - b=c=1 gives NAND and g(x,NOT x)=1.\n   - b=c=0 gives NOR and g(x,NOT x)=0, then g(0,0)=1.\n   - b!=c leaves closure {x,NOT x}; no TRUE.\n\nIndependent checks:\n- Wolfram exact closure over all 16 binary truth tables agrees with the six-generator list.\n- A separate exact unary-closure implementation also agrees on all 16 cases.\n- Wolfram additionally found only NAND and NOR generate all 16 two-variable Boolean functions, consistent with the known Sheffer-function classification.\n\nLiterature boundary:\n- Cook 1971 studies recognition of the set of propositional tautologies and polynomial reducibility.\n- Post functional completeness classifies when a connective set generates every Boolean truth function; that is strictly stronger than merely generating constant TRUE.\n- Literature on implication-only Boolean trees explicitly identifies tautologies with formulas computing the constant function True.\n\nClaim ceilings:\nTAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION\nGENERATES_TRUE != FUNCTIONALLY_COMPLETE\nFINITE_16_OPERATOR_CLASSIFICATION != P_VS_NP_RESULT\n\nNext discriminating move:\nClassify the minimal shared-DAG gate count and tree size for TRUE generation for the six operators, then extend the existence criterion from one binary connective to pairs of connectives and compare that pair classification with Post's five-class criterion.",
+        "attachments": [],
+        "createdAt": "2026-10-07T12:23:49.301Z",
+        "updatedAt": "2026-10-07T12:23:49.264Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      }
+    ],
+    "hasNextPage": false
+  }
+}

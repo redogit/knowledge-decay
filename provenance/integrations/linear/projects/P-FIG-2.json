@@ -1,0 +1,52 @@
+{
+  "schema": "knowledge-decay.linear.project.v1",
+  "exported_date": "2026-10-07",
+  "project": {
+    "id": "P-FIG-2",
+    "uuid": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "icon": null,
+    "color": "#f2c94c",
+    "name": "Hodge / W114 Explicit Realization",
+    "summary": "Research DAG for the general Hodge target, the known Fermat-fourfold boundary, and the explicit W114 carrier/correspondence obligation.",
+    "description": "## Purpose\n\nKeep three claim levels distinct:\n\n1. **General rational Hodge conjecture** — open.\n2. **Fermat fourfold algebraicity** — known abstractly; do not relabel as a new proof.\n3. **W114 explicit realization** — construct and authenticate an explicit codimension-two cycle / coherent sheaf / matrix-factorization or Chow correspondence whose realization has nonzero projection to the target W114 eigenspace.\n\n## Admission rule\n\nA computation, numerical match, finite screen, software test, Hodge-structure factorization, or nonzero Jacobian coefficient is evidence only at its declared scope. It does not promote to algebraicity without an authenticated algebraic object and realization map.\n\n## Research gates\n\nG0 target/theorem scope\nG1 exact Hodge eigenspace and rational orbit\nG2 candidate carrier/source\nG3 algebraic-object authentication\nG4 algebraic correspondence / realization compatibility\nG5 nonzero target projection\nG6 rational/Galois descent\nG7 span/coverage required by the stated target\nG8 independent dependency and counterprobe audit\n\n## Current W114 bottleneck\n\nPreserve the two live lanes:\n\n* explicit coherent-sheaf / matrix-factorization carrier with exact W114 coefficient oracle;\n* motivic-correspondence construction, with the remaining unsquared quadratic/Artin arrow treated as an explicit missing geometric obligation.\n\nGeneral Hodge remains a separate open track.\n\n## Garden discipline\n\nThe project is maintained as a research garden.\n\n**Keep as active plants**\n\n* constructions with a live route to an authenticated algebraic cycle/correspondence;\n* exact reductions that materially shrink the target;\n* independently checkable arithmetic or representation-theoretic identities used by a live route;\n* negative results that eliminate a well-defined carrier family.\n\n**Compost rather than discard**\nEvery failed, superseded, or heuristic route is converted into at least one reusable object:\n\n* exclusion criterion;\n* counterexample/counterprobe;\n* corrected normalization or convention;\n* dependency warning;\n* search-space reduction;\n* test fixture/regression test;\n* hypothesis for a new carrier family.\n\nThe original artifact stays preserved for provenance, but it is removed from the active proof spine unless a new explicit bridge revives it.\n\n**Do not feed weeds**\nNo heuristic analogy, visualization, dimensional coincidence, software pass, sampled numerical match, or failed ansatz may be promoted by repetition. It must acquire a mathematical bridge or remain compost.\n\n**Current strongest plants**\n\n1. MOT-1 exceptional/Artin correspondence: construct the missing unsquared quadratic arrow by an explicit projected cycle.\n2. Direct Favero–Kelly lane: authenticate one coherent-sheaf/matrix-factorization carrier with nonzero W114 projection.\n3. Exact W114 arithmetic and standard correspondence reductions, retained only as dependencies of 1–2.\n4. Independent verification/counterprobe gate.\n\nGeneral Hodge remains a separate long-horizon bed requiring a genuinely uniform mechanism.",
+    "url": "https://linear.app/fighting-decay-of-knowlege/project/hodge-w114-explicit-realization-09997893456a",
+    "resourceCount": 0,
+    "createdAt": "2026-10-04T11:47:14.782Z",
+    "updatedAt": "2026-10-04T11:53:16.657Z",
+    "startedAt": null,
+    "completedAt": null,
+    "canceledAt": null,
+    "startDate": null,
+    "startDateResolution": null,
+    "targetDate": null,
+    "targetDateResolution": null,
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "labels": [],
+    "initiatives": [],
+    "lead": {
+      "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+      "name": "Ryan April"
+    },
+    "leadTeam": {
+      "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+      "name": "Fighting DECAY of knowlege",
+      "key": "FIG"
+    },
+    "status": {
+      "id": "0603eb58-ba55-4e00-ba34-9a1e71f43642",
+      "name": "Backlog",
+      "type": "backlog"
+    },
+    "teams": [
+      {
+        "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+        "name": "Fighting DECAY of knowlege",
+        "key": "FIG"
+      }
+    ],
+    "milestones": []
+  }
+}

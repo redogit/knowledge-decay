@@ -1,0 +1,68 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-18",
+    "uuid": "9469e591-7f27-47ac-8fcc-dfc86aef36ce",
+    "title": "Execute the Episteme website interaction gate in a real browser",
+    "description": "Purpose: replace the previously unexecuted real-browser gate with evidence on the current programming-language website while keeping the core and Ops independent of the DOM.\n\nAcceptance criteria:\n\n* All seven existing real-browser test bodies execute on the current source and pass; zero browser skips and zero prerequisite-only failures.\n* Record browser engine/version, executable acquisition route, exact launch command, source/harness hashes, and complete gate output.\n* Exercise the existing console, reference, documentation, and responsive interaction assertions; retain a reproducible diagnostic for any failed case.\n* Re-run the relevant source/headless checks so the browser route does not hide a regression in no-window/no-DOM operation.\n* Describe the verified behaviors narrowly; FKDB source inspection, static source checks, or ServeExcel's historical data-URL probe do not count as Episteme browser execution.\n\nStarting evidence: evidence/integration/interface-browser-gate.txt; test/interface.test.cjs; scripts/run-browser.cjs. Current evidence is to be supplied by the browser owner before any Done transition.\n\nObserved 2026-10-06: strict interface run passed 17/17 with all seven actual Chromium cases executed, zero failures/skips. Chromium 153.0.8010.0 was provisioned from @sparticuz/chromium 153.0.0 and driven by Playwright 1.62.1. Reproducible provisioner and final source reconciliation are being verified before the Done transition. Evidence: evidence/progression/browser-first-execution.log; browser-runtime-smoke.json; browser-desktop.png; browser-mobile.png; docs/progression/browser.md.\n\nCompleted 2026-10-06. Final exact-source gate: npm run test:browser = 17 passed, 0 failed, 0 skipped, including all 7 actual Chromium bodies. Final npm test = 148 passed, 0 failed, 0 skipped. Internal suites 155/155 and three no-window/no-DOM head/body/tail programs pass. The pinned provisioner reproduced acquisition/launch; the nonexistent-executable control fails strictly. Manual v6, RFC, README, website verification and session maintenance records agree with current evidence. Evidence: evidence/progression/current-browser.log; current-test-summary.json; browser-runtime.json; browser-strict-missing-binary.log; preservation.json; docs/progression/browser.md; docs/progression/report.md.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-18/execute-the-episteme-website-interaction-gate-in-a-real-browser",
+    "gitBranchName": "ryanapril/fig-18-execute-the-episteme-website-interaction-gate-in-a-real",
+    "createdAt": "2026-10-06T17:02:46.992Z",
+    "updatedAt": "2026-10-06T17:17:13.207Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-06T17:17:13.193Z",
+    "startedAt": "2026-10-06T17:02:47.516Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "19376718-8455-4605-a13c-ea2b6e722165",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-06T17:02:46.992Z",
+        "endedAt": "2026-10-06T17:17:13.207Z"
+      },
+      {
+        "state": {
+          "id": "583a86c5-9e38-423e-a3e9-a829c34078a9",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-06T17:17:13.207Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Episteme — machine-oriented generator language",
+    "projectId": "788579b5-8769-4e91-8b11-80945f317245",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

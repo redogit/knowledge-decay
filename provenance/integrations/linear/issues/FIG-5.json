@@ -1,0 +1,286 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-5",
+    "uuid": "bbe1a0c5-9d17-4fe6-ad79-5f5ca32482dd",
+    "title": "FIG-5: Measure bounded SAT family growth after v0.10",
+    "description": "v0.4 executable P-vs-NP adapter produced an exact HARD_CORE witness under the current admitted operator family.\n\nCurrent mass:\n\n* q = 2\n* parent component mass = 100\n\nEvery original-variable branch leaves one connected 9-variable component in both children:\n\n* child masses = 81 + 81\n* additive slack = 100 - 81 - 81 - 1 = -63\n\nMinimized witness clauses:\n\n1. (x1 OR x2 OR x3)\n2. (x3 OR NOT x5 OR NOT x6)\n3. (x4 OR NOT x6 OR NOT x7)\n4. (x5 OR NOT x7 OR NOT x8)\n5. (x6 OR NOT x8 OR NOT x9)\n6. (x7 OR NOT x9 OR NOT x10)\n\nClaim ceiling:\nThis is only a failure of the current adapter/operator family. It is not a SAT lower bound and not a P-vs-NP result.\n\nHistorical v0.4 next action — completed/superseded by v0.10:\nThe single-operator/certificate mutation line was executed through the bounded adaptive sequence. Preserve this instruction as lineage; do not treat it as the current obligation.\n\nInvariant:\nGENERATE != VERIFY != ADMIT.\n\n## Current checkpoint — v0.10 — 2026-09-20\n\nAdaptive search completed **141 evaluations** and found **no robust hard core** under the independent validation cap.\n\nBest SAT-preserving candidate observed:\n\n* active generation budget = **80** resolvents\n* exact Davis–Putnam completion = **103** generated resolvents\n* independent validation cap = **160**\n* planning work = **1,063** resolution-parent pairs\n* q = **2**\n* branch/mass slack = **-63**\n* residual equality = **absent**\n\nInterpretation: 103 is an **active-budget overrun that remains independently verifiable**, not an admitted hard core. The -63 slack and absent residual equality remain observations/counterprobes, not promoted explanations.\n\n## Next bounded obligation — v0.11 family experiment\n\n### Question\n\nAcross a preregistered increasing-n family, does one normalized structural quantity explain the observed Davis–Putnam resolvent growth better than size alone?\n\n### One-degree family\n\nFreeze **5 deterministic blocks × 6 increasing n values**. Within each block only **n** changes. Prefer nested instances `F[s,n0] ⊂ ... ⊂ F[s,n5]`; otherwise use one fixed seed/common random stream with identical generator parameters.\n\n* first 3 n levels = CALIBRATION\n* last 3 n levels = locked VALIDATION\n* freeze generator semantics, seed scheme, elimination/ordering policy, preprocessing, counters and caps before opening validation\n\nDo not adapt the family after observing validation.\n\n### Primary preregistered structural quantity\n\nFor the frozen Davis–Putnam elimination policy π, record at each elimination step t the positive/negative incidence counts immediately before resolution:\n\n`P_DP(F;π) = Σ_t d_t^+(x_t) d_t^-(x_t)`\n\nand normalize by input-variable count:\n\n`χ_DP(F;π) = P_DP(F;π) / n`.\n\nThis is the sole primary explanatory quantity in v0.11. Record `η = R / P_DP` only as a diagnostic survival ratio.\n\n### Controls and diagnostics\n\nControls:\n\n* `R / n`\n* `R / n^2`\n\nRetain, but do not promote post hoc, the following diagnostics/counterprobes:\n\n* planning work / n^k\n* Ψ\\_q\n* width\n* rank\n* q\n* branch slack\n* residual equality\n* peak live clauses\n\nIf χ\\_DP fails, that failure is evidence. Do not switch to whichever diagnostic fits the same validation rows; preregister any successor quantity in a later version.\n\n### GENERATE != VERIFY != ADMIT\n\n**GENERATE**\n\n* execute the frozen family and elimination policy\n* active generation cap remains **80**\n* record complete trace/provenance\n* generator may not read verifier outcomes to adapt later instances\n\n**VERIFY**\n\n* use the independent bounded oracle\n* validation cap remains **160**\n* verification may establish SAT/UNSAT/certificate validity but may not change generation policy, χ\\_DP, thresholds or family construction\n\n**ADMIT**\n\n* admit a row only when generation provenance and independent verification agree\n* verifier cap exhaustion is `UNKNOWN`, never `HARD_CORE`\n* no cap scaling with n in v0.11\n\n### Frozen finite comparison\n\nUsing calibration rows only, estimate one scale:\n\n`η_hat = median(R / P_DP)`\n\nand predict validation growth by:\n\n`R_hat_chi = η_hat * P_DP`.\n\nFit size-only calibration controls `R_hat_1 = a n` and `R_hat_2 = b n^2`.\n\nUse absolute log prediction error:\n\n`E = |log(1 + R) - log(1 + R_hat)|`.\n\nAt each of the three held-out n levels compare median error across the five blocks. Call the finite result a **bounded structural collapse** only if χ\\_DP beats both size-only controls at all three held-out levels.\n\n### Independent carrier counterprobe\n\nFor each validation instance, apply a deterministic variable permutation plus clause-order permutation and transport the frozen elimination sequence through the same variable permutation. Require exact reconstruction of:\n\n* P_DP\n* χ\\_DP\n* R\n* SAT/UNSAT result\n* oracle certificate validity\n\nMismatch is a carrier/order implementation residual, not complexity evidence.\n\n### Claim ceiling\n\n`BOUNDED_FAMILY_COLLAPSE != ASYMPTOTIC_LAW`\n\n`ACTIVE_BUDGET_OVERRUN != HARD_CORE`\n\n`FINITE_COUNTEREXAMPLE != COMPLEXITY_LOWER_BOUND`\n\n`GENERATION_CAP_EXHAUSTION != VERIFICATION_FAILURE`\n\n`GENERATE != VERIFY != ADMIT`\n\n`FIG-5_RESULT != P_VS_NP_RESULT`\n\n### Historical locality-parity stop — v0.13\n\nv0.13 correctly stopped execution because source `num_vars=10` alone did not bind contract `n_star`. That safeguard is preserved as predecessor evidence.\n\n### Historical locality-parity stop — v0.14\n\nThe missing authority/linkage witness is now present: the explicitly approved <issue id=\"bbe1a0c5-9d17-4fe6-ad79-5f5ca32482dd\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-5/fig-5-measure-bounded-sat-family-growth-after-v010\">FIG-5</issue> plan defines `n_star` as the variable-count size of the retained v0.10 103-resolvent anchor, and the exact recovered source fixes that anchor at 10 variables.\n\nTherefore:\n\n`n_star = 10` — **BOUND**\n\n`delta = UNRESOLVED`\n\nNo family row has been instantiated or executed.\n\n**Next one-degree obligation:** establish `delta` with an exact family-preserving increment witness. Do not infer it from integer adjacency alone. Until then, do not instantiate/freeze the 30 rows or execute calibration/validation.\n\n`NSTAR_BOUND != DELTA_BOUND`\n`PARAMETER_BINDING != FAMILY_VALIDITY`\n\n### Historical locality-parity stop — v0.15\n\nThe missing `delta` witness is now present. It is **constructive**, not inferred from integer adjacency.\n\nFor any canonical 3-CNF family member `F`, select two distinct existing variables `p,g` deterministically and one fresh variable `z`. Extend `F` by the four width-3 parity clauses\n\n* `(¬z OR p OR g)`\n* `(z OR p OR ¬g)`\n* `(z OR ¬p OR g)`\n* `(¬z OR ¬p OR ¬g)`\n\nwhich satisfy exactly `z = p XOR g`.\n\nTherefore `F ⊂ E(F)`, every old assignment has exactly one extension to `z`, and `∃z E(F) ⇔ F`. The parameter binding is\n\n`delta := |Var(E(F)) \\\\ Var(F)| = 1`.\n\nThe fresh variable's integer carrier label is serialization only; adjacency is not the proof.\n\nExact bounded checks:\n\n* generic truth table: 8 rows, 0 mismatches;\n* pinned v0.10 anchor projection: 1,024 old-variable assignments, 0 mismatches;\n* unique extension mismatches: 0;\n* recovered canonical-preprocessing residual: none;\n* restricted canonical width-3 unique-extension search: 0 witnesses with 1–3 clauses; minimum = 4.\n\nWitness payload SHA-256: `2b1b2d04819f262ab5d8d8fd654a5c550a3978fa8bd8d75a9737322aacb5df09`\n\nLocal v0.15 successor ZIP SHA-256: `4f33e806735b4b0bfe8a3f7860252ced1a5666a0f4da88ce828c3a0abc27bffe`\n\nGitHub draft PR #89 head: `462ccad1373c75f4b8b5b8da7eba3bf2e6f0b9e9`\n\nCurrent state:\n\n* `n_star = 10` — **BOUND**\n* `delta = 1` — **BOUND_BY_EXACT_INCREMENT_WITNESS**\n* deterministic scientific family constructor = **NOT_YET_FROZEN**\n* block seed/common-random-stream rule = **NOT_YET_FROZEN**\n* family manifest = **NOT_MATERIALIZED**\n* family executed = false\n* execution allowed = false\n\n**Next one-degree obligation:** freeze one deterministic scientific family constructor compatible with `delta=1`. Do not materialize the 30 rows or execute calibration/validation yet.\n\n`NSTAR_BOUND != DELTA_BOUND`\n`PARAMETER_BINDING != FAMILY_VALIDITY`\n`DELTA_BOUND != FAMILY_CONSTRUCTOR_FROZEN`\n`GENERATE != VERIFY != ADMIT`\n`P ?= NP = OPEN`\n\n### Current locality-parity stop — v0.16\n\nThe primary <issue id=\"bbe1a0c5-9d17-4fe6-ad79-5f5ca32482dd\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-5/fig-5-measure-bounded-sat-family-growth-after-v010\">FIG-5</issue> scientific family constructor is now frozen without opening the five official blocks.\n\nSelected construction: preregistered **fallback common-stream family**, not repeated XOR nesting.\n\nDynamics:\n\n`block_seed -> domain-separated SHA-256 stream -> projection to n -> canonical width-3 CNF`\n\nWithin a future official block, only `n` may change. The seed derivation rule remains a separate unopened degree.\n\nFrozen constructor contract:\n\n* family version = `FIG5-common-stream-3cnf/v0.16`\n* width = 3\n* exact density design parameter = `7/2`\n* clause-count law = `round_half_up((7/2)*n)`\n* all variables `1..n` must be active\n* generation may not read active-solver or verifier outcomes\n* Python PRNG semantics are not used; SHA-256 is the deterministic stream primitive\n* `n_star=10` is the ladder center; the retained v0.10 anchor formula is not silently declared a member of this new family\n\nWhy the exact v0.15 XOR extension is not the primary family:\nrepeating definitional extension would preserve a nearly fixed semantic core while increasing representation size. It remains a valid `delta=1` witness and carrier-control construction, not the primary <issue id=\"bbe1a0c5-9d17-4fe6-ad79-5f5ca32482dd\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-5/fig-5-measure-bounded-sat-family-growth-after-v010\">FIG-5</issue> growth family.\n\nSoftware verification used only `TEST-ONLY-NOT-A-FIG5-BLOCK` across n=8..13. Passed:\ndeterminism, exact active-variable support, width-3 enforcement, clause-count law, distinct level digests, seed sensitivity, common-stream reproducibility, and recovered v0.10 canonicalization parity.\n\nNegative evidence preserved:\nthe first implementation mixed absolute variable identity with signed literal carrier during duplicate rejection, allowing the same variable to reappear under opposite sign. The repair selects distinct variable identities first and projects signs afterward.\n\nConstructor source:\n`P versus NP Repair Lab/decision_field/fig5_family_dynamics_v016.py`\n\nConstructor commit:\n`c7003c0bb168f6e45c5d6f962c1b761ab9c3e3b5`\n\nCurrent PR #89 head:\n`924f4e8c575943af368c5e12836dda304cde0841`\n\nLocal v0.16 evidence package SHA-256:\n`a7148ee988bd7be7d09bf3fb84199399241e4073cc4ea5d4bc79f181baa250d2`\n\nCurrent state:\n\n* `n_star = 10` — BOUND\n* `delta = 1` — BOUND_BY_EXACT_INCREMENT_WITNESS\n* family constructor = **FROZEN_V0_16_COMMON_HASH_STREAM**\n* five-block seed derivation rule = **NOT_YET_FROZEN**\n* 30-row manifest = **NOT_MATERIALIZED**\n* family executed = false\n* execution allowed = false\n\n**Next one-degree obligation:** freeze the five-block seed derivation rule without reading solver/verifier outcomes. Do not materialize the 30 rows yet.\n\n`NSTAR_BOUND != DELTA_BOUND`\n`PARAMETER_BINDING != FAMILY_VALIDITY`\n`CONSTRUCTOR_FROZEN != BLOCK_SEED_RULE_FROZEN`\n`SOFTWARE_SELF_TEST != FIG5_FAMILY_EXECUTION`\n`GENERATE != VERIFY != ADMIT`\n`P ?= NP = OPEN`\n\n## Historical locality parity recovery — v0.13 — 2026-09-20\n\nRecovered local authority:\n\n* MOK v0.10 package SHA-256: `a86de2f05f357c07e5585d3c2bb5a203fc8ab67d5813e4a142fd34782833967d`\n* MOK v0.13 locality-parity package SHA-256: `37b477d86672df0e679384af95f4d83231a14cd72d4448acb58758dce9fa1fc4`\n* corrected <issue id=\"bbe1a0c5-9d17-4fe6-ad79-5f5ca32482dd\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-5/fig-5-measure-bounded-sat-family-growth-after-v010\">FIG-5</issue> locality-parity successor SHA-256: `c62cab09f9e809b00ba76c346078a420e7b2a4997ab7903a0dfb61bca219bfac`\n* GitHub projection: Other-Projects- draft PR #89, corrected head `827259030339a51103b886686a303ed39a21b184`\n\nRecovered source signature matches the v0.10 record:\n\n* 141 evaluations\n* 103 generated resolvents\n* 1,063 planning pairs\n* active/validation caps 80/160\n* `SHORTCUT_FREE_DP_EXACT`\n* no robust hard core\n\nA same-source replay additionally reconstructs SAT, 103 resolvents, 1,063 planning pairs, and a trace diagnostic `P_DP = 152`. It is **replay, not independent validation**, and source `num_vars=10` remains distinct from contract `n_star`.\n\nKnowledge-decay correction preserved:\na transient locality update inferred `n_star=10` and `delta=1`; v0.13 rejected that binding. The predecessor bytes/Git history are retained, while current authority restores both parameters to unresolved.\n\n## Historical locality parity successor — v0.14\n\n* n_star binding receipt SHA-256: `682bbcf6ed83e6d3f3264b7ca41257e60c64dc56b4c0fc331057808a845d440d`\n* local successor ZIP SHA-256: `21ed912df8b809fc479b84646134da4f206d482001ae91721730d548db5f0f24`\n* GitHub draft PR #89 current head: `06bfa506eb6b605b0ff7b1053ca987804ea67e43`\n* `n_star = 10` bound by approved-plan semantics + exact v0.10 source\n* `delta = UNRESOLVED`\n* family manifest = NOT_MATERIALIZED\n* family executed = false\n\nThe v0.13 rejection was not an error: it rejected an inference that lacked authority. v0.14 adds the missing authority event and changes only the n_star binding.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-5/fig-5-measure-bounded-sat-family-growth-after-v010",
+    "gitBranchName": "ryanapril/fig-5-fig-5-measure-bounded-sat-family-growth-after-v010",
+    "createdAt": "2026-09-20T14:42:53.159Z",
+    "updatedAt": "2026-10-07T12:22:36.589Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-09-20T16:50:52.916Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "In Progress",
+    "statusType": "started",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-09-20T14:42:53.159Z",
+        "endedAt": "2026-09-20T16:50:52.935Z"
+      },
+      {
+        "state": {
+          "id": "19376718-8455-4605-a13c-ea2b6e722165",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-20T16:50:52.935Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "MOK / P-vs-NP Hard-Core",
+    "projectId": "7aded8bb-2ed8-498a-b5d4-df4f80597241",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "FIG-22",
+          "title": "Classify tautology-generating Boolean primitives"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [
+      {
+        "id": "f7ccc668-2218-4265-bf3f-06ac37cafbd3",
+        "body": "FIG-5 advanced through exact replication and one-degree density transfer.\n\nV0.22 — clean preregistered panel:\n- 30/30 admitted; 27 SAT / 3 UNSAT.\n- eta_hat = 79/104; a_hat = 2; b_hat = 1/4.\n- held-out median log-error criterion passed at n=11,12,13.\n- status: BOUNDED_STRUCTURAL_COLLAPSE.\n- post-hoc: all 5 leave-one-block-out reruns pass.\n- cap-80 counterfactual is identical to cap-160 on all 30 rows, so the cap change was inactive and cannot be credited causally.\n\nV0.23 — exact fresh replication, no method/threshold changes:\n- 30/30 admitted; 28 SAT / 2 UNSAT.\n- carrier counterprobes 15/15 pass.\n- eta_hat = 0.7080200501; a_hat = 2.4444444444; b_hat = 0.26.\n- held-out criterion again passes at n=11,12,13:\n  n11: 0.079212 < 0.335333 and 0.183553\n  n12: 0.104346 < 0.367725 and 0.430223\n  n13: 0.126041 < 0.311697 and 0.512160\n- status: REPLICATION_BOUNDED_STRUCTURAL_COLLAPSE.\n- close commit: 22ed088af0a3c0e8f9fb1c405c0814c1fc38d5e7.\n\nExact distillation:\nAcross every v0.22 + v0.23 row, frozen counters satisfy\n  P_DP = R + T_taut\nwhere T_taut is the number of opposite-polarity parent pairs producing tautological raw resolvents.\nTherefore eta=R/P_DP is exactly the non-tautological candidate survival fraction.\nThe surviving result is best described as bounded transfer/stability of this survival fraction, not discovery of an independent causal complexity coordinate.\n\nV0.24 — one-degree density counterprobe:\n- changed only target clause density 7/2 -> 4; same clause-priority ranking namespace, n ladder, solver, cap160, verifier, estimators, aggregation, and success rule.\n- density-4 constructor prefreeze: 1,536 synthetic formulas, 0 failures/collisions.\n- official family: 30/30 unique, 0 support failures/collisions, clause counts 32,36,40,44,48,52.\n- active: 25 SAT / 5 UNSAT / 0 UNKNOWN; R max 123.\n- truth: 25 SAT / 5 UNSAT; zero disagreements.\n- carrier: 15/15 pass.\n- 30/30 admitted.\n- eta_hat=0.75; a_hat=2.1; b_hat=0.21.\n- held-out:\n  n11: chi 0.129678 < n 0.186480 and n^2 0.278010\n  n12: chi 0.036965 < n 0.493171 and n^2 0.669111\n  n13: chi 0.077962 < n 0.682490 and n^2 0.428313\n- status: DENSITY4_BOUNDED_STRUCTURAL_COLLAPSE.\n- all 5 leave-one-block-out attacks pass.\n- cap80 counterfactual would leave 3 validation rows UNKNOWN, so cap160 is operationally relevant on the denser panel.\n- close commit: 8e24af67b75a7135f868afb0bed0d9b3e53067f2.\n\nCurrent evidence-supported statement:\nUnder the frozen exact DP mirror and clause-priority families tested here, a calibration estimate of the non-tautological parent-pair survival fraction predicted held-out generated-resolvent counts better than preregistered n and n^2 controls in two fresh density-3.5 panels and one fresh density-4 panel.\n\nClaim ceiling:\nSURVIVAL_FRACTION_TRANSFER != INDEPENDENT_COMPLEXITY_LAW\nDENSITY4_SUCCESS != GENERAL_DENSITY_INVARIANCE\nFINITE_THREE_PANEL_RESULT != ASYMPTOTIC_LAW\nFIG5_RESULT != P_VS_NP_RESULT\nP ?= NP = OPEN\n\nNext discriminating one-degree probe:\nchange a property that changes tautology mechanics itself (clause width is the clean candidate) while freezing execution, verification, estimators, aggregation, and success rule before any rows exist.",
+        "attachments": [],
+        "createdAt": "2026-09-21T21:30:37.321Z",
+        "updatedAt": "2026-09-21T21:30:37.232Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "c8920f3f-a4aa-431f-b4ec-9eb68ab1692c",
+        "body": "FIG-5 continuation through v0.22 + exact v0.23 replication is complete.\n\nV0.22 preregistered held-out result:\n- 30/30 active rows resolved at frozen cap 160; 27 SAT / 3 UNSAT.\n- complete brute-force truth: 27 SAT / 3 UNSAT; zero active/truth disagreements.\n- 15/15 carrier validation counterprobes passed.\n- 30/30 rows admitted.\n- calibration: eta_hat = 79/104 = 0.7596153846; a_hat = 2; b_hat = 1/4.\n- held-out median log errors:\n  n=11: chi 0.131336 < n 0.448025 and n^2 0.295650\n  n=12: chi 0.096379 < n 0.653926 and n^2 0.378066\n  n=13: chi 0.047672 < n 0.923671 and n^2 0.452510\n- preregistered status: BOUNDED_STRUCTURAL_COLLAPSE.\n\nPost-hoc falsification:\n- all five leave-one-block-out reruns still passed all three held-out n levels.\n- chi beat both size controls on 13/15 individual validation rows; preregistered rule is median-across-blocks, not row-universal.\n- R <= P_DP on 30/30 rows; Pearson R vs P_DP ~0.991.\n- exact v0.22 cap-80 counterfactual is byte/trace-equivalent on all 30 rows to cap 160; max R=76. Therefore the 80->160 cap change was inactive on the realized panel and cannot be credited causally for the success.\n\nExact fresh replication v0.23, with no method/threshold changes:\n- preregistration commit fc46003ada91cc33287421ab3ce0d5b657ba03b9\n- 30 unique fresh formulas; 0 support failures; 0 priority collisions.\n- active: 28 SAT / 2 UNSAT / 0 UNKNOWN; max R=74.\n- truth: 28 SAT / 2 UNSAT; zero disagreements.\n- carrier validation: 15/15 pass.\n- 30/30 admitted.\n- calibration: eta_hat=0.7080200501, a_hat=2.4444444444, b_hat=0.26.\n- held-out:\n  n=11: chi 0.079212 < n 0.335333 and n^2 0.183553\n  n=12: chi 0.104346 < n 0.367725 and n^2 0.430223\n  n=13: chi 0.126041 < n 0.311697 and n^2 0.512160\n- status: REPLICATION_BOUNDED_STRUCTURAL_COLLAPSE.\n\nDistillation / exact counter identity:\nFor every executed DP parent pair, one raw resolvent exists and is either tautological or non-tautological. Frozen counters therefore obey exactly:\n  P_DP = R + T_taut\non all 60 v0.22+v0.23 rows.\nThus eta=R/P_DP is exactly the non-tautological candidate survival fraction (when P_DP>0).\n\nCurrent defensible interpretation:\nTwo prospectively fresh bounded panels show that one calibration survival-fraction scale predicts held-out generated-resolvent counts better than the preregistered n and n^2 controls under this frozen family/order policy.\n\nClaim ceiling:\nBOUNDED_STRUCTURAL_COLLAPSE != ASYMPTOTIC_LAW\nP_DP_PREDICTS_R != INDEPENDENT_CAUSAL_DISCOVERY\nFINITE_TWO_PANEL_RESULT != COMPLEXITY_CLASS_RESULT\nFIG5_RESULT != P_VS_NP_RESULT\nP ?= NP = OPEN\n\nV0.23 close commit:\n22ed088af0a3c0e8f9fb1c405c0814c1fc38d5e7\n\nNext discriminating one-degree probe:\nchange only family clause density on a fresh preregistered panel while keeping n ladder, solver, counters, verifier, estimators, aggregation, and success rule frozen. This directly attacks whether survival-fraction stability is density-specific.",
+        "attachments": [],
+        "createdAt": "2026-09-21T21:24:47.629Z",
+        "updatedAt": "2026-09-21T21:24:47.588Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "df14e915-5536-4627-ba05-de11a23f8b3d",
+        "body": "v0.19 pre-execution shell-displacement diagnostic frozen before any active DP/verifier outcome.\n\nAcross the 25 official adjacent n transitions:\n- old clauses displaced: mean 6.92, median 7, range 3..12\n- selected clauses involving the fresh variable: mean 10.52, median 11, range 6..16\n- fresh-shell selection / net clause growth amplification: mean 2.97x, median 2.75x, range 1.75x..4.6666666667x\n- fresh-variable clauses as fraction of the new formula: mean 0.27453, range 0.142857..0.4375\n\nInterpretation:\nWithin each block, n remains the only generator parameter that changes. But the formula surface is not a one-clause perturbation: newly eligible clauses containing the fresh variable can outrank and displace old-only clauses under the frozen bottom-priority rule.\n\nThis diagnostic was frozen pre-execution and is NON-PROMOTABLE as an explanatory quantity in v0.11.\n\nStructural-burn commit:\n5122befb9c2dfdca3754aeeb9b9ae35bd998d9b5\n\nContract update:\nddb3d15206290989b0ea9f3d987cddfe9a71790a\n\nDELTA_ONE_VARIABLE != ONE_CLAUSE_PERTURBATION\nONE_GENERATOR_DEGREE != ONE_SURFACE_EDIT\nCOMMON_PRIORITY != NESTED_MEMBERSHIP\nINPUT_FAMILY_DIAGNOSTIC != DP_EXPLANATION\nGENERATE != VERIFY != ADMIT\nP ?= NP = OPEN",
+        "attachments": [],
+        "createdAt": "2026-09-21T20:13:16.442Z",
+        "updatedAt": "2026-09-21T20:13:16.403Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "c28b6f6a-8931-4c6a-8fea-7701a9a905df",
+        "body": "FIG-5 v0.19 official input materialization complete — active execution still unopened.\n\nOfficial v0.18 seeds were evaluated exactly once for block ids 0..4:\n- 0: 82f8a6708f87e1d912f8f0bcb16cd3afd1a12ae8c9a4435ee9d9c1658b9adf38\n- 1: 0deba528faee7246d5fcc25ff78ff4c4697802b9c672d7ae2decce85f512045e\n- 2: fe1cd784fb645b8533618b2be1ed04aec6737c187dae81a47f23af73681a1c96\n- 3: a78f25337f1ecd92023ba0c55d394b7234a13bd5d0b0e17f9ca15bea047c2afe\n- 4: 443231e4f3990d547b2d66e8d36c97d91a1b7af4b68636ea0dc5a60dc25f0fef\n\nAll 30 v0.17 official formula identities are now materialized.\n\nStructural burn:\n- rows: 30\n- distinct formula digests: 30\n- support failures: 0\n- SHA-256 priority collisions: 0\n- adjacent pairs: 25\n- mean exact-clause Jaccard: 0.6203223794830948\n- median: 0.6086956521739131\n- range: 0.42857142857142855 .. 0.8\n- mean old-clause retention: 0.8008113553113553\n- retention range: 0.6428571428571429 .. 0.9230769230769231\n- minimum variable degree over all official rows: 4\n- maximum variable degree: 17\n- maximum polarity imbalance: 8\n- same-n cross-block Jaccard remains low and decreases with n.\n\nManifest:\nP versus NP Repair Lab/decision_field/FIG5_V019_OFFICIAL_MANIFEST.json\nmanifest commit: dbd11326f22a70d037b4e32a738e9893a69ec266\nmanifest SHA-256: e7cc604244ececbfa32685ec9201e56cdf895d396c9c842578dea2888646ae8f\n\nContract update:\n1038f52847d5befb089d57653a9aeb8911b6a703\n\nExecution stack residual:\nExact v0.10 package identity is recovered:\nmeta_obligation_kernel_v0_10.zip\n41621 bytes\nSHA-256 a86de2f05f357c07e5585d3c2bb5a203fc8ab67d5813e4a142fd34782833967d\n\nPinned source SHA-256:\nadaptive_search.py = 48cc8cae2bc9bc0852a62d1a15b8bdc10b4d58ab32df15914be9a4d71589eeb0\nhard_core.py = 944bc8d67dd566378e29a6c1e2418fa1f0ee284758560aa5334473093a447228\nrobust_search.py = 1ce0bf49478a38a1584f9a888623d183a08ca391542809d258a78c37b7f2751a\n\nBut the exact source bodies are not present in connected GitHub, and the current Library/archive carrier does not expose the ZIP internals into the executable sandbox. Therefore no substitute solver is admitted.\n\nACTIVE GENERATE = NOT_RUN\nVERIFY = NOT_RUN\nADMIT = NOT_OPEN\n\nRUNTIME_IDENTITY_RECOVERED != RUNTIME_BYTES_EXECUTABLE_HERE\nOFFICIAL_INPUT_MATERIALIZATION != ACTIVE_DP_EXECUTION\nGENERATE != VERIFY != ADMIT\nPARAMETER_BINDING != FAMILY_VALIDITY\nP ?= NP = OPEN",
+        "attachments": [],
+        "createdAt": "2026-09-21T20:11:16.201Z",
+        "updatedAt": "2026-09-21T20:11:16.141Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "ab2d12b4-8a5b-431f-96ed-e8d114df7283",
+        "body": "v0.18 five-block seed derivation rule frozen without materializing official seeds.\n\nRule version:\nFIG5-block-seed/v0.18\n\nOfficial seed derivation is now logically fixed as one length-prefixed SHA-256 over the ordered inputs:\n1. official namespace FIG5/BLOCK-SEED/v0.18\n2. experiment id FIG-5\n3. constructor version FIG5-clause-priority-3cnf/v0.17\n4. exact v0.17 constructor source SHA-256\n5. n_star binding receipt SHA-256\n6. delta binding witness SHA-256\n7. block_id in 0..4\n\nForbidden seed inputs:\n- generated formula content;\n- solver/verifier/oracle output;\n- DP/resolvent/chi_DP measurements;\n- calibration/validation result;\n- nonce/search/retry/acceptance criterion;\n- clock/environment entropy.\n\nMaterialization gate:\n- exact v0.17 constructor bytes must first match SHA-256 9b9f274513bb83e61643a7bcf515553888a354c625cb2e7ac7c4e5648200c4dd;\n- derive block ids 0..4 exactly once each;\n- the five seeds must be pairwise distinct;\n- collision => STOP_NO_RETRY_NO_RESEED.\n\nSelf-test used only invalid official ids plus a separate TEST-ONLY namespace. Valid official block ids evaluated: 0.\nOfficial seed values materialized: false.\n30-row manifest materialized: false.\nFamily executed: false.\n\nSource commit:\n0cf337239c1d5d9eaa76533c968cc3bccc41ecca\n\nContract update commit:\ne7fdfba28523dde69a2911cc440ecc8066898c40\n\nEvidence package SHA-256:\n0bdb628c8eeebc39069af6f41e42baafe2f6420416f0e4bdcb66b5708776d8ff\n\nSEED_RULE_FROZEN != OFFICIAL_SEEDS_MATERIALIZED\nOFFICIAL_SEEDS_MATERIALIZED != 30_ROW_MANIFEST_MATERIALIZED\nBLOCK_SEED_RULE_FROZEN != FAMILY_VALIDITY\nGENERATE != VERIFY != ADMIT\nP ?= NP = OPEN\n\nStop here under the current constraint: do not materialize official seeds or the 30-row family yet.",
+        "attachments": [],
+        "createdAt": "2026-09-21T19:46:27.315Z",
+        "updatedAt": "2026-09-21T19:46:27.281Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "3c575304-2da3-4dbe-9587-a7ce6188092b",
+        "body": "v0.17 adversarial constructor repair complete.\n\nv0.16 was attacked before official seed freeze. Preserved residuals include:\n- describe_contract typo (DENSITY_DENOMATOR);\n- overbroad n-domain admitting n=3 although target 11 clauses exceeds the 8-clause finite universe, leaving a guaranteed nontermination case;\n- latent nested retry-state repeat path after modulo-bias rejection;\n- common-stream self-test exercised an unused namespace;\n- 7/2 was labeled exact although odd-n realized density differs after rounding;\n- coverage scaffold introduced size-dependent structural confounds.\n\nReplacement primary constructor:\nFIG5-clause-priority-3cnf/v0.17\n\nRule:\nexternal block seed -> n-independent SHA-256 priority per canonical eligible width-3 clause -> finite bottom-m selection, where m=round_half_up((7/2)*n).\n\nProperties:\n- allowed n exactly {8,9,10,11,12,13};\n- finite clause universe and finite sort; no unbounded candidate/retry loop;\n- active support 1..n is required and fails closed; no seed search or clause injection repair;\n- same eligible clause keeps the same priority across n;\n- target density 7/2 is explicitly separated from realized odd-n density;\n- no solver/verifier feedback.\n\nSynthetic/test-only evidence:\n- initial self-test: 256 synthetic seeds × 6 levels = 1,536 formulas; 0 structural failures; 0 observed priority collisions;\n- widened stress: 1,000 synthetic seeds × 6 = 6,000 formulas; 0 structural failures; 0 observed priority collisions;\n- 5,000 adjacent comparisons: mean exact-clause Jaccard 0.6184194319; mean old-clause retention 0.7982516484;\n- independent reconstruction matched 96/96 constructions.\n\nEvidence package SHA-256:\n453fcefe7e4d8cebf780514d42efd75d58bc5be7ec47c26c2b8881f39d89e064\n\nSource commit:\n700d4cf84cc09f1c95db0bffb37cd6aceda53892\n\nContract update commit:\n380e8f2fa83cb50ec9eb0e763277a9f48bd538da\n\nStill closed:\n- five official block seeds are NOT derived/evaluated;\n- 30-row manifest NOT MATERIALIZED;\n- family NOT EXECUTED.\n\nPARAMETER_BINDING != FAMILY_VALIDITY\nSYNTHETIC_STRESS != OFFICIAL_SEED_VALIDITY\nCONSTRUCTOR_FROZEN != BLOCK_SEED_RULE_FROZEN\nGENERATE != VERIFY != ADMIT\nP ?= NP = OPEN\n\nNext one-degree obligation: freeze the deterministic five-block seed derivation rule without evaluating any official seed or materializing any family row.",
+        "attachments": [],
+        "createdAt": "2026-09-21T19:43:25.952Z",
+        "updatedAt": "2026-09-21T19:43:25.916Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "ad38c0ad-7e16-42fc-a592-ead01186affb",
+        "body": "v0.16 constructor-freeze rung complete.\n\nSelected primary dynamics:\n`block_seed -> domain-separated SHA-256 stream -> project to n -> canonical width-3 CNF`.\n\nFrozen:\n- family version `FIG5-common-stream-3cnf/v0.16`\n- width 3\n- exact density design parameter `7/2`\n- clause-count law `round_half_up((7/2)*n)`\n- exact active-variable support\n- no solver/verifier feedback into generation\n- SHA-256 stream; no Python PRNG dependency\n\nNot frozen:\n- five-block seed derivation rule\n- 30-row manifest\n\nSoftware self-test only used `TEST-ONLY-NOT-A-FIG5-BLOCK` over n=8..13. It passed determinism, support, width, density-law, distinct digests, seed sensitivity, stream reproducibility, and recovered v0.10 canonicalization parity.\n\nNegative evidence preserved: first implementation mixed absolute variable identity with signed literal carrier during duplicate rejection; repaired by selecting identity first, signs second.\n\nSource commit:\n`c7003c0bb168f6e45c5d6f962c1b761ab9c3e3b5`\n\nCurrent PR #89 head:\n`924f4e8c575943af368c5e12836dda304cde0841`\n\nEvidence package SHA-256:\n`a7148ee988bd7be7d09bf3fb84199399241e4073cc4ea5d4bc79f181baa250d2`\n\nNext one-degree obligation: freeze the five-block seed derivation rule without inspecting solver/verifier outcomes. Do not materialize the 30 rows yet.\n\n`CONSTRUCTOR_FROZEN != BLOCK_SEED_RULE_FROZEN`\n`SOFTWARE_SELF_TEST != FIG5_FAMILY_EXECUTION`\n`GENERATE != VERIFY != ADMIT`\n`P ?= NP = OPEN`",
+        "attachments": [],
+        "createdAt": "2026-09-20T21:06:02.462Z",
+        "updatedAt": "2026-09-20T21:06:02.438Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "05a35488-f246-4f27-ad3c-b1f1d7d0caf9",
+        "body": "v0.15 one-degree delta binding complete.\n\nWhat changed:\n- n_star remains 10 — BOUND by the v0.14 authority/linkage receipt.\n- delta is now 1 — BOUND by an exact family-preserving increment witness.\n- the binding basis is one fresh active variable under an exact parity extension, not integer adjacency.\n\nWitness:\n`E(F)=F ∪ G(z;p,g)`, where the four canonical width-3 clauses encode exactly `z = p XOR g`.\nThus `F ⊂ E(F)`, every old assignment has exactly one z-extension, `∃z E(F) ⇔ F`, and\n`delta := |Var(E(F)) \\\\ Var(F)| = 1`.\n\nExact checks:\n- generic truth table: 8/8;\n- pinned v0.10 anchor projection: 1,024 old assignments, 0 mismatches;\n- unique-extension mismatches: 0;\n- canonical preprocessing residual: none;\n- restricted width-3 unique-extension minimum: 4 clauses (no 1–3 clause witness).\n\nWitness payload SHA-256:\n`2b1b2d04819f262ab5d8d8fd654a5c550a3978fa8bd8d75a9737322aacb5df09`\n\nLocal v0.15 successor ZIP SHA-256:\n`4f33e806735b4b0bfe8a3f7860252ced1a5666a0f4da88ce828c3a0abc27bffe`\n\nGitHub PR #89 head:\n`462ccad1373c75f4b8b5b8da7eba3bf2e6f0b9e9`\n\nStill open:\n- deterministic scientific family constructor;\n- block seed/common-random-stream rule;\n- 30-row manifest;\n- all family execution/verification/admission.\n\nNext one-degree obligation: freeze one deterministic scientific family constructor compatible with delta=1. Do not materialize rows yet.\n\n`NSTAR_BOUND != DELTA_BOUND`\n`PARAMETER_BINDING != FAMILY_VALIDITY`\n`DELTA_BOUND != FAMILY_CONSTRUCTOR_FROZEN`\n`GENERATE != VERIFY != ADMIT`\n`P ?= NP = OPEN`",
+        "attachments": [],
+        "createdAt": "2026-09-20T20:56:36.469Z",
+        "updatedAt": "2026-09-20T20:56:36.431Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "e97f6dc3-47a5-464f-83aa-403d8aa4c481",
+        "body": "v0.14 one-degree authority update complete.\n\nThe missing linkage witness is now satisfied by explicit approval of the already-frozen plan plus the exact recovered v0.10 source.\n\nCurrent:\n- n_star = 10 — BOUND\n- delta = UNRESOLVED\n- family manifest = NOT_MATERIALIZED\n- family executed = false\n- caps remain 80/160\n- chi_DP unchanged\n\nBinding receipt SHA-256:\n`682bbcf6ed83e6d3f3264b7ca41257e60c64dc56b4c0fc331057808a845d440d`\n\nLocal successor:\n`FIG5_LOCALITY_PARITY_V0_14_NSTAR_BINDING_2026-09-20.zip`\nSHA-256 `21ed912df8b809fc479b84646134da4f206d482001ae91721730d548db5f0f24`\n\nGitHub projection:\nPR #89 head `06bfa506eb6b605b0ff7b1053ca987804ea67e43`.\n\nNext one-degree obligation: establish delta with an exact family-preserving increment witness. Do not infer delta from adjacency alone or instantiate the 30 rows yet.\n\n`NSTAR_BOUND != DELTA_BOUND`\n`PARAMETER_BINDING != FAMILY_VALIDITY`\n`GENERATE != VERIFY != ADMIT`",
+        "attachments": [],
+        "createdAt": "2026-09-20T17:18:38.733Z",
+        "updatedAt": "2026-09-20T17:18:38.684Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "12392840-d1aa-4470-90a4-341b8e665d78",
+        "body": "v0.13 locality-parity correction applied.\n\nCurrent authority now preserves:\n- local v0.10 implementation identity recovered;\n- source signature matched;\n- contract n_star = UNRESOLVED_BINDING;\n- delta = UNRESOLVED;\n- family manifest = NOT_MATERIALIZED;\n- family executed = false.\n\nCorrection: source `num_vars=10` is a recovered source fact, not yet an authority binding for FIG-5 `n_star`. The prior inferred n_star/delta revision is retained in history but superseded.\n\nCurrent GitHub projection: draft PR #89 head `827259030339a51103b886686a303ed39a21b184`.\n\nCurrent local successor: `FIG5_LOCALITY_PARITY_V0_13_2026-09-20.zip`, SHA-256 `c62cab09f9e809b00ba76c346078a420e7b2a4997ab7903a0dfb61bca219bfac`.\n\nNext one-degree obligation: recover an exact authority/linkage witness binding the retained v0.10 anchor to contract `n_star`. Do not choose delta or instantiate the 30 rows before that.\n\n`SOURCE_FACT != CONTRACT_PARAMETER_UNLESS_BOUND`\n`RECOVERED != ADMITTED_PARAMETER`\n`GENERATE != VERIFY != ADMIT`",
+        "attachments": [],
+        "createdAt": "2026-09-20T17:16:12.644Z",
+        "updatedAt": "2026-09-20T17:16:12.489Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "3443d1b1-3d8e-44ea-91eb-233c736e6e54",
+        "body": "v0.11 recovery-surface parity update — one bounded step completed.\n\nGitHub draft PR:\nhttps://github.com/redogit/Other-Projects-/pull/89\n\nBase main:\n`cca44e23ca663600cc3466f45d7dc509c466b796`\n\nAdditive file only:\n`P versus NP Repair Lab/decision_field/FIG5_V011_FAMILY_RECOVERY_CONTRACT.json`\n\nContract commit:\n`63fb55db03017bcf694973899fa45ce9d8d89831`\n\nWhat is now frozen machine-readably:\n- 5 deterministic blocks × 6 increasing-n levels;\n- first 3 calibration / last 3 locked validation;\n- primary quantity `P_DP = Σ d+ d-`, `chi_DP = P_DP / n`;\n- size-only n and n² controls;\n- active cap 80, independent validation cap 160;\n- GENERATE != VERIFY != ADMIT;\n- carrier/permutation counterprobe;\n- bounded-family claim ceiling;\n- experiment remains NOT EXECUTED.\n\nRecovery residual preserved rather than guessed:\n- exact v0.10 implementation/source identity is not yet recovered in connected GitHub;\n- exact anchor `n_star` is absent from the authoritative FIG-5 record;\n- exact family increment `delta` therefore remains unresolved.\n\nCurrent position:\n`v0.10 evidence -> FIG-5 preregistration -> machine-readable recovery contract [HERE] -> recover exact v0.10 source + n_star -> pin identities -> freeze 30-row manifest -> calibration -> freeze fit -> locked validation -> independent VERIFY -> ADMIT/UNKNOWN`\n\nNext one-degree instruction:\nRecover and pin the exact v0.10 implementation/source identity and `n_star`. Do not execute the v0.11 family and do not infer missing parameters from the witness history.\n\n`UNRECOVERED_SOURCE_FACT != INFERRED_PARAMETER`\n`GENERATE != VERIFY != ADMIT`",
+        "attachments": [],
+        "createdAt": "2026-09-20T16:54:28.293Z",
+        "updatedAt": "2026-09-20T16:54:28.255Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "872e7480-423f-4a78-9586-72ab95eb479f",
+        "body": "v0.9 -> v0.10 adversarial-search correction:\n\nv0.9 result:\n- adaptive search found a SAT-preserving full-pipeline hard core in 28 evaluations\n- active DP budget = 80\n- witness required exactly 81 generated resolvents\n- budget 80 => UNKNOWN\n- budget 81+ => exact SAT\n- q=2 branch mass best slack remained -63\n- residual equality count = 0\n\nInterpretation:\nThe adversary had Goodharted the training threshold. This was a budget-edge witness, not a robust structural obstruction.\n\nv0.10 one-degree change:\n- solver frozen\n- SAT/UNSAT oracle still brute-forced independently\n- active solver budget remains 80\n- adversary evaluated against separate validation cap 160\n- robust target requires validation-cap failure plus no residual-equality or additive q-mass shortcut\n\nBounded result:\n- 21/21 tests pass\n- 141 adaptive evaluations\n- 7 accepted SAT-preserving mutations\n- best candidate: SAT\n- exact DP completion = 103 generated resolvents\n- planning pairs considered = 1063\n- best q=2 branch slack = -63\n- no residual equality\n- status: SHORTCUT_FREE_DP_EXACT\n- no robust hard core found under validation cap 160\n\nClaim ceiling:\nThis is bounded adversarial evidence only. Neither 103 resolvents nor failure to reach 160 is an asymptotic SAT statement.\n\nNext obligation:\nStop optimizing a single fixed-n cost threshold. Measure a family across increasing n and ask whether a single normalized structural quantity explains the growth while preserving an independent oracle on the bounded calibration range.",
+        "attachments": [],
+        "createdAt": "2026-09-20T16:35:41.441Z",
+        "updatedAt": "2026-09-20T16:35:41.399Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "5a971109-587a-491f-8c6f-34ddc1984ff6",
+        "body": "v0.6-v0.8 continuation:\n\nCorrection preserved:\n- v0.5's 4-clause minimized witness was not carrier-faithful because the minimizer did not preserve DP budget failure.\n- corrected v0.5 one-clause-minimal witness: 21 clauses / 8 variables.\n- subsumption reduced DP work from 88 to 38 generated resolvents.\n\nv0.7:\n- added fixed-point self-subsuming resolution only.\n- 13/13 tests passed, including 300 randomized satisfiability-equivalence checks.\n- prior hard core discharged.\n- next full-pipeline witness found after 4,395 generated cases: 33 clauses / 10 variables.\n- old execution path required 83 generated resolvents.\n\nv0.8:\n- changed only DP variable selection to exact one-step post-elimination preview.\n- no recursive child solving.\n- current witness solved with 54 executed resolvents.\n- planning work explicitly charged: 727 resolution pairs considered, 523 non-tautological candidate resolvents, 51 previews.\n- 15/15 tests pass.\n- bounded fresh search: 100 cases, NONE_FOUND.\n- NONE_FOUND is only a bounded negative result, not evidence that no hard core remains.\n\nCurrent obligation:\nscale the adversarial search efficiently enough to expose the next full-pipeline hard core without hiding planner cost.\n\nClaim ceiling remains:\nfinite exact progress != SAT in P != P=NP.",
+        "attachments": [],
+        "createdAt": "2026-09-20T14:53:30.461Z",
+        "updatedAt": "2026-09-20T14:53:30.437Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
+      {
+        "id": "f94bcebc-786f-4063-b0e2-62fcff851a6b",
+        "body": "v0.5 one-degree update:\n\nThe v0.4 hard-core witness was discharged by exact Davis-Putnam elimination with zero generated resolvents. That means the earlier hard-core classification was a limitation of the component-mass lens, not an intrinsic obstacle.\n\nRegression evidence:\n- 8 adapter tests pass\n- 250 random small CNFs: Davis-Putnam decision matched brute force\n- v0.4 witness: exact SAT under bounded elimination\n\nAutomatic next-hard-core search:\n- explicit DP generated-resolvent budget: 80\n- attempts: 1738\n- first surviving generated case: n=8, m=22\n- minimized residual:\n  1. (NOT x1 OR x7 OR NOT x8)\n  2. (x3 OR NOT x4 OR x7)\n  3. (x3 OR x4 OR x5)\n  4. (x4 OR x5 OR x8)\n\nClaim ceiling:\nThis witness is only hard relative to the current v0.5 carriers plus the explicit elimination budget. Budget exhaustion != lower bound.\n\nNext one-degree obligation:\nExplain why this 4-clause residual survives the current carriers, then add exactly one structural operator/certificate that attacks that mechanism.",
+        "attachments": [],
+        "createdAt": "2026-09-20T14:44:12.553Z",
+        "updatedAt": "2026-09-20T14:44:12.527Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      }
+    ],
+    "hasNextPage": false
+  }
+}

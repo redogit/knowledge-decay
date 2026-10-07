@@ -1,0 +1,95 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-10",
+    "uuid": "8c1cf4a7-b1da-4a9f-b039-31469896f7b6",
+    "title": "Independent verification and counterprobe gate",
+    "description": "Recheck every load-bearing theorem-use and exact calculation independently where feasible.\n\nRequired:\n\n* source theorem hypotheses and notation mapping;\n* projector orientation and normalization;\n* exact cyclotomic/Jacobi identities;\n* Galois orbit/rational descent;\n* correspondence source/target dimensions and weights;\n* nonzero target projection;\n* cheapest adversarial counterprobe for every proposed promotion.\n\nPreserve all failures and superseded claims. THEOREM_USE != INDEPENDENT_REPROOF; SOFTWARE_VERIFICATION != MATHEMATICAL_PROOF.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-10/independent-verification-and-counterprobe-gate",
+    "gitBranchName": "ryanapril/fig-10-independent-verification-and-counterprobe-gate",
+    "createdAt": "2026-10-04T11:47:57.215Z",
+    "updatedAt": "2026-10-05T08:52:11.820Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:57.215Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-17",
+          "title": "T_A Hodge atomicity forces a coupled exceptional carrier"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

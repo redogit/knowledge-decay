@@ -1,0 +1,66 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-11",
+    "uuid": "87eebb16-994f-4d05-b197-28fda9868da0",
+    "title": "General Hodge track: identify a genuinely uniform proof mechanism",
+    "description": "Keep this strictly separate from W114.\n\nA solution to the Millennium problem must prove surjectivity of the rational cycle-class map for every smooth projective complex variety and every codimension.\n\nResearch task:\ncatalogue candidate uniform mechanisms (motives/standard conjectures, coniveau/generalized Hodge routes, deformation/variational Hodge, arithmetic/Tate comparison, derived/categorical constructions), and for each identify the exact theorem that would imply Hodge plus the unsolved gap.\n\nW114 and other Fermat computations may calibrate mechanisms but cannot establish uniformity.",
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-11/general-hodge-track-identify-a-genuinely-uniform-proof-mechanism",
+    "gitBranchName": "ryanapril/fig-11-general-hodge-track-identify-a-genuinely-uniform-proof",
+    "createdAt": "2026-10-04T11:47:59.076Z",
+    "updatedAt": "2026-10-04T11:48:17.886Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:59.076Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
