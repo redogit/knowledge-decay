@@ -1,0 +1,55 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-4",
+    "uuid": "b7d6f50c-2a9f-4b74-90bf-96688c2f6791",
+    "title": "Set up your teams",
+    "description": "This workspace is a container for your organization’s work. \n\n* [Learn more about Workspaces](<https://linear.app/docs/workspaces>)\n  How to configure settings and workflows \n\nTeams are how you organize people and work in Linear.\n\n* [Learn about Teams](<https://linear.app/docs/teams>)\n  How to structure teams and configure workflows\n\nTeams are made of members with defined roles (Admin, Member, Guest).\n\n* [Learn more about Members](<https://linear.app/docs/invite-members>)\n  Add your team and assign roles\n\n---\n\nReady to add your team? Invite via CSV or a unique link in [settings](<http://linear.app/settings/members>).",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-4/set-up-your-teams",
+    "gitBranchName": "ryanapril/fig-4-set-up-your-teams",
+    "createdAt": "2026-09-19T09:00:04.238Z",
+    "updatedAt": "2026-09-19T09:00:04.238Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "37ccf9c3-9ceb-46a2-9149-8e0ffc97d075",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-19T09:00:04.238Z",
+        "endedAt": null
+      }
+    ],
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
