@@ -1,0 +1,59 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-21",
+    "uuid": "d8a93ac3-5f52-45f8-a493-32d3756ecf6e",
+    "title": "Keep bounded source intake and FKDB artifact provenance auditable",
+    "description": "Purpose: connect the existing goal-directed intake obligations with a reviewable source/evidence record and optional FKDB-compatible artifact transfer.\n\nAcceptance criteria:\n\n* Retain the declared goal, source identity, literal source material or recoverable pointer/hash, qualification method, acquisition cost/budget, and unresolved remainder for each admitted record.\n* Keep lexical/metadata heuristics distinguishable from semantic verification; neither an index match nor a source relation promotes an evidence status.\n* Demonstrate or explicitly defer the transfer of one actual Episteme source/evaluation artifact through the reviewed FKDB ToolCarrier contract; preserve exact source identity and the claim ceiling.\n* Record that the current FKDB Supabase/Railway adapters collect local repository artifacts and do not observe applied database or live deployment state.\n* Preserve the observed Supabase projects\\[\\] access limit; no database write, new hosted project, paid resource, or live-sync claim is included in this issue's acceptance.\n\nGrounded sources: redogit/Other-Projects- at 4a05785e4376c558ed7ad761f89db9dd241bca7b, tools/fkdb_adapter_supabase.py, tools/fkdb_adapter_railway.py, and tools/fkdb_local_tool_bridge.py. Complete local read evidence is in evidence/progression/supports-read-evidence.json.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-21/keep-bounded-source-intake-and-fkdb-artifact-provenance-auditable",
+    "gitBranchName": "ryanapril/fig-21-keep-bounded-source-intake-and-fkdb-artifact-provenance",
+    "createdAt": "2026-10-06T17:02:50.267Z",
+    "updatedAt": "2026-10-06T17:02:50.267Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "37ccf9c3-9ceb-46a2-9149-8e0ffc97d075",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-06T17:02:50.267Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Episteme — machine-oriented generator language",
+    "projectId": "788579b5-8769-4e91-8b11-80945f317245",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

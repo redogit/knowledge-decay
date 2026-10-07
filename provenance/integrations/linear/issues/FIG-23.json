@@ -1,0 +1,64 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-23",
+    "uuid": "1afd31d3-06bc-4b03-a219-95314d75219c",
+    "title": "Bind tautology factories to Episteme's versioned factory contract",
+    "description": "Purpose: turn the new Python tautology/Cook-cycle factory architecture into a real Episteme integration without inventing a cross-language contract.\n\nStarting point:\n\n* Python side now follows the Episteme pattern: fluent factory -> detached immutable build description -> separate evaluator -> typed result/trace -> explicit limits and failures.\n* Tautology work classifies binary TRUE generation and keeps it distinct from recognition and functional completeness.\n* Direct runtime interoperability is NOT yet established.\n\nRequired:\n\n1. Resolve the authoritative Episteme source revision and exact admitted factory-description schema.\n2. Define versioned Episteme families/operators for Boolean basis analysis and the bounded state-cycle verifier.\n3. Preserve caller origin, operation IDs/versions, limits, traces, derivations, incomplete/failure semantics, and GENERATE != VERIFY != ADMIT.\n4. Build cross-language replay fixtures: the same frozen plan must produce the same typed result in Python and Episteme for all admitted cases.\n5. Include positive, negative, boundary, mutation, zero-budget and exhausted-budget checks.\n6. Preserve ordered Boolean states 00/01/10/11; XOR is allowed only as a derived difference relation and may not collapse 01 with 10 where orientation matters.\n7. Do not transfer mathematical evidence merely because the two implementations agree.\n\nClaim ceilings:\nARCHITECTURE_TRANSFER != RUNTIME_INTEGRATION\nCROSS_LANGUAGE_REPLAY != MATHEMATICAL_PROOF\nGENERATES_TRUE != FUNCTIONAL_COMPLETENESS\nFINITE_BOOLEAN_CLASSIFICATION != P_VS_NP_RESULT\n\nRelated research issue: <issue id=\"4705ea0e-e60f-41c3-b1e5-dd232a1e8705\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-22/classify-tautology-generating-boolean-primitives\">FIG-22</issue>.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-23/bind-tautology-factories-to-epistemes-versioned-factory-contract",
+    "gitBranchName": "ryanapril/fig-23-bind-tautology-factories-to-epistemes-versioned-factory",
+    "createdAt": "2026-10-07T12:55:32.936Z",
+    "updatedAt": "2026-10-07T12:55:32.936Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "37ccf9c3-9ceb-46a2-9149-8e0ffc97d075",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-07T12:55:32.936Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Episteme — machine-oriented generator language",
+    "projectId": "788579b5-8769-4e91-8b11-80945f317245",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "FIG-22",
+          "title": "Classify tautology-generating Boolean primitives"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
