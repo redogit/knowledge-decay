@@ -1,0 +1,25 @@
+{
+  "schema": "knowledge-decay.linear.workspace.v1",
+  "exported_date": "2026-10-07",
+  "workspace": {
+    "id": "575bfeab-2983-4e6a-9d45-c3e298127745",
+    "name": "Fighting DECAY of knowlege",
+    "url": "https://linear.app/fighting-decay-of-knowlege"
+  },
+  "teams": {
+    "teams": [
+      {
+        "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+        "key": "FIG",
+        "parentId": null,
+        "displayName": "Fighting DECAY of knowlege",
+        "icon": "Briefcase",
+        "name": "Fighting DECAY of knowlege",
+        "visibility": "public",
+        "createdAt": "2026-09-19T09:00:04.238Z",
+        "updatedAt": "2026-10-07T06:51:09.798Z"
+      }
+    ],
+    "hasNextPage": false
+  }
+}
