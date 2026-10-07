@@ -1,0 +1,29 @@
+{
+  "record_id": "OPERATING_METHOD_UPDATE_2026-10-07",
+  "date": "2026-10-07",
+  "repository": "redogit/knowledge-decay",
+  "base_commit": "2cb9389d8090f798290a9d4bf981243c47ee4717",
+  "change_type": "editorial_method_crystallization",
+  "public_material": true,
+  "source_custody": {
+    "raw_working_conversation_published": false,
+    "private_source_text_copied": false,
+    "method": "generalized public-facing synthesis of authorized working ideas and existing repository requirements"
+  },
+  "evidence_effect": "NONE",
+  "claim_effect": "No source claim, proof, experiment, or external evidence is strengthened by this editorial update.",
+  "intended_files": [
+    "research/OPERATING_METHOD.md",
+    "README.md",
+    "CHARTER.md",
+    "AGENTS.md"
+  ],
+  "boundaries": [
+    "RELATION != EVIDENCE_TRANSFER",
+    "PRESERVE != VERIFY != OBLIGATION_MATCH != ADMIT",
+    "pairwise compatibility does not imply global compatibility",
+    "carrier agreement does not imply independent verification",
+    "domain examples do not transfer evidence into Knowledge Decay"
+  ],
+  "recovery": "The predecessor remains available at base_commit and in normal Git history."
+}
