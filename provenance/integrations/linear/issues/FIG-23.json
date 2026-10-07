@@ -13,7 +13,7 @@
     "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-23/bind-tautology-factories-to-epistemes-versioned-factory-contract",
     "gitBranchName": "ryanapril/fig-23-bind-tautology-factories-to-epistemes-versioned-factory",
     "createdAt": "2026-10-07T12:55:32.936Z",
-    "updatedAt": "2026-10-07T12:55:32.936Z",
+    "updatedAt": "2026-10-07T13:20:09.624Z",
     "archivedAt": null,
     "completedAt": null,
     "startedAt": null,
@@ -58,7 +58,23 @@
     }
   },
   "comments": {
-    "comments": [],
+    "comments": [
+      {
+        "id": "4085833c-3f3b-4bd3-b300-94ce59a6e45e",
+        "body": "Architecture checkpoint preserved in GitHub PR #4: https://github.com/redogit/knowledge-decay/pull/4\n\nThe Python implementation now follows the verified Episteme factory shape:\nfluent factory -> detached immutable build plan -> separate evaluator -> typed result/trace -> explicit limits/failure.\n\nDirect Episteme runtime integration is deliberately still OPEN. The next admission gate is to recover the authoritative Episteme serialized factory schema and prove cross-language replay for frozen plans. Agreement must not promote mathematical evidence.\n\nARCHITECTURE_TRANSFER != RUNTIME_INTEGRATION\nCROSS_LANGUAGE_REPLAY != MATHEMATICAL_PROOF",
+        "attachments": [],
+        "createdAt": "2026-10-07T13:20:09.651Z",
+        "updatedAt": "2026-10-07T13:20:09.624Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      }
+    ],
     "hasNextPage": false
   }
 }

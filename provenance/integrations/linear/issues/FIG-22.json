@@ -13,7 +13,7 @@
     "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-22/classify-tautology-generating-boolean-primitives",
     "gitBranchName": "ryanapril/fig-22-classify-tautology-generating-boolean-primitives",
     "createdAt": "2026-10-07T12:22:36.011Z",
-    "updatedAt": "2026-10-07T12:55:33.149Z",
+    "updatedAt": "2026-10-07T13:19:51.823Z",
     "archivedAt": null,
     "completedAt": null,
     "startedAt": "2026-10-07T12:22:36.222Z",
@@ -65,6 +65,21 @@
   },
   "comments": {
     "comments": [
+      {
+        "id": "bf274ae2-3847-4bb6-b001-0b71e635891b",
+        "body": "GitHub preservation checkpoint: https://github.com/redogit/knowledge-decay/pull/4\n\nCurrent implementation/evidence is under `research/tautology-primitives/` on PR #4.\n\nVerified:\n- factory/builder/SOLID refactor is 793 lines and matches the tested generated implementation exactly;\n- 3/3 self-contained regression tests pass;\n- all 16 binary singleton operators classified;\n- all 136 singleton/pair bases checked; 93 generate TRUE, 43 do not;\n- all two-obstruction predictions match;\n- full state-cycle carrier/word/mutation evidence is preserved.\n\nEpisteme architecture transfer is documented; direct runtime binding remains a separate FIG-23 obligation.\n\nClaim ceilings remain unchanged:\nTAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION\nGENERATES_TRUE != FUNCTIONALLY_COMPLETE\nSOFTWARE_VERIFICATION != MATHEMATICAL_PROOF\nFINITE_ENUMERATION != P_VS_NP_RESULT",
+        "attachments": [],
+        "createdAt": "2026-10-07T13:19:51.862Z",
+        "updatedAt": "2026-10-07T13:19:51.823Z",
+        "parentId": null,
+        "resolvedAt": null,
+        "quotedText": null,
+        "author": {
+          "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+          "name": "Ryan April"
+        },
+        "onBehalfOf": null
+      },
       {
         "id": "dd2f2869-0412-4bb4-994f-d3969e105fc2",
         "body": "Checkpoint — binary-basis extension and proof audit\n\nMathbox self-review verdict:\nPROVED AS WRITTEN under the explicit scope:\n- standard two-valued Boolean semantics;\n- connectives are binary Boolean operations;\n- formulas have variable leaves;\n- no primitive nullary constants are assumed;\n- a binary constant-valued operation such as truth table 1111 is still allowed as one of the 16 binary connectives.\n\nStronger theorem for arbitrary sets S of binary Boolean operations:\nA tautology is expressible from S iff\n1. S is not contained in P0, the 0-preserving binary operations; and\n2. S is not contained in D, the self-dual binary operations.\n\nFor the 16 binary truth tables in order 00,01,10,11:\n- P0 = ids 0..7, exactly those with g(0,0)=0.\n- D = {3,5,10,12} = {x,y,NOT y,NOT x}.\n\nNecessity:\n- compositions of 0-preserving operations remain 0-preserving, while constant TRUE is not 0-preserving;\n- compositions of self-dual operations remain self-dual, while constant TRUE is not self-dual.\n\nSufficiency for binary bases:\n- if S escapes both classes, choose f in S\\P0 and g in S\\D; this gives a singleton or pair basis that escapes both obstructions;\n- exhaustive exact closure over all 16 singleton bases and all C(16,2)=120 pair bases checked all 136 cases;\n- exactly 93 bases generated constant TRUE and exactly those 93 were the bases not contained in P0 and not contained in D;\n- 43 failed: the 36 singleton/pair bases wholly inside P0 plus 7 remaining bases wholly inside D.\n\nIndependent enumeration agreed exactly with the Wolfram result.\n\nThis is weaker than Post functional completeness:\n- TRUE generation needs escape from two obstructions here;\n- full functional completeness requires escaping all five Post classes.\n\nNext route:\ngeneralize beyond binary connectives / verify the exact arbitrary-arity constant-TRUE clone criterion from an authoritative Post-lattice source before promoting it.",
