@@ -1,0 +1,99 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-15",
+    "uuid": "ed2d5efb-663f-42a3-a1b6-df186ed59c63",
+    "title": "MOT-1 typed composition ledger and first-failure localization",
+    "description": "Picked up from Library handoff: PNP_TO_HODGE_TYPED_FAILURE_CARRIER.md\n\nMETHOD TRANSFER ONLY — NO PNP EVIDENCE TRANSFER.\n\nImmediate gate:\nBuild a machine-readable typed ledger for every current MOT-1 correspondence edge.\n\nRequired edge fields:\n\n* source motive\n* target motive\n* projector\n* codimension\n* direction\n* transpose/inverse\n* scalar normalization\n* Tate twist\n* Kummer factor\n* Artin factor\n* base field\n* realization action\n* verification status\n\nExecution discipline:\n\n1. compose left-to-right;\n2. stop at the first failed interface;\n3. do not skip downstream;\n4. preserve a failure carrier containing original source, intended/actual target, projector/twist/normalization/base-field state, before/after realizations, failed edge, reason, rollback point, and remainder;\n5. repair only that interface;\n6. rerun normalization and terminal realization checks.\n\nTerminal local acceptance:\nR(Gamma_MOT1)(v_source) = c \\* v_target with c != 0,\nor the exactly oriented equivalent, while retaining all Chow-level, field-of-definition, projector, twist, and inverse obligations.\n\nPair-ablation is allowed strictly as a debugging diagnostic, not as proof of causal geometry.\n\nThis issue is a proof-construction compiler/debugging layer. It does not itself establish a Hodge result.\n\n### First-failure localization — 2026-10-05\n\nCompiler verdict from pinned audited W114 packets:\n\nPASS through:\n\n* degree-114 duplication divisor primitives;\n* q4 plane pullback;\n* full level-114 common-carrier join/permutation composition;\n* q8 power-map reduction;\n* level-57 standard join composition;\n* full W114 -> T_A standard reduction;\n* 19-standard Aoki carrier;\n* Chow tensor-square correspondence;\n* normalized M^2 \\~= A_114(19,76).\n\nFIRST FAILED / UNCONSTRUCTED EDGE:\n\nN = M tensor A_114(19,76)\n  --> A_114(3(7-zeta_3),57)\n\nEquivalent reverse-form obligation:\nconstruct Gamma subset E6 x F_57^16 of cycle dimension 8 such that\nF=e_TA\\[Gamma\\]e_chi != 0,\nwith E6=Spec K\\[r,t\\]/(r^3+19,t^2-3(7-zeta_3)),\nchi(sigma)=zeta_3, chi(tau)=-1,\nand inverse\nG=(1/(6c)) e_chi\\[Gamma\\]^t e_TA\nfor nonzero dual pairing c.\n\nThis is classified as MISSING_GEOMETRIC_EDGE, not an arithmetic type mismatch.\n\n### Exact candidate oracle\n\nT_A =\n(1,4,7,16,25,28,43,49,55,54,45,36,9,39,30,42,24,6).\n\nDual-pullback Jacobian exponents:\n(55,52,49,40,31,28,13,7,1,2,11,20,47,17,26,14,32,50).\n\nFor Q57=sum\\_{i=1}^9 f_i*g_i, compute*\n*D=det Jac(f1,g1,...,f9,g9) mod (x0^56,...,x17^56).*\n*At the exact target monomial, the coefficient lies in basis*\n*{1,r,r^2,t,r*t,r^2*t}.*\n*The required source character selects the r*t component (subject to the fixed orientation convention).\nZero r\\*t => immediate rejection.\n\n### New scoped no-go\n\nWithin the standard Fermat monomial automorphisms stabilizing the fixed T_A eigenspace:\n\n* all 18 T_A residues are distinct, so any coordinate permutation stabilizer is identity;\n* diagonal character values have odd order dividing 57, so none equals -1.\n\nTherefore the tau=-1 quadratic sign cannot be supplied solely by an ambient monomial symmetry orbit of one fixed cycle.\n\nConsequence:\nthe quadratic sign must live in the cycle-family/descent geometry itself, or in a more general correspondence.\n\nBoundary:\nMONOMIAL_AUTOMORPHISM_NO_GO != NO_EXCEPTIONAL_CYCLE.",
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-15/mot-1-typed-composition-ledger-and-first-failure-localization",
+    "gitBranchName": "ryanapril/fig-15-mot-1-typed-composition-ledger-and-first-failure",
+    "createdAt": "2026-10-04T21:08:14.379Z",
+    "updatedAt": "2026-10-05T08:52:11.805Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T21:08:14.379Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        },
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-14",
+          "title": "No-go: skew Koszul deformations do not create the W114 primitive class"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        },
+        {
+          "id": "FIG-17",
+          "title": "T_A Hodge atomicity forces a coupled exceptional carrier"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
