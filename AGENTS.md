@@ -12,6 +12,9 @@ Read README.md, CHARTER.md, PUBLICATION_POLICY.md, research/PROOF_QUALIFICATIONS
 - Define each action's inputs, scope, budget, outcome-dependent successors, stop condition, and recovery route before execution. Record actual outcomes only.
 - Preserve authorized archival evidence separately from edited public summaries. Keep chronology, attribution, assumptions, counterexamples, and qualifications; privacy takes precedence over reproducing source wording on a public surface.
 - Reconcile provenance/SOURCE_IMPORT.json when an archival copy becomes an editorial summary. A hash does not make an unavailable source accessible.
+- Before promoting a broad claim, run the side-to-side review in research/OPERATING_METHOD.md: check global obligations, retuning, evidence independence, and carrier loss explicitly.
+- Keep preservation, recomputation/verification, original-obligation match, and admission as separate checks. A correct calculation can still answer the wrong or weakened question.
+- When transforming representations, preserve every distinction required by the obligation or record the loss and withhold conclusions that depend on it.
 - Do not publish private archives, unrelated personal data, secrets, or font binaries. Do not modify another repository or run an experiment merely because it is referenced here.
 - Editing the current branch does not erase prior commits or external copies. History rewrites and repository visibility changes require explicit authorization.
 - Verify changed documents, references, structured data, and remote writes. Distinguish document integrity, software behavior, mathematical correctness, and human benefit.
