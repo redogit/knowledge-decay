@@ -1,0 +1,29 @@
+{
+  "record_id": "APPLICATION_SEAMS_VERIFICATION_2026-10-07",
+  "date": "2026-10-07",
+  "repository": "redogit/knowledge-decay",
+  "verification_scope": "document integrity, source-link presence, and repository wiring only",
+  "checks": {
+    "extra_dimensions_case_study_present": true,
+    "phantom_full_shape_seam_present": true,
+    "global_quantifier_boundary_present": true,
+    "one_candidate_many_projections_present": true,
+    "constructed_world_projection_present": true,
+    "model_referent_boundary_present": true,
+    "evidence_transfer_denied": true,
+    "provenance_json_parses": true,
+    "readme_links_application_seams": true
+  },
+  "verified_blob_shas": {
+    "research/APPLICATION_SEAMS.md": "66d6aa0f17d39467d6fdf24947919e9bb6284a61",
+    "provenance/APPLICATION_SEAMS_UPDATE_2026-10-07.json": "262e6e3ee4ab9ec484157fb843e243147a2b58e9",
+    "README.md": "ec4648d667ee5dd0cea3b49838e96a2e421ed05f"
+  },
+  "not_verified": [
+    "independent replication of cited science",
+    "physical detection of extra dimensions",
+    "universal correctness",
+    "human learning benefit",
+    "native implementation of the described research program"
+  ]
+}

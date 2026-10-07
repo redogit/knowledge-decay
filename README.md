@@ -47,6 +47,8 @@ It also records four boundaries that apply across domains:
 
 The method is a research discipline, not a claim of universal correctness or an implemented autonomous system.
 
+The [application seams](research/APPLICATION_SEAMS.md) preserve source-verified examples from higher-dimensional physics, full-shape cosmology, simulation/world-model design, and interpretation hygiene. They are examples of the method only: their evidence stays with the native source domain.
+
 ## Focused research modules
 
 - [Tautology primitives and verified state cycles](research/tautology-primitives/README.md) separates constant-TRUE generation, tautology recognition, and functional completeness; it includes the factory/builder refactor of the verified DPLL state cycle, exact binary-Boolean classification evidence, and the current Episteme integration boundary.
