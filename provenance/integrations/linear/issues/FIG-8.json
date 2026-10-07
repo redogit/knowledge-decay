@@ -1,0 +1,91 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-8",
+    "uuid": "a3d43846-eb96-42fc-97f9-6e290ad6c8f1",
+    "title": "Direct carrier lane: authenticate one W114 Chern-character hit",
+    "description": "Target alpha=(1,7,78,79,86,91) and its middle Jacobian monomial.\n\nFor one declared coherent-sheaf / graded matrix-factorization family at a time:\n\n1. specify the algebraic object exactly;\n2. verify matrix factorization / K-class conditions exactly;\n3. compute the primitive Chern-character target coefficient after Jacobian reduction;\n4. require a nonzero W114 projection;\n5. authenticate the sheaf/K-class and the realization implication;\n6. prove rational/Galois descent needed for the rational Hodge block.\n\nZero coefficient is only a family-specific obstruction.\nNONZERO_COEFFICIENT != AUTHENTICATED_ALGEBRAIC_CYCLE.",
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-8/direct-carrier-lane-authenticate-one-w114-chern-character-hit",
+    "gitBranchName": "ryanapril/fig-8-direct-carrier-lane-authenticate-one-w114-chern-character",
+    "createdAt": "2026-10-04T11:47:52.496Z",
+    "updatedAt": "2026-10-05T08:52:07.867Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:52.496Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        },
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        },
+        {
+          "id": "FIG-14",
+          "title": "No-go: skew Koszul deformations do not create the W114 primitive class"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}

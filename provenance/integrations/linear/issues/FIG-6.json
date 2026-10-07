@@ -1,0 +1,90 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-6",
+    "uuid": "938111d7-8c17-4ae7-b9b2-341238b7fdc3",
+    "title": "Freeze theorem scope and success criteria",
+    "description": "Define the exact theorem and claim ceiling.\n\nGeneral target:\ncl^p_Q : CH^p(X)\\_Q -> H^{2p}(X,Q) ∩ H^{p,p}(X)\nmust be surjective for every smooth projective complex X and every p.\n\nSeparate:\n\n* general rational Hodge conjecture;\n* known Fermat-fourfold algebraicity;\n* W114 explicit-cycle/correspondence reconstruction.\n\nAcceptance:\n\n* rational coefficients only;\n* no inference from integral Hodge conjecture;\n* exact source/target and realization map stated;\n* every downstream issue inherits this scope boundary.",
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-6/freeze-theorem-scope-and-success-criteria",
+    "gitBranchName": "ryanapril/fig-6-freeze-theorem-scope-and-success-criteria",
+    "createdAt": "2026-10-04T11:47:46.691Z",
+    "updatedAt": "2026-10-04T11:47:46.691Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:46.691Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-11",
+          "title": "General Hodge track: identify a genuinely uniform proof mechanism"
+        },
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        },
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        }
+      ],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
