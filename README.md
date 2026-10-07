@@ -47,6 +47,8 @@ It also records four boundaries that apply across domains:
 
 The method is a research discipline, not a claim of universal correctness or an implemented autonomous system.
 
+The [application seams](research/APPLICATION_SEAMS.md) preserve source-verified examples from higher-dimensional physics, full-shape cosmology, simulation/world-model design, and interpretation hygiene. They are examples of the method only: their evidence stays with the native source domain.
+
 ## Scope and evidence
 
 Definitions, hypotheses, deductions, mathematical arguments, and experimental findings retain separate statuses. Similarity between projects does not transfer evidence. File integrity and software tests do not, by themselves, establish mathematical correctness or human benefit.
