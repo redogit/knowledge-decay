@@ -30,6 +30,23 @@ The [claim index](research/CLAIM_INDEX.md) covers 64 recovered source sections, 
 
 The [worked example](examples/SMALLEST_WORKED_EXAMPLE.txt) examines whether retaining a dependency can recover an answer that a parts-only inventory cannot. The proposed experiment is described in [NEXT_STEP.md](NEXT_STEP.md); it has not been executed as part of this documentation work.
 
+## Operating method
+
+The [operating method](research/OPERATING_METHOD.md) makes the project’s execution discipline explicit. In bounded work it uses the cycle
+
+\[
+\text{explicit structure} \rightarrow \text{action} \rightarrow \text{observation} \rightarrow \text{residual} \rightarrow \text{smallest repair} \rightarrow \text{counterprobe} \rightarrow \text{preservation} \rightarrow \text{use}.
+\]
+
+It also records four boundaries that apply across domains:
+
+- relation does not transfer evidence;
+- pairwise compatibility does not establish whole-group compatibility;
+- preserving a record, verifying a calculation, satisfying the original obligation, and admitting a claim are separate checks;
+- a carrier must preserve every distinction required by the obligation or explicitly declare the loss.
+
+The method is a research discipline, not a claim of universal correctness or an implemented autonomous system.
+
 ## Scope and evidence
 
 Definitions, hypotheses, deductions, mathematical arguments, and experimental findings retain separate statuses. Similarity between projects does not transfer evidence. File integrity and software tests do not, by themselves, establish mathematical correctness or human benefit.

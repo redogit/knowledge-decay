@@ -1,0 +1,31 @@
+{
+  "record_id": "OPERATING_METHOD_VERIFICATION_2026-10-07",
+  "date": "2026-10-07",
+  "repository": "redogit/knowledge-decay",
+  "verification_scope": "document integrity and repository wiring only",
+  "checks": {
+    "method_cycle_present": true,
+    "global_quantifier_present": true,
+    "preserve_verify_obligation_boundary_present": true,
+    "carrier_agreement_boundary_present": true,
+    "model_referent_boundary_present": true,
+    "readme_links_operating_method": true,
+    "charter_links_operating_method": true,
+    "agents_enforces_side_to_side_review": true,
+    "provenance_json_parses": true
+  },
+  "verified_blob_shas": {
+    "research/OPERATING_METHOD.md": "1f950995d59c99a233c25f200391deae7fdfbca5",
+    "README.md": "435e29853d3dddae26d58d487fc17888340bf657",
+    "CHARTER.md": "cc2741296f0ee4d468e40e3a58451fb41b527d33",
+    "AGENTS.md": "6c759d08a53c03d8651b329373109c24bd9a9846",
+    "provenance/OPERATING_METHOD_UPDATE_2026-10-07.json": "baf32f5ee0c463c351fd4987eb39bedfc490c550"
+  },
+  "not_verified": [
+    "universal correctness",
+    "scientific truth",
+    "independent evidence",
+    "human learning benefit",
+    "implementation of every described method"
+  ]
+}
