@@ -1,0 +1,95 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-13",
+    "uuid": "dedb1838-9a41-4a63-bccc-9a97427af45c",
+    "title": "Compass generator: weighted-domain W114 attack",
+    "description": "Use the Compass \"Next Domain -> Return\" operation as an exact algebraic generator.\n\nNEW EXACT FRAME:\nW114 alpha=(1,7,78,79,86,91)\\_114 is the lift of the weighted character\n(1,7,13,79,43,91)\non the weighted Fermat fourfold with coordinate exponents\n(114,114,19,114,57,114)\nand weights (1,1,6,1,2,1).\n\nThe finite power map is\n(x0:x1:x2:x3:x4:x5) -> (x0:x1:x2^6:x3:x4^2:x5)\nin the appropriate weighted direction. Martelotte–Miranda–Movasati–Villaflor Proposition 3.2 proves that Hodge and algebraic character status are equivalent under lift, with explicit cycle pullback/pushforward.\n\nCURRENT COMPUTATIONAL FINDING:\nUsing the public Aoki-Shioda generator definitions at degrees 114, 228, 342, and 456, an exact MILP search over six-entry grade-3 representatives (generator coefficients bounded by ±2) minimized the weighted coordinate-exponent complexity at the same value 532, always with effective exponent multiset\n{114,114,114,114,57,19}.\nThis is bounded computational evidence, not a global theorem, but it says simple degree lifting alone is not reducing the four rigid coordinates.\n\nLIFTED GAP FRAME:\nThe 2026 length-reduction table gives the q=57 exceptional representative\n(23,41,64,66,71,77)\\_114\nof length 6.\nAn exact degree-114 integer relation was found between W114 alpha and this sextuple using only the paper's lineal/standard generators; the minimum ±1-support relation uses 25 generators in the tested generator set.\n\nNext:\n\n* preserve certificate for the 25-term relation;\n* search weighted Fermat cycle families in the exact alternate frame;\n* optimize for geometric simplicity, not merely tuple length;\n* return every candidate via the finite map before promotion.",
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-13/compass-generator-weighted-domain-w114-attack",
+    "gitBranchName": "ryanapril/fig-13-compass-generator-weighted-domain-w114-attack",
+    "createdAt": "2026-10-04T12:34:16.192Z",
+    "updatedAt": "2026-10-05T08:52:07.990Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T12:34:16.192Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        },
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-8",
+          "title": "Direct carrier lane: authenticate one W114 Chern-character hit"
+        },
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-9",
+          "title": "MOT-1: construct the unsquared quadratic/Artin arrow"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
