@@ -1,0 +1,171 @@
+<canvas id="0:1" name="Page 1" x="0" y="0" width="0" height="0">
+  <shape-with-text id="1:3" x="624" y="1022.5" width="224" height="128" name="SQUARE">Human purpose and obligation</shape-with-text>
+  <shape-with-text id="1:6" x="1040" y="474" width="224" height="128" name="SQUARE">AnyFunctor singular evaluator</shape-with-text>
+  <shape-with-text id="1:9" x="2128" y="753.3333129882812" width="224" height="128" name="SQUARE">FunctionObject representation</shape-with-text>
+  <shape-with-text id="1:12" x="2480" y="931.833251953125" width="224" height="128" name="SQUARE">Code or semantic representation</shape-with-text>
+  <shape-with-text id="1:15" x="2480" y="707.8333129882812" width="224" height="128" name="SQUARE">Typed contract and invariants</shape-with-text>
+  <shape-with-text id="1:18" x="2480" y="483.83331298828125" width="224" height="128" name="SQUARE">Authority and evidence policy</shape-with-text>
+  <shape-with-text id="1:21" x="272" y="837.1666870117188" width="224" height="128" name="SQUARE">AnyFunctor FunctionObject</shape-with-text>
+  <shape-with-text id="1:24" x="1776" y="361.5" width="224" height="128" name="SQUARE">Universal partial evaluation</shape-with-text>
+  <shape-with-text id="1:27" x="2128" y="382.8333435058594" width="224" height="128" name="SQUARE">Native leaf carrier</shape-with-text>
+  <shape-with-text id="1:30" x="2128" y="158.83331298828125" width="224" height="128" name="SQUARE">Recursive AnyFunctor invocation</shape-with-text>
+  <shape-with-text id="1:33" x="1776" y="857.1666870117188" width="224" height="128" name="SQUARE">Partial evaluation and specialization</shape-with-text>
+  <shape-with-text id="1:36" x="1776" y="25.5" width="224" height="128" name="SQUARE">Candidate FunctionObject</shape-with-text>
+  <shape-with-text id="1:39" x="-432" y="286.6666564941406" width="224" height="128" name="SQUARE">Independent verifier invocation</shape-with-text>
+  <shape-with-text id="1:42" x="272" y="389.1666564941406" width="224" height="128" name="SQUARE">Admit bounded capability</shape-with-text>
+  <shape-with-text id="1:45" x="272" y="613.1666870117188" width="224" height="128" name="SQUARE">Quarantine and preserve counterexample</shape-with-text>
+  <shape-with-text id="1:48" x="624" y="613.1666870117188" width="224" height="128" name="SQUARE">Trace residual and Homeward recovery</shape-with-text>
+  <shape-with-text id="1:51" x="272" y="165.16668701171875" width="224" height="128" name="SQUARE">Partiality and nontermination boundary</shape-with-text>
+  <shape-with-text id="1:54" x="624" y="213.66665649414062" width="224" height="128" name="SQUARE">Unresolved but explorable</shape-with-text>
+  <shape-with-text id="1:57" x="-80" y="837.1666870117188" width="224" height="128" name="SQUARE">Kleene recursion theorem</shape-with-text>
+  <shape-with-text id="1:60" x="1776" y="585.5" width="224" height="128" name="SQUARE">Scott reflexive domains</shape-with-text>
+  <shape-with-text id="1:63" x="1424" y="886.3333129882812" width="224" height="128" name="SQUARE">Self applicable partial evaluation</shape-with-text>
+  <shape-with-text id="1:66" x="-784" y="452.66668701171875" width="224" height="128" name="SQUARE">Proof carrying code</shape-with-text>
+  <shape-with-text id="1:69" x="1424" y="-70.5" width="224" height="128" name="SQUARE">Certified self modifying code</shape-with-text>
+  <shape-with-text id="1:72" x="-80" y="165.16668701171875" width="224" height="128" name="SQUARE">No unrestricted total semantic decider</shape-with-text>
+  <shape-with-text id="1:75" x="-784" y="228.66665649414062" width="224" height="128" name="SQUARE">Generate not equal Verify not equal Admit</shape-with-text>
+  <connector id="1:78" x="856" y="586" connectorStart="1:3" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:82" x="1272" y="559.3333129882812" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:9" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:86" x="2360" y="817.3333129882812" connectorStart="1:9" connectorStartCap="NONE" connectorEnd="1:12" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:90" x="2360" y="771.8333129882812" connectorStart="1:9" connectorStartCap="NONE" connectorEnd="1:15" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:94" x="2360" y="547.8333129882812" connectorStart="1:9" connectorStartCap="NONE" connectorEnd="1:18" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:98" x="504.5" y="554" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:21" connectorEndCap="ARROW_LINES">self represent</connector>
+  <connector id="1:102" x="504" y="570" connectorStart="1:21" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES">explicit child invocation</connector>
+  <connector id="1:106" x="1272" y="405" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:24" connectorEndCap="ARROW_LINES">execute</connector>
+  <connector id="1:110" x="2008" y="425.5" connectorStart="1:24" connectorStartCap="NONE" connectorEnd="1:27" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:114" x="2008" y="244.16665649414062" connectorStart="1:24" connectorStartCap="NONE" connectorEnd="1:30" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:118" x="1272.5" y="201.5" connectorStart="1:30" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:122" x="1272" y="580.6666870117188" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:33" connectorEndCap="ARROW_LINES">specialize</connector>
+  <connector id="1:126" x="2008" y="817.3333129882812" connectorStart="1:33" connectorStartCap="NONE" connectorEnd="1:9" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:130" x="1272" y="121.5" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:36" connectorEndCap="ARROW_LINES">generate candidate</connector>
+  <connector id="1:134" x="-199.5" y="89.5" connectorStart="1:36" connectorStartCap="NONE" connectorEnd="1:39" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:138" x="-200" y="350.6666564941406" connectorStart="1:39" connectorStartCap="NONE" connectorEnd="1:42" connectorEndCap="ARROW_LINES">pass</connector>
+  <connector id="1:142" x="-200" y="382.6666564941406" connectorStart="1:39" connectorStartCap="NONE" connectorEnd="1:45" connectorEndCap="ARROW_LINES">fail</connector>
+  <connector id="1:146" x="504" y="453.1666259765625" connectorStart="1:42" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:150" x="504" y="677.1666870117188" connectorStart="1:45" connectorStartCap="NONE" connectorEnd="1:48" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:154" x="856" y="538" connectorStart="1:48" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:158" x="504.5" y="180.66665649414062" connectorStart="1:6" connectorStartCap="NONE" connectorEnd="1:51" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:162" x="504" y="250.5" connectorStart="1:51" connectorStartCap="NONE" connectorEnd="1:54" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:166" x="856" y="277.6666564941406" connectorStart="1:54" connectorStartCap="NONE" connectorEnd="1:6" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:170" x="152" y="901.1666870117188" connectorStart="1:57" connectorStartCap="NONE" connectorEnd="1:21" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:174" x="2008" y="649.5" connectorStart="1:60" connectorStartCap="NONE" connectorEnd="1:9" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:178" x="1656" y="921.166748046875" connectorStart="1:63" connectorStartCap="NONE" connectorEnd="1:33" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:182" x="-552" y="350.6666564941406" connectorStart="1:66" connectorStartCap="NONE" connectorEnd="1:39" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:186" x="1656" y="-6.5" connectorStart="1:69" connectorStartCap="NONE" connectorEnd="1:36" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:190" x="152" y="229.16668701171875" connectorStart="1:72" connectorStartCap="NONE" connectorEnd="1:51" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="1:194" x="-552" y="292.6666564941406" connectorStart="1:75" connectorStartCap="NONE" connectorEnd="1:39" connectorEndCap="ARROW_LINES"></connector>
+  <section id="7:167" name="Structural-only Evaluator FunctionObjects" x="3714" y="416.5" width="320" height="1568">
+    <shape-with-text id="7:143" x="48" y="48" width="224" height="128" name="SQUARE">Canonical Shape</shape-with-text>
+    <shape-with-text id="7:146" x="48" y="240" width="224" height="128" name="SQUARE">Composition</shape-with-text>
+    <shape-with-text id="7:149" x="48" y="432" width="224" height="128" name="SQUARE">Adapter</shape-with-text>
+    <shape-with-text id="7:152" x="48" y="624" width="224" height="128" name="SQUARE">Duplicate</shape-with-text>
+    <shape-with-text id="7:155" x="48" y="816" width="224" height="128" name="SQUARE">Recursion</shape-with-text>
+    <shape-with-text id="7:158" x="48" y="1008" width="224" height="128" name="SQUARE">Dependency</shape-with-text>
+    <shape-with-text id="7:161" x="48" y="1200" width="224" height="128" name="SQUARE">Projection</shape-with-text>
+    <shape-with-text id="7:164" x="48" y="1392" width="224" height="128" name="SQUARE">Remainder</shape-with-text>
+  </section>
+  <section id="7:180" name="Hard Boundaries" x="4354" y="479.1666564941406" width="320" height="800">
+    <shape-with-text id="7:168" x="48" y="432.0000305175781" width="224" height="128" name="SQUARE">Object Identity</shape-with-text>
+    <shape-with-text id="7:171" x="48" y="47.9999885559082" width="224" height="128" name="SQUARE">Execution Meaning</shape-with-text>
+    <shape-with-text id="7:174" x="48" y="624" width="224" height="128" name="SQUARE">Authority and Evidence</shape-with-text>
+    <shape-with-text id="7:177" x="48" y="240.00001525878906" width="224" height="128" name="SQUARE">Homeward Recovery</shape-with-text>
+  </section>
+  <shape-with-text id="7:181" x="2882" y="1075.5" width="200" height="200" name="PARALLELOGRAM_RIGHT">FunctionObject and Invocation</shape-with-text>
+  <shape-with-text id="7:184" x="3210" y="1075.5" width="200" height="200" name="ELLIPSE">AnyFunctor</shape-with-text>
+  <shape-with-text id="7:187" x="4354" y="183.16665649414062" width="200" height="200" name="PREDEFINED_PROCESS">Structural Complexity Evaluator</shape-with-text>
+  <shape-with-text id="7:192" x="4364.66650390625" y="1550.9444580078125" width="224" height="128" name="SQUARE">Reduction Proposal</shape-with-text>
+  <shape-with-text id="7:195" x="4850" y="795.8333129882812" width="200" height="200" name="DIAMOND">All invariants preserved?</shape-with-text>
+  <shape-with-text id="7:198" x="5306" y="798.5" width="224" height="128" name="SQUARE">Minimal Active Graph</shape-with-text>
+  <shape-with-text id="7:201" x="5658" y="107.5" width="224" height="128" name="SQUARE">Structural Remainder</shape-with-text>
+  <shape-with-text id="7:204" x="6010" y="910.1666870117188" width="200" height="200" name="ENG_DATABASE">Preserved Full Structure</shape-with-text>
+  <shape-with-text id="7:209" x="5306" y="1022.5" width="224" height="128" name="SQUARE">Reject Reduction</shape-with-text>
+  <connector id="7:212" x="3069" y="1175.5" connectorStart="7:181" connectorStartCap="NONE" connectorEnd="7:184" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:216" x="3401.222412109375" y="249.83331298828125" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:187" connectorEndCap="ARROW_LINES">Invokes</connector>
+  <connector id="7:220" x="3407.9658203125" y="299.66668701171875" connectorStart="7:187" connectorStartCap="NONE" connectorEnd="7:184" connectorEndCap="ARROW_LINES">Requests child calls</connector>
+  <connector id="7:224" x="3412.893798828125" y="528.5" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:143" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:228" x="3416.654296875" y="720.5" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:146" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:232" x="3418" y="912.5" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:149" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:236" x="3416.654296875" y="1104.5" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:152" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:240" x="3412.893798828125" y="1207.132080078125" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:155" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:244" x="3407.4658203125" y="1220.2237548828125" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:158" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:248" x="3401.222412109375" y="1230.9630126953125" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:161" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:252" x="3394.83203125" y="1239.510498046875" connectorStart="7:184" connectorStartCap="NONE" connectorEnd="7:164" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:256" x="3994" y="528.5" connectorStart="7:143" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:260" x="3994" y="720.5" connectorStart="7:146" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:264" x="3994" y="912.5" connectorStart="7:149" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:268" x="3994" y="1104.5" connectorStart="7:152" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:272" x="3994" y="1296.5" connectorStart="7:155" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:276" x="3994" y="1488.5" connectorStart="7:158" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:280" x="3994" y="1614.9444580078125" connectorStart="7:161" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:284" x="3994" y="1614.9444580078125" connectorStart="7:164" connectorStartCap="NONE" connectorEnd="7:192" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:288" x="4596.66650390625" y="895.8333129882812" connectorStart="7:192" connectorStartCap="NONE" connectorEnd="7:195" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:292" x="4634" y="895.8333129882812" connectorStart="7:168" connectorStartCap="NONE" connectorEnd="7:195" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:296" x="4634" y="591.1666259765625" connectorStart="7:171" connectorStartCap="NONE" connectorEnd="7:195" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:300" x="4634" y="895.8333129882812" connectorStart="7:174" connectorStartCap="NONE" connectorEnd="7:195" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:304" x="4634" y="783.1666870117188" connectorStart="7:177" connectorStartCap="NONE" connectorEnd="7:195" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:308" x="5058" y="858.6666259765625" connectorStart="7:195" connectorStartCap="NONE" connectorEnd="7:198" connectorEndCap="ARROW_LINES">Yes and complexity lower</connector>
+  <connector id="7:312" x="5058" y="895.8333129882812" connectorStart="7:195" connectorStartCap="NONE" connectorEnd="7:209" connectorEndCap="ARROW_LINES">No</connector>
+  <connector id="7:316" x="5538" y="192.83334350585938" connectorStart="7:198" connectorStartCap="NONE" connectorEnd="7:201" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:320" x="5538" y="862.5" connectorStart="7:198" connectorStartCap="NONE" connectorEnd="7:204" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="7:324" x="4290" y="783.1666870117188" connectorStart="7:204" connectorStartCap="NONE" connectorEnd="7:177" connectorEndCap="ARROW_LINES">Reconstructs</connector>
+  <connector id="7:328" x="3395.33203125" y="129.6666717529297" connectorStart="7:201" connectorStartCap="NONE" connectorEnd="7:184" connectorEndCap="ARROW_LINES">Next attack</connector>
+  <connector id="7:332" x="5538" y="1010.1666870117188" connectorStart="7:209" connectorStartCap="NONE" connectorEnd="7:204" connectorEndCap="ARROW_LINES">Preserve unchanged</connector>
+  <section id="10:303" name="Real Systems" x="6386" y="221.8333282470703" width="448" height="1376">
+    <shape-with-text id="10:282" x="48" y="47.999996185302734" width="224" height="128" name="SQUARE">MLIR</shape-with-text>
+    <shape-with-text id="10:285" x="48" y="624" width="224" height="128" name="SQUARE">PostgreSQL Planner</shape-with-text>
+    <shape-with-text id="10:288" x="48" y="432" width="224" height="128" name="SQUARE">Salsa and rustc</shape-with-text>
+    <shape-with-text id="10:291" x="48" y="816" width="224" height="128" name="SQUARE">Wasm Component Model</shape-with-text>
+    <shape-with-text id="10:294" x="48" y="1008.0000610351562" width="224" height="128" name="SQUARE">eBPF Verifier</shape-with-text>
+    <shape-with-text id="10:297" x="48" y="240.00001525878906" width="224" height="128" name="SQUARE">Equality Saturation</shape-with-text>
+    <shape-with-text id="10:300" x="48" y="1200" width="224" height="128" name="SQUARE">Lean Kernel</shape-with-text>
+  </section>
+  <section id="10:328" name="Structural Evaluators" x="8226" y="165.5" width="320" height="1568">
+    <shape-with-text id="10:304" x="48" y="48" width="224" height="128" name="SQUARE">Canonical Shape</shape-with-text>
+    <shape-with-text id="10:307" x="48" y="240" width="224" height="128" name="SQUARE">Composition</shape-with-text>
+    <shape-with-text id="10:310" x="48" y="816" width="224" height="128" name="SQUARE">Adapter</shape-with-text>
+    <shape-with-text id="10:313" x="48" y="624" width="224" height="128" name="SQUARE">Duplicate</shape-with-text>
+    <shape-with-text id="10:316" x="48" y="1008" width="224" height="128" name="SQUARE">Recursion</shape-with-text>
+    <shape-with-text id="10:319" x="48" y="432" width="224" height="128" name="SQUARE">Dependency</shape-with-text>
+    <shape-with-text id="10:322" x="48" y="1392" width="224" height="128" name="SQUARE">Projection</shape-with-text>
+    <shape-with-text id="10:325" x="48" y="1200" width="224" height="128" name="SQUARE">Remainder</shape-with-text>
+  </section>
+  <shape-with-text id="10:329" x="7234" y="479.48486328125" width="200" height="200" name="PREDEFINED_PROCESS">Structural Planner</shape-with-text>
+  <shape-with-text id="10:334" x="7562" y="479.48486328125" width="200" height="200" name="ELLIPSE">AnyFunctor</shape-with-text>
+  <shape-with-text id="10:337" x="8818" y="1180.257568359375" width="200" height="200" name="DIAMOND">Invariant Certificate</shape-with-text>
+  <shape-with-text id="10:340" x="9274" y="1163.9241943359375" width="224" height="128" name="SQUARE">Minimal Active Graph</shape-with-text>
+  <shape-with-text id="10:343" x="9626" y="1233.0909423828125" width="200" height="200" name="ENG_DATABASE">Full Recoverable History</shape-with-text>
+  <shape-with-text id="10:348" x="9626" y="413.0909118652344" width="224" height="128" name="SQUARE">Structural Remainder</shape-with-text>
+  <connector id="10:351" x="6666" y="102.31817626953125" connectorStart="10:282" connectorStartCap="NONE" connectorEnd="10:304" connectorEndCap="ARROW_LINES">Canonicalize and CSE</connector>
+  <connector id="10:355" x="6666" y="252.31817626953125" connectorStart="10:282" connectorStartCap="NONE" connectorEnd="10:307" connectorEndCap="ARROW_LINES">Flatten</connector>
+  <connector id="10:359" x="6666" y="579.48486328125" connectorStart="10:285" connectorStartCap="NONE" connectorEnd="10:329" connectorEndCap="ARROW_LINES">Cost search</connector>
+  <connector id="10:363" x="6666" y="358.98486328125" connectorStart="10:288" connectorStartCap="NONE" connectorEnd="10:319" connectorEndCap="ARROW_LINES">Track dependencies</connector>
+  <connector id="10:367" x="6666" y="1041.333251953125" connectorStart="10:291" connectorStartCap="NONE" connectorEnd="10:310" connectorEndCap="ARROW_LINES">Lift and lower</connector>
+  <connector id="10:371" x="6666" y="1216.6666259765625" connectorStart="10:294" connectorStartCap="NONE" connectorEnd="10:316" connectorEndCap="ARROW_LINES">Prune safe states</connector>
+  <connector id="10:375" x="6666" y="1293.8333740234375" connectorStart="10:294" connectorStartCap="NONE" connectorEnd="10:322" connectorEndCap="ARROW_LINES">Ignore dead state</connector>
+  <connector id="10:379" x="6666" y="525.8333740234375" connectorStart="10:297" connectorStartCap="NONE" connectorEnd="10:329" connectorEndCap="ARROW_LINES">Keep equivalents</connector>
+  <connector id="10:383" x="6666" y="170.81817626953125" connectorStart="10:297" connectorStartCap="NONE" connectorEnd="10:304" connectorEndCap="ARROW_LINES">Extract cheaper form</connector>
+  <connector id="10:387" x="6666" y="1280.257568359375" connectorStart="10:300" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES">Independent check</connector>
+  <connector id="10:391" x="7442" y="579.48486328125" connectorStart="10:329" connectorStartCap="NONE" connectorEnd="10:334" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:395" x="7754.384765625" y="277.5" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:304" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:399" x="7761.06103515625" y="469.5" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:307" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:403" x="7770" y="579.48486328125" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:310" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:407" x="7770" y="579.48486328125" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:313" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:411" x="7766.5" y="605.80517578125" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:316" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:415" x="7766.5" y="553.1644897460938" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:319" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:419" x="7754.384765625" y="633.166748046875" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:322" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:423" x="7761.06103515625" y="620.870361328125" connectorStart="10:334" connectorStartCap="NONE" connectorEnd="10:325" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:427" x="8506" y="277.5" connectorStart="10:304" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:431" x="8506" y="469.5" connectorStart="10:307" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:435" x="8506" y="1045.5" connectorStart="10:310" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:439" x="8506" y="853.5" connectorStart="10:313" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:443" x="8506" y="1237.5" connectorStart="10:316" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:447" x="8506" y="661.5" connectorStart="10:319" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:451" x="8506" y="1280.257568359375" connectorStart="10:322" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:455" x="8506" y="1280.257568359375" connectorStart="10:325" connectorStartCap="NONE" connectorEnd="10:337" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:459" x="9026" y="1207.4241943359375" connectorStart="10:337" connectorStartCap="NONE" connectorEnd="10:340" connectorEndCap="ARROW_LINES">Pass and smaller</connector>
+  <connector id="10:463" x="9026" y="1280.257568359375" connectorStart="10:337" connectorStartCap="NONE" connectorEnd="10:343" connectorEndCap="ARROW_LINES">Reject change</connector>
+  <connector id="10:467" x="9506" y="498.42425537109375" connectorStart="10:340" connectorStartCap="NONE" connectorEnd="10:348" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:471" x="9506" y="1227.9241943359375" connectorStart="10:340" connectorStartCap="NONE" connectorEnd="10:343" connectorEndCap="ARROW_LINES"></connector>
+  <connector id="10:475" x="7747.90625" y="85" connectorStart="10:348" connectorStartCap="NONE" connectorEnd="10:334" connectorEndCap="ARROW_LINES">Next attack</connector>
+  <connector id="10:479" x="7747.90625" y="642.8004150390625" connectorStart="10:343" connectorStartCap="NONE" connectorEnd="10:334" connectorEndCap="ARROW_LINES">Homeward</connector>
+</canvas>
