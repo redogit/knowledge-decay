@@ -1,0 +1,73 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-19",
+    "uuid": "eff86ff1-6c69-4f50-9b49-c3d356015484",
+    "title": "Verify obligation conjunction and preserve destination defaults during fragment insertion",
+    "description": "Purpose: make Episteme's existing obligation-composition contract precise and repair the exact terms that could weaken an existing destination requirement.\n\nContract: for valid supported fields on a fixed output, trace, row set, and batch, insertPart conjoins effective(destination) with explicitly supplied incoming requirements. Incoming omitted fields are neutral. compose starts from its constructor base, then conjoins supplied fields. This is not a theorem about full generator commutativity, search completeness, semantic truth, or human-level intellect.\n\nAcceptance criteria:\n\n* State and justify max lower-bound, min upper-bound, normalized banned-substring union, max confidence, and Boolean-OR rules with exact domains and evaluation scopes.\n* Preserve destination default minConfidence 0.4 when inserting 0.1, and destination default maxChars 1e9 when inserting 2e9. Preserve explicit author zeros and neutral omitted incoming fields.\n* Save the failing counterexamples, targeted RED/GREEN tests, and source-pinned before/after computations.\n* Obtain independent computational checks through Wolfram; distinguish finite computation from the written proof.\n* Retain counterexamples to the broader claim that unspecified incoming full-spec defaults are automatically imposed; do not infer full-spec intent from object shape.\n* Reconcile manual, README, TODO, and session maintenance metadata, preserve all19 original strings and18 catalog declarations, and run the final aggregate.\n\nObserved: two production fallback terms repaired; targeted composition+machine run57/57 passed. Mathbox before/after manifests preserve the counterexamples. Evidence: test/composition-contract.test.cjs; evidence/progression/composition-defaults-red.txt; composition-defaults-green.txt; math-defaults-before; math-defaults-after; docs/progression/mathematical-contract.md.\n\nCompleted 2026-10-06. The two destination-default fallback terms are repaired. Targeted RED/GREEN regressions, Mathbox source-pinned before/after runs, four independent Wolfram algebraic checks, 2,247 factored contextual comparisons, and constructive composition/budget/support counterexamples are recorded. Separate independent source and mathematical reviews found no actionable defect under the stated valid-field, fixed-observation and normal-completion assumptions. Final npm test 148/148 and internal suites 155/155 pass. The 19 raw input strings and all 18 catalog declarations are preserved. The 6,174-case literal reference study remains outside production and is tracked separately by <issue id=\"3b582ef9-eb09-47a8-b20f-10df1f133594\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-20/admit-one-bounded-executable-stemnlp-primitive-with-a-versioned\">FIG-20</issue>. Evidence: docs/progression/mathematical-contract.md; mathematical-review.md; composition-review.md; evidence/progression/math-contract-run; math-defaults-before; math-defaults-after; math-research-tool-record.json; current-test-summary.json.",
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-19/verify-obligation-conjunction-and-preserve-destination-defaults-during",
+    "gitBranchName": "ryanapril/fig-19-verify-obligation-conjunction-and-preserve-destination",
+    "createdAt": "2026-10-06T17:02:48.452Z",
+    "updatedAt": "2026-10-06T17:17:14.193Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-06T17:17:14.153Z",
+    "startedAt": "2026-10-06T17:02:48.519Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "19376718-8455-4605-a13c-ea2b6e722165",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-06T17:02:48.452Z",
+        "endedAt": "2026-10-06T17:17:14.193Z"
+      },
+      {
+        "state": {
+          "id": "583a86c5-9e38-423e-a3e9-a829c34078a9",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-06T17:17:14.193Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Episteme — machine-oriented generator language",
+    "projectId": "788579b5-8769-4e91-8b11-80945f317245",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "FIG-20",
+          "title": "Admit one bounded executable STEM/NLP primitive with a versioned contract"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
