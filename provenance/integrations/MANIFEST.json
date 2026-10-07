@@ -1,0 +1,66 @@
+{
+  "schema": "knowledge-decay.integration-manifest.v1",
+  "exported_date": "2026-10-07",
+  "publication_authorization": "user explicitly requested Linear and Figma material be placed in the Knowledge Decay GitHub repository",
+  "linear": {
+    "workspace_name": "Fighting DECAY of knowlege",
+    "project_ids": [
+      "P-FIG-1",
+      "P-FIG-2",
+      "P-FIG-3"
+    ],
+    "issue_ids": [
+      "FIG-1",
+      "FIG-2",
+      "FIG-3",
+      "FIG-4",
+      "FIG-5",
+      "FIG-6",
+      "FIG-7",
+      "FIG-8",
+      "FIG-9",
+      "FIG-10",
+      "FIG-11",
+      "FIG-12",
+      "FIG-13",
+      "FIG-14",
+      "FIG-15",
+      "FIG-16",
+      "FIG-17",
+      "FIG-18",
+      "FIG-19",
+      "FIG-20",
+      "FIG-21",
+      "FIG-22",
+      "FIG-23"
+    ],
+    "issue_count": 23,
+    "project_count": 3,
+    "document_count": 0,
+    "comments": "preserved with each issue snapshot where accessible"
+  },
+  "figma": {
+    "account_wide_file_listing_available": false,
+    "known_figjam": [
+      {
+        "file_key": "5nMhZZCp3ewwCOnfLMm4jB",
+        "node_id": "0:1",
+        "snapshot_paths": [
+          "provenance/integrations/figma/figjam-5nMhZZCp3ewwCOnfLMm4jB/board.xml",
+          "provenance/integrations/figma/figjam-5nMhZZCp3ewwCOnfLMm4jB/snapshot.png",
+          "provenance/integrations/figma/figjam-5nMhZZCp3ewwCOnfLMm4jB/source.json"
+        ]
+      }
+    ],
+    "shader_entries": 35,
+    "generative_plugins": 0,
+    "completeness_claim": "Known/recovered artifacts only; not an account-wide Figma file inventory."
+  },
+  "research_module": "research/tautology-primitives",
+  "boundaries": [
+    "SERVICE_PROVENANCE != MATHEMATICAL_EVIDENCE",
+    "ARCHITECTURE_TRANSFER != RUNTIME_INTEGRATION",
+    "TAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION",
+    "FINITE_ENUMERATION != P_VS_NP_RESULT"
+  ]
+}
