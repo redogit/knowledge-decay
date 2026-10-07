@@ -1,0 +1,1081 @@
+{
+  "schema": "knowledge-decay.tautology-primitives.binary-bases.v1",
+  "cases": 136,
+  "true_cases": 93,
+  "false_cases": 43,
+  "all_predictions_match": true,
+  "basis": [
+    {
+      "operators": [
+        "FALSE"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "AND"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "X_AND_NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "NOT_X_AND_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "FALSE",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "FALSE",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "X_AND_NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "NOT_X_AND_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "AND",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "AND",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "NOT_X_AND_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_AND_NOT_Y",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "NOT_X_AND_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "NOT_X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "X",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X_AND_Y",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "XOR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "NOT_Y"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "NOT_X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "Y",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "OR"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "XOR",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XOR",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "NOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "OR",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "XNOR"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOR",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "NOT_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "XNOR",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_Y",
+        "Y_IMPLIES_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_Y",
+        "NOT_X"
+      ],
+      "generates_true": false,
+      "two_obstruction_prediction": false
+    },
+    {
+      "operators": [
+        "NOT_Y",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_Y",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_Y",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y_IMPLIES_X",
+        "NOT_X"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y_IMPLIES_X",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y_IMPLIES_X",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "Y_IMPLIES_X",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X",
+        "X_IMPLIES_Y"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NOT_X",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_IMPLIES_Y",
+        "NAND"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "X_IMPLIES_Y",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    },
+    {
+      "operators": [
+        "NAND",
+        "TRUE"
+      ],
+      "generates_true": true,
+      "two_obstruction_prediction": true
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "schema": "knowledge-decay.tautology-primitives.classification.v1",
+  "scope": "All 16 binary Boolean operators; formulas use variables as leaves and no primitive nullary constants.",
+  "rows": [
+    {
+      "name": "FALSE",
+      "truth_00_01_10_11": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "AND",
+      "truth_00_01_10_11": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "X_AND_NOT_Y",
+      "truth_00_01_10_11": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "X",
+      "truth_00_01_10_11": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "preserves_zero": true,
+      "self_dual": true,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "NOT_X_AND_Y",
+      "truth_00_01_10_11": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "Y",
+      "truth_00_01_10_11": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "preserves_zero": true,
+      "self_dual": true,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "XOR",
+      "truth_00_01_10_11": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "OR",
+      "truth_00_01_10_11": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "preserves_zero": true,
+      "self_dual": false,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ]
+      ],
+      "reason": "blocked: every selected operator is 0-preserving"
+    },
+    {
+      "name": "NOR",
+      "truth_00_01_10_11": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    },
+    {
+      "name": "XNOR",
+      "truth_00_01_10_11": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    },
+    {
+      "name": "NOT_Y",
+      "truth_00_01_10_11": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "preserves_zero": false,
+      "self_dual": true,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "reason": "blocked: every selected operator is self-dual"
+    },
+    {
+      "name": "Y_IMPLIES_X",
+      "truth_00_01_10_11": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    },
+    {
+      "name": "NOT_X",
+      "truth_00_01_10_11": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "preserves_zero": false,
+      "self_dual": true,
+      "generates_true": false,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "reason": "blocked: every selected operator is self-dual"
+    },
+    {
+      "name": "X_IMPLIES_Y",
+      "truth_00_01_10_11": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    },
+    {
+      "name": "NAND",
+      "truth_00_01_10_11": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": true,
+      "unary_closure": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    },
+    {
+      "name": "TRUE",
+      "truth_00_01_10_11": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "preserves_zero": false,
+      "self_dual": false,
+      "generates_true": true,
+      "generates_false": false,
+      "unary_closure": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reason": "constant TRUE is present in the unary composition closure"
+    }
+  ]
+}
