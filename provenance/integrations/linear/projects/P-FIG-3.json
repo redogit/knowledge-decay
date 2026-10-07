@@ -1,0 +1,49 @@
+{
+  "schema": "knowledge-decay.linear.project.v1",
+  "exported_date": "2026-10-07",
+  "project": {
+    "id": "P-FIG-3",
+    "uuid": "788579b5-8769-4e91-8b11-80945f317245",
+    "icon": null,
+    "color": "#95a2b3",
+    "name": "Episteme — machine-oriented generator language",
+    "summary": "Progress the 19 preserved input obligations with executable generator contracts, browser evidence, qualified source intake, and honest capability limits.",
+    "description": "Episteme is the existing data-oriented generator language recorded by the 19 authoritative input strings in src/session.js. This project tracks concrete remaining obligations: executed website interactions; bounded executable mathematics; the distinction between executable primitives and STEM/NLP phrase fragments; and qualified source/provenance preservation.\n\nEvidence rules: preserve all 19 inputs and their order; attach tested source/harness identity; retain failed candidates and unresolved requirements; keep headless operation independent of the interface. Finite checks support only their stated contracts. Human-level intellect or autonomous breeder competence is not a completion criterion without a separately specified, authorized evaluation design.\n\nFKDB source recovery is grounded at redogit/Other-Projects- commit 4a05785e4376c558ed7ad761f89db9dd241bca7b. It offers bounded native browsing and provenance/artifact mechanisms; its native path does not execute Episteme JavaScript/CSS/forms. Supabase list_projects currently returns an empty projects array, so no target database or provisioning is assumed.\n\nPrepared evidence: docs/progression/fkdb-and-supports.md and evidence/progression/supports-read-evidence.json. Current progress: all seven actual Chromium test bodies executed successfully in the strict 17-case interface run. A two-term repair preserves destination effective confidence and maximum-length requirements during fragment insertion. Mathematical proof, independent computation, and the final aggregate are recorded in the accompanying progression evidence. Task-specific evidence is named in each issue.\n\nVerified progression, 2026-10-06: final project gate 148/148 (zero failures/skips), strict interface 17/17 including seven actual Chromium bodies, internal suites 155/155, and three headless scenarios. <issue id=\"9469e591-7f27-47ac-8fcc-dfc86aef36ce\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-18/execute-the-episteme-website-interaction-gate-in-a-real-browser\">FIG-18</issue> and <issue id=\"eff86ff1-6c69-4f50-9b49-c3d356015484\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-19/verify-obligation-conjunction-and-preserve-destination-defaults-during\">FIG-19</issue> record completed browser and bounded composition work. <issue id=\"3b582ef9-eb09-47a8-b20f-10df1f133594\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-20/admit-one-bounded-executable-stemnlp-primitive-with-a-versioned\">FIG-20</issue> and <issue id=\"d8a93ac3-5f52-45f8-a493-32d3756ecf6e\" href=\"https://linear.app/fighting-decay-of-knowlege/issue/FIG-21/keep-bounded-source-intake-and-fkdb-artifact-provenance-auditable\">FIG-21</issue> retain production primitive admission and provenance work as open. All 19 original session strings and 18 catalog declarations are preserved. Full report: docs/progression/report.md in the updated combined Episteme package.",
+    "url": "https://linear.app/fighting-decay-of-knowlege/project/episteme-machine-oriented-generator-language-45512d5e4b0f",
+    "resourceCount": 0,
+    "createdAt": "2026-10-06T17:01:51.107Z",
+    "updatedAt": "2026-10-06T17:18:37.892Z",
+    "startedAt": "2026-10-06T17:17:15.412Z",
+    "completedAt": null,
+    "canceledAt": null,
+    "startDate": "2026-10-06",
+    "startDateResolution": null,
+    "targetDate": null,
+    "targetDateResolution": null,
+    "priority": {
+      "value": 0,
+      "name": "No priority"
+    },
+    "labels": [],
+    "initiatives": [],
+    "lead": {},
+    "leadTeam": {
+      "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+      "name": "Fighting DECAY of knowlege",
+      "key": "FIG"
+    },
+    "status": {
+      "id": "900c400f-8d6e-491f-b94f-e9b4121a8c38",
+      "name": "In Progress",
+      "type": "started"
+    },
+    "teams": [
+      {
+        "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+        "name": "Fighting DECAY of knowlege",
+        "key": "FIG"
+      }
+    ],
+    "milestones": []
+  }
+}

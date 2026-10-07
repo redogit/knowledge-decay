@@ -1,0 +1,52 @@
+{
+  "schema": "knowledge-decay.linear.project.v1",
+  "exported_date": "2026-10-07",
+  "project": {
+    "id": "P-FIG-1",
+    "uuid": "7aded8bb-2ed8-498a-b5d4-df4f80597241",
+    "icon": null,
+    "color": "#26b5ce",
+    "name": "MOK / P-vs-NP Hard-Core",
+    "summary": "Counterexample-guided structural SAT research with explicit evidence and claim ceilings.",
+    "description": "Purpose: shrink the exact unresolved SAT hard-core class without promoting bounded evidence into P=NP claims.\n\nCurrent invariant:\nGENERATE != VERIFY != ADMIT\n\nCurrent executable adapter:\n\n* unit closure\n* component factorization\n* Horn / dual-Horn\n* pure GF(2) affine\n* incidence-forest exact DP\n* bounded strong forest backdoor\n* local additive q-mass contraction\n* residual equivalence\n\nCurrent research object:\nthe minimized 7-clause / 9-variable HARD_CORE witness from MOK v0.4.\n\nClaim ceiling:\nHARD_CORE != LOWER_BOUND\nFINITE_PANEL != ASYMPTOTIC_THEOREM\nP ?= NP remains OPEN.",
+    "url": "https://linear.app/fighting-decay-of-knowlege/project/mok-p-vs-np-hard-core-d31426027320",
+    "resourceCount": 0,
+    "createdAt": "2026-09-20T14:41:13.571Z",
+    "updatedAt": "2026-09-20T14:41:13.571Z",
+    "startedAt": null,
+    "completedAt": null,
+    "canceledAt": null,
+    "startDate": null,
+    "startDateResolution": null,
+    "targetDate": null,
+    "targetDateResolution": null,
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "labels": [],
+    "initiatives": [],
+    "lead": {
+      "id": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+      "name": "Ryan April"
+    },
+    "leadTeam": {
+      "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+      "name": "Fighting DECAY of knowlege",
+      "key": "FIG"
+    },
+    "status": {
+      "id": "0603eb58-ba55-4e00-ba34-9a1e71f43642",
+      "name": "Backlog",
+      "type": "backlog"
+    },
+    "teams": [
+      {
+        "id": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+        "name": "Fighting DECAY of knowlege",
+        "key": "FIG"
+      }
+    ],
+    "milestones": []
+  }
+}
