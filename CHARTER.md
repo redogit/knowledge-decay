@@ -26,6 +26,13 @@ Maintain separate records of source-declared status and current review. Retain c
 ## Execution
 Before an action, define its inputs, scope, budget, success and failure conditions, unresolved outcome, stop condition, and permitted successor for each outcome. Predetermining the procedure does not predetermine the observations.
 
+## Operating method
+Bounded work follows an explicit loop: structure the question, act, observe, record the residual, repair the smallest failing structure, challenge the repair, preserve lineage and recovery, then state the usefulness witness. Compare sibling records side to side before promoting a broader claim.
+
+Whole-group obligations are checked globally rather than inferred from pairwise compatibility. A different parameter or configuration for each test is a successor family, not one frozen solution. Preservation, recomputation, obligation match, and claim admission remain separate checks. Representation changes must preserve consequential distinctions or explicitly declare the loss.
+
+See research/OPERATING_METHOD.md for the complete method and its claim ceiling.
+
 ## Publication
 Publish clear research summaries, not conversational transcripts or personal commentary. Preserve attribution and technical precision without exposing private source material. Publication permissions are distinct from access and preservation permissions; see PUBLICATION_POLICY.md.
 
