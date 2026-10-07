@@ -1,0 +1,95 @@
+{
+  "schema": "knowledge-decay.linear.issue.v1",
+  "exported_date": "2026-10-07",
+  "detail": {
+    "id": "FIG-9",
+    "uuid": "6e30a655-b20c-494e-bf6a-765273449ed6",
+    "title": "MOT-1: construct the unsquared quadratic/Artin arrow",
+    "description": "Current motivic bottleneck.\n\nConstruct an explicit characteristic-zero algebraic correspondence realizing the missing unsquared quadratic sign associated with 3(7-zeta_3), rather than only its tensor square.\n\nCurrent concrete target from the preserved lineage:\nproduce a projected dimension-eight cycle Gamma on the stated finite/exceptional carrier × Fermat support, prove its target projection is nonzero, compute a nonzero pairing c, and normalize the inverse including the finite-carrier factor.\n\nAcceptance:\n\n* explicit cycle/correspondence;\n* source and target motives typed;\n* projector orientation checked;\n* Galois covariance/descent checked;\n* nonzero pairing proved;\n* inverse normalization proved;\n* no software-only promotion.",
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-9/mot-1-construct-the-unsquared-quadraticartin-arrow",
+    "gitBranchName": "ryanapril/fig-9-mot-1-construct-the-unsquared-quadraticartin-arrow",
+    "createdAt": "2026-10-04T11:47:54.861Z",
+    "updatedAt": "2026-10-05T08:52:11.831Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "slaStartedAt": null,
+    "slaMediumRiskAt": null,
+    "slaHighRiskAt": null,
+    "slaBreachesAt": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [],
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "1eb8bcb6-3143-41ad-b2a7-66e2a8f93c31",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-04T11:47:54.861Z",
+        "endedAt": null
+      }
+    ],
+    "createdBy": "Ryan April",
+    "createdById": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "assignee": "Ryan April",
+    "assigneeId": "30a712c8-4210-43fa-b120-e9cd0bc4a350",
+    "project": "Hodge / W114 Explicit Realization",
+    "projectId": "f57c0c71-371f-4688-be1f-22dc64cb15e4",
+    "team": "Fighting DECAY of knowlege",
+    "teamId": "bdfdcff6-8dc4-42ff-b25f-d6df74d7d31e",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [
+        {
+          "id": "FIG-6",
+          "title": "Freeze theorem scope and success criteria"
+        },
+        {
+          "id": "FIG-7",
+          "title": "Reconstruct and grade the W114 evidence lineage"
+        }
+      ],
+      "relatedTo": [
+        {
+          "id": "FIG-10",
+          "title": "Independent verification and counterprobe gate"
+        },
+        {
+          "id": "FIG-17",
+          "title": "T_A Hodge atomicity forces a coupled exceptional carrier"
+        },
+        {
+          "id": "FIG-16",
+          "title": "W114 exchange-wall Compass rotation"
+        },
+        {
+          "id": "FIG-15",
+          "title": "MOT-1 typed composition ledger and first-failure localization"
+        },
+        {
+          "id": "FIG-13",
+          "title": "Compass generator: weighted-domain W114 attack"
+        },
+        {
+          "id": "FIG-12",
+          "title": "Compost ledger: turn retired Hodge routes into reusable constraints"
+        }
+      ],
+      "duplicateOf": null
+    }
+  },
+  "comments": {
+    "comments": [],
+    "hasNextPage": false
+  }
+}
