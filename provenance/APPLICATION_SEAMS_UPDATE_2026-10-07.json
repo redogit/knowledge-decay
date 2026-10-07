@@ -1,0 +1,23 @@
+{
+  "record_id": "APPLICATION_SEAMS_UPDATE_2026-10-07",
+  "date": "2026-10-07",
+  "repository": "redogit/knowledge-decay",
+  "base_commit": "7b8166693c9d5a89581587c17d07a5b959ebbe2d",
+  "change_type": "public_application_crystallization",
+  "evidence_transfer": "DENY",
+  "source_check_date": "2026-10-07",
+  "primary_external_sources": [
+    "https://arxiv.org/abs/2608.29746",
+    "https://arxiv.org/abs/2609.10668",
+    "https://arxiv.org/abs/2609.39039",
+    "https://arxiv.org/abs/2608.01844",
+    "https://arxiv.org/abs/2607.27410",
+    "https://arxiv.org/abs/2607.27411",
+    "https://arxiv.org/abs/2609.36234",
+    "https://arxiv.org/abs/2610.01825",
+    "https://arxiv.org/abs/2610.05851"
+  ],
+  "publication_boundary": "Generalized public research notes only; no raw conversation or personal disclosure is published.",
+  "claim_effect": "NONE — cited evidence retains its native source authority and does not become Knowledge Decay evidence.",
+  "recovery": "The predecessor repository state remains available at base_commit and in Git history."
+}
