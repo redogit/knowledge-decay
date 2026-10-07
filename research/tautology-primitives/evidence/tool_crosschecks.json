@@ -1,0 +1,60 @@
+{
+  "schema": "knowledge-decay.tautology-primitives.tool-crosschecks.v1",
+  "date": "2026-10-07",
+  "mathbox": {
+    "task": "structural proof and adversarial proof audit",
+    "result": "binary single-connective classification proved under stated scope; binary-basis two-obstruction result supported by necessity proof plus exhaustive complete binary universe",
+    "scope": "standard two-valued Boolean semantics, variable leaves, binary operations, no primitive nullary constants"
+  },
+  "exa": {
+    "task": "literature and exact-source mapping",
+    "retained_sources": [
+      "Stephen A. Cook, The Complexity of Theorem-Proving Procedures (1971)",
+      "Pelletier & Martin, Post's Functional Completeness Theorem (1990)",
+      "Open Logic Project, Propositional Logic",
+      "Rynasiewicz, Boolean Functions and Truth-Functional Completeness",
+      "MPI-INF automated reasoning normal-form notes",
+      "implication-only Boolean-tree literature"
+    ],
+    "source_urls_file": "../SOURCES.md"
+  },
+  "wolfram": {
+    "task": "independent exact finite enumeration",
+    "singleton_true_generators": [
+      "NOR",
+      "XNOR",
+      "Y_IMPLIES_X",
+      "X_IMPLIES_Y",
+      "NAND",
+      "TRUE"
+    ],
+    "singleton_functionally_complete": [
+      "NOR",
+      "NAND"
+    ],
+    "singleton_pair_bases": 136,
+    "true_generating_bases": 93,
+    "non_true_generating_bases": 43,
+    "agrees_with_repository_enumeration": true
+  },
+  "linear": {
+    "task": "claim/obligation tracking",
+    "issues": [
+      "FIG-22",
+      "FIG-23"
+    ],
+    "workspace_snapshot": "../../../provenance/integrations/linear"
+  },
+  "figma": {
+    "known_board_file_key": "5nMhZZCp3ewwCOnfLMm4jB",
+    "node_id": "0:1",
+    "snapshot": "../../../provenance/integrations/figma/figjam-5nMhZZCp3ewwCOnfLMm4jB",
+    "account_wide_listing_available": false
+  },
+  "boundaries": [
+    "TOOL_AGREEMENT != MATHEMATICAL_PROOF",
+    "GENERATES_TRUE != FUNCTIONALLY_COMPLETE",
+    "TAUTOLOGY_GENERATION != TAUTOLOGY_RECOGNITION",
+    "FINITE_ENUMERATION != P_VS_NP_RESULT"
+  ]
+}

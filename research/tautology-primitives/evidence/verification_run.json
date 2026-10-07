@@ -1,0 +1,39 @@
+{
+  "schema": "knowledge-decay.tautology-primitives.verification-run.v1",
+  "date": "2026-10-07",
+  "implementation_sha256": "7492473b20d5b78eb5c195f4f2441fc0685159e4bc8d815e0f911a2fa04992d9",
+  "commands": [
+    {
+      "command": "python -m unittest tests/test_cook_cycle_factories.py -v",
+      "tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "runtime_seconds": 0.132
+    },
+    {
+      "command": "python code/cook_cycle_factories.py",
+      "result": "self-test passed",
+      "bounded_checks": {
+        "carrier_cases": 55,
+        "nonword_bits": 46,
+        "word_cases": 128,
+        "mutation_rejections": 5,
+        "basis_cases": 136,
+        "basis_true": 93,
+        "basis_false": 43
+      }
+    }
+  ],
+  "remote_verification": {
+    "branch": "tautology-primitives-evidence-2026-10-07",
+    "code_lines": 793,
+    "exact_generated_attachment_match": true,
+    "linear_issue_snapshots": 23,
+    "figjam_snapshot_files": [
+      "board.xml",
+      "snapshot.png",
+      "source.json"
+    ],
+    "basis_predictions_match": true
+  }
+}
