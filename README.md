@@ -5,6 +5,10 @@ Knowledge Decay explores how people can recover, connect, and test ideas without
 
 Preserving information is only part of the problem. A useful record must also retain enough context to explain what it means, where it came from, how it relates to other knowledge, and where its interpretation remains uncertain.
 
+## FKDB browser direction
+
+[FKDB — A Browser for Knowledge Exploration and Preservation](FKDB_BROWSER_VISION.md) describes the proposed browser application: a human-centered environment for discovering, preserving, connecting, checking, and using knowledge. Knowledge decay is one supported research problem within that broader learning purpose. The document distinguishes intended capabilities from implemented or proved results.
+
 ## Research focus
 
 The project investigates how individual knowledge records can retain a clear identity and a reliable account of their place within a larger body of work. The proposed approach combines stable identifiers, traceable revisions, explicit relationships, criteria-based grouping, and a versioned shared language.
