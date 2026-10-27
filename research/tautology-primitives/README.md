@@ -39,6 +39,41 @@ All `16 + C(16,2) = 136` singleton/pair bases were checked: 93 generate TRUE and
 
 This is not functional completeness. NAND and NOR are the two binary singleton bases that generate all sixteen two-variable Boolean functions.
 
+## Minimum circuit costs (2026-10-27 extension)
+
+The completed classification now has a separate [minimum-cost proof and model](CIRCUIT_COSTS.md).
+With unit-cost binary gates, no primitive constants, and free wires/fanout:
+
+| Basis | Formula gate occurrences | Shared DAG gates | Minimum depth |
+| --- | ---: | ---: | ---: |
+| NOR | 5 | 3 | 3 |
+| NAND | 2 | 2 | 2 |
+| XNOR, either implication, binary TRUE | 1 | 1 | 1 |
+
+The NOR witness computes NOT x, then FALSE, then NOR(FALSE,FALSE), reusing
+the same FALSE node. All 136 singleton/pair bases have exact cost witnesses
+or an obstruction. An independent raw enumerator checks 195,320 trees and
+37,512 straight-line programs; a separate evaluator replays all 279 TRUE
+witnesses. NOR combined with FALSE or either difference operation has
+formula size 3 versus shared size 2. The proof also derives ordered minimum-cost
+rules for arbitrary sets of binary operations; its executable crosscheck is
+explicitly limited to the 136 singleton/pair bases.
+
+`code/circuit_costs.py` provides immutable source-aware local plans, preserves
+input identities and revisions, and measures each cost separately. This is a
+validated Python interface, with external runtime admission still tracked by
+FIG-23. It establishes no P-versus-NP or neural-learning replacement claim.
+
+Reproduce the complete module and new evidence from this folder:
+
+```bash
+python -m unittest discover -s tests -v
+python code/verify_circuit_costs.py
+```
+
+New evidence: `evidence/minimum_costs.json`, `evidence/raw_minimum_costs.json`,
+`evidence/circuit_cost_run.json`, and `evidence/circuit_cost_sources.json`.
+
 ## Verified state-cycle implementation
 
 `code/cook_cycle_factories.py` is the factory/builder refactor of the fixed DPLL cycle. The seven-bit word follows

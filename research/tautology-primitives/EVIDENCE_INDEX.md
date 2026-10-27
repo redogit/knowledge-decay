@@ -1,5 +1,33 @@
 # Evidence index
 
+## Minimum-cost extension — 2026-10-27
+
+The predecessor evidence below is retained. The cost extension adds:
+
+- `CIRCUIT_COSTS.md`: exact model, cost-preserving unary reduction, singleton
+  lower bounds, explicit witnesses, composed-basis costs, and analytical
+  minimum-cost rules for arbitrary binary bases.
+- `code/circuit_costs.py`: exact semantic synthesis and a source-aware local
+  circuit description/evaluator; it does not bind an external runtime.
+- `code/raw_circuit_enumerator.py`: independent enumeration retaining every
+  ordered syntax through 5 tree gates and 3 shared gates over all 136 bases.
+- `code/verify_circuit_costs.py`: checks optimized/raw agreement, unchanged
+  predecessor closure, and separate scalar replay of all 279 TRUE witnesses.
+- `evidence/minimum_costs.json`: concrete per-metric witnesses for all 93
+  generating singleton/pair bases; 43 non-generating bases remain recorded.
+- `evidence/raw_minimum_costs.json`: 195,320 tree and 37,512 program cases;
+  complete finite layer counts, including cheaper alternatives.
+- `evidence/circuit_cost_run.json`: actual command, bounds, environment,
+  run status and before/after input hashes plus output hashes.
+- `evidence/circuit_cost_sources.json`: pinned upstream commit/blob identities
+  and original FIG-22 checkpoint references, without private source text.
+- `tests/test_circuit_costs.py`, `tests/test_raw_circuit_enumerator.py`, and
+  `tests/test_verify_circuit_costs.py`: model, identity, boundary and exhaustive
+  cost regression checks. Use `python -m unittest discover -s tests -v`.
+
+Hand proofs, finite computational evidence, file integrity, and runtime
+integration retain distinct statuses. No Lean/kernel proof is claimed.
+
 This index separates mathematical derivation, finite computation, implementation tests, literature, project-management provenance, and architecture-transfer evidence.
 
 ## Internal mathematical derivation

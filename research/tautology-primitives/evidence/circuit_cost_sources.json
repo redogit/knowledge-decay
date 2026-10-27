@@ -1,0 +1,115 @@
+{
+  "schema": "fig22-cost-source-provenance-v1",
+  "retrieved_date": "2026-10-27",
+  "repository": {
+    "url": "https://github.com/redogit/knowledge-decay",
+    "commit": "67053880df1ab44833d55e4cf685b8d8ead1d84c",
+    "tree": "892f047e2660944adbca5d09af04f321f1d0d13e",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "git_blob_sha": "6c759d08a53c03d8651b329373109c24bd9a9846",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/CLAIM_BOUNDARIES.md",
+        "git_blob_sha": "81836e47da4752c5cb9fea08bf686a7996e1f252",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/EPISTEME_INTEGRATION.md",
+        "git_blob_sha": "a514f28eb3f23d9cba48b98e367a8d8e59d9f08a",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/EVIDENCE_INDEX.md",
+        "git_blob_sha": "45bca17e7c6d93b87dba61dadd7a078201f5617d",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/README.md",
+        "git_blob_sha": "092425eb4a9bc57de1eab97b11cb93eda8bb2096",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/SOURCES.md",
+        "git_blob_sha": "e09754b3c6a3f0406a98b6e82353e97a15734ac4",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/code/cook_cycle_factories.py",
+        "git_blob_sha": "1f33dd24d6fff0bad91e0e00ff7c16e258030027",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/evidence/binary_basis_classification.json",
+        "git_blob_sha": "465fc80c542bad6426d6a63446c3b26a389206d1",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/evidence/cycle_self_test.json",
+        "git_blob_sha": "ff79962745470c7ced7e9fd0634fc63aca089fae",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/evidence/tautology_singletons.json",
+        "git_blob_sha": "1a6a9a004b7e400bce22e32ba3209538c4dbdc8e",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/evidence/tool_crosschecks.json",
+        "git_blob_sha": "20bcb30712b2da0a9b4d5a62d4a2c5506f76e005",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/evidence/verification_run.json",
+        "git_blob_sha": "00afeefd8503dce5c5f2487cf64db42a5e4cb541",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      },
+      {
+        "path": "research/tautology-primitives/tests/test_cook_cycle_factories.py",
+        "git_blob_sha": "86f2bb6286a7b60876f8889f351ed3512db2c710",
+        "availability": "read through authenticated GitHub connector at pinned commit"
+      }
+    ]
+  },
+  "linear": {
+    "issue": "FIG-22",
+    "uuid": "4705ea0e-e60f-41c3-b1e5-dd232a1e8705",
+    "url": "https://linear.app/fighting-decay-of-knowlege/issue/FIG-22/classify-tautology-generating-boolean-primitives",
+    "updated_at_at_read": "2026-10-07T13:19:51.823Z",
+    "checkpoints": [
+      {
+        "id": "48f3fd23-392b-4bed-8041-9dd9589b5f0e",
+        "created_at": "2026-10-07T12:23:49.301Z",
+        "subject": "Completed singleton classification and next minimum-cost question"
+      },
+      {
+        "id": "dd2f2869-0412-4bb4-994f-d3969e105fc2",
+        "created_at": "2026-10-07T12:26:13.633Z",
+        "subject": "Completed binary basis obstruction classification with 136 checks"
+      },
+      {
+        "id": "bf274ae2-3847-4bb6-b001-0b71e635891b",
+        "created_at": "2026-10-07T13:19:51.862Z",
+        "subject": "GitHub preservation checkpoint"
+      }
+    ]
+  },
+  "integration_boundary": {
+    "issue": "FIG-23",
+    "updated_at_at_read": "2026-10-07T13:20:09.624Z",
+    "status": "Todo",
+    "result": "External runtime contract unresolved; this extension verifies a local Python interface only"
+  },
+  "new_work": {
+    "preliminary_counts": "User-supplied candidate counts, independently derived before promotion",
+    "proof": "CIRCUIT_COSTS.md",
+    "optimized": "code/circuit_costs.py",
+    "raw_countercheck": "code/raw_circuit_enumerator.py",
+    "crosscheck": "code/verify_circuit_costs.py",
+    "review_independence": "Fresh isolated mathematical agent received definitions without parent implementation or candidate counts; same model family, not external corroboration",
+    "transient_check": "An unpreserved larger-basis sanity check is excluded from executable evidence; only the stated 136-base population is claimed as reproduced"
+  },
+  "source_custody": "No raw conversational source or unrelated private research imported; predecessor module files remain unchanged."
+}

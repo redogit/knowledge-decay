@@ -1,0 +1,162 @@
+{
+  "checks": [
+    "All 136 optimized costs equal independent raw syntax minima",
+    "All 279 stored witnesses replayed by separate scalar/ancestry evaluator",
+    "Every gate truth function belongs to its stated basis",
+    "All 136 existence results agree with unchanged predecessor unary closure",
+    "Ordered truth-table orientation checked for every selected operator",
+    "Input SHA256 values unchanged before/after"
+  ],
+  "claim_id": "FIG-22-minimum-TRUE-costs",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "code/verify_circuit_costs.py"
+  ],
+  "declared_results": [
+    "evidence/minimum_costs.json",
+    "evidence/raw_minimum_costs.json"
+  ],
+  "environment": {
+    "hardware": "Linux x86_64; logical_cpus=9",
+    "software": [
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      }
+    ]
+  },
+  "input_artifacts": [
+    {
+      "path": "CIRCUIT_COSTS.md",
+      "sha256": "0d88fc8e37331918b389c78b8874f3c79af3be76e52a41aa86c933d81709be33",
+      "sha256_after": "0d88fc8e37331918b389c78b8874f3c79af3be76e52a41aa86c933d81709be33"
+    },
+    {
+      "path": "COST_PLAN.md",
+      "sha256": "a2dd5d48d9180259818aeb916dd0c9cf65d92ca6865dcbe8be25532b1f148c23",
+      "sha256_after": "a2dd5d48d9180259818aeb916dd0c9cf65d92ca6865dcbe8be25532b1f148c23"
+    },
+    {
+      "path": "code/circuit_costs.py",
+      "sha256": "baceb6161e34441813836fdc5f92f135adccd0289dbe5754bb65e008c66aab51",
+      "sha256_after": "baceb6161e34441813836fdc5f92f135adccd0289dbe5754bb65e008c66aab51"
+    },
+    {
+      "path": "code/cook_cycle_factories.py",
+      "sha256": "21be5cdf91e57afb440e0e9f51fac6d16dbfa35a0dba98671e15de5c771caeb9",
+      "sha256_after": "21be5cdf91e57afb440e0e9f51fac6d16dbfa35a0dba98671e15de5c771caeb9"
+    },
+    {
+      "path": "code/raw_circuit_enumerator.py",
+      "sha256": "348e76b938f2bf1b47eca14e186a05a1c735c6e750f16242cdc0c982d14bcaba",
+      "sha256_after": "348e76b938f2bf1b47eca14e186a05a1c735c6e750f16242cdc0c982d14bcaba"
+    },
+    {
+      "path": "code/verify_circuit_costs.py",
+      "sha256": "74e76c9e67c516b472812123aee6de6ba1a2b65c823b11cd8276cf4dc7efa707",
+      "sha256_after": "74e76c9e67c516b472812123aee6de6ba1a2b65c823b11cd8276cf4dc7efa707"
+    },
+    {
+      "path": "evidence/circuit_cost_sources.json",
+      "sha256": "cae00ed92fc4de4359d793e0f5328d50823ebdaf439df0a0cdedc3db29c327bc",
+      "sha256_after": "cae00ed92fc4de4359d793e0f5328d50823ebdaf439df0a0cdedc3db29c327bc"
+    },
+    {
+      "path": "tests/test_circuit_costs.py",
+      "sha256": "1107544500f14604915b2ac328fd012ebb38b9d399f93eef1f73cc5b6a562f46",
+      "sha256_after": "1107544500f14604915b2ac328fd012ebb38b9d399f93eef1f73cc5b6a562f46"
+    },
+    {
+      "path": "tests/test_cook_cycle_factories.py",
+      "sha256": "c1b4c105a3736854f1398710a4206624671dbf6c0012e56e85444a1741c4422e",
+      "sha256_after": "c1b4c105a3736854f1398710a4206624671dbf6c0012e56e85444a1741c4422e"
+    },
+    {
+      "path": "tests/test_raw_circuit_enumerator.py",
+      "sha256": "c1964c716e074cb1f7748bc9b47cdebef03d5a3fb3eaccc5e64ef07f72b15e66",
+      "sha256_after": "c1964c716e074cb1f7748bc9b47cdebef03d5a3fb3eaccc5e64ef07f72b15e66"
+    },
+    {
+      "path": "tests/test_verify_circuit_costs.py",
+      "sha256": "da7853217887a0f49cd0b64493f79567853897a82baf885b7cafaa43be2a5ad6",
+      "sha256_after": "da7853217887a0f49cd0b64493f79567853897a82baf885b7cafaa43be2a5ad6"
+    }
+  ],
+  "mathematics": {
+    "assertion_tested": "All ordered unary formula trees through 5 gates and ordered topological programs through 3 gates for all 16 singleton and 120 pair binary bases.",
+    "bounds": {
+      "bases": 136,
+      "raw_dag_gates": 3,
+      "raw_formula_gates": 5,
+      "raw_programs": 37512,
+      "raw_trees": 195320,
+      "witnesses": 279
+    },
+    "coefficient_domain": "two-valued Boolean algebra",
+    "conventions": "00,01,10,11; unary x=0,1; ordered pins; unit gates; free fanout; no primitive constants",
+    "inputs": [
+      "All singleton and unordered distinct pair subsets of truth-table ids 0..15"
+    ],
+    "non_claims": [
+      "No P-versus-NP result",
+      "No external runtime bridge",
+      "No neural learning replacement",
+      "No proof-kernel verification",
+      "Raw absence alone does not prove unbounded nonexistence"
+    ]
+  },
+  "outputs": [
+    {
+      "kind": "result",
+      "path": "evidence/minimum_costs.json",
+      "sha256": "864354194289552e8ec15749608f0249e9299d3b03bb74380885c7646faffb54"
+    },
+    {
+      "kind": "result",
+      "path": "evidence/raw_minimum_costs.json",
+      "sha256": "23231f34081f5683d0ede785c6982a72f44abc3268a4680f3ae0ecba95ff6c59"
+    }
+  ],
+  "randomness": {
+    "generator": "",
+    "seed": null,
+    "used": false
+  },
+  "repository": {
+    "commit": "67053880df1ab44833d55e4cf685b8d8ead1d84c",
+    "dirty": true,
+    "snapshot": "Pinned source module plus additive extension; hashes identify the executed working files."
+  },
+  "residual_risks": [
+    "Independent implementations and fresh agent use the same model family",
+    "Mathematical arguments are hand-reviewed, not proof-kernel checked",
+    "Hardware costs differ if fanout, wires or storage are charged"
+  ],
+  "result": {
+    "bases_checked": 136,
+    "does_not_generate_true": 43,
+    "generates_true": 93,
+    "histogram_formula_dag_depth": {
+      "1,1,1": 58,
+      "2,2,2": 24,
+      "3,2,2": 3,
+      "3,3,3": 4,
+      "5,3,3": 4,
+      "None,None,None": 43
+    },
+    "outcome": "implementation and finite assertion verified in the stated range"
+  },
+  "run": {
+    "exit_status": 0,
+    "resource_limits": {
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null,
+      "memory_bytes": null
+    },
+    "runtime_seconds": 0.12348009000015736,
+    "started_at": "2026-10-27T23:38:28.322909+00:00",
+    "status": "completed"
+  },
+  "schema_version": 2
+}
