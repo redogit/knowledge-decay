@@ -26,5 +26,17 @@ class LeanVerificationPolicyTests(unittest.TestCase):
         verify.check_source('/- A comment about sorry, nested /- axiom -/ is not code. -/\ntheorem t : True := by trivial')
 
 
+
+class LeanNegativeControlTests(unittest.TestCase):
+    def test_rejection_must_be_for_a_false_proposition(self):
+        import subprocess
+        import verify_lean_proofs as verify
+        self.assertTrue(hasattr(verify,'require_false_rejection'))
+        verify.require_false_rejection(subprocess.CompletedProcess([],1,
+            'error: Tactic `decide` proved that the proposition\n False\nis false\n'), 'false_claim')
+        for status,output in [(0,''),(1,'error: unknown module TheoremTwoRaw'),(1,'timeout')]:
+            with self.subTest(status=status,output=output),self.assertRaises(RuntimeError):
+                verify.require_false_rejection(subprocess.CompletedProcess([],status,output),'false_claim')
+
 if __name__ == '__main__':
     unittest.main()

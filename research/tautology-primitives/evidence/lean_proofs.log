@@ -1,15 +1,29 @@
 $ lean --version
 Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
 
-$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-kuqz57b_/TreeProofs.olean TreeProofs.lean
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TreeProofs.olean TreeProofs.lean
 
-$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-kuqz57b_/DagProofs.olean DagProofs.lean
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/DagProofs.olean DagProofs.lean
 
-$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-kuqz57b_/BasisCertificates.olean BasisCertificates.lean
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/BasisCertificates.olean BasisCertificates.lean
 
-$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-kuqz57b_/BasisDag.olean BasisDag.lean
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/BasisDag.olean BasisDag.lean
 
-$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-kuqz57b_/Interface.olean Interface.lean
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/Interface.olean Interface.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/BooleanSupport.olean BooleanSupport.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/BooleanDagSupport.olean BooleanDagSupport.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TheoremTwoUpper.olean TheoremTwoUpper.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TheoremTwoLower.olean TheoremTwoLower.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TheoremTwo.olean TheoremTwo.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TheoremTwoConsequences.olean TheoremTwoConsequences.lean
+
+$ /workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean -o /tmp/fig22-lean-o9za812n/TheoremTwoRaw.olean TheoremTwoRaw.lean
 
 $ lean AxiomAudit.lean
 'FIG22.Tree.leaves_eq_size_add_one' depends on axioms: [propext, Quot.sound]
@@ -806,13 +820,155 @@ $ lean AxiomAudit.lean
 'FIG22.Checked.singleton_exact' depends on axioms: [propext, Quot.sound]
 'FIG22.Checked.dag_depth_exact_of_formula_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
 'FIG22.Checked.every_generating_row_dag_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.applyOp_encodeBits' does not depend on any axioms
+'FIG22.Basis.applyOp_encodeTruthTable' does not depend on any axioms
+'FIG22.Basis.encodeTruthTable_applyOp' does not depend on any axioms
+'FIG22.Basis.applyOp_injective' does not depend on any axioms
+'FIG22.Basis.applyOp_surjective' depends on axioms: [Quot.sound]
+'FIG22.Basis.applyOp_eq_iff' does not depend on any axioms
+'FIG22.Basis.applyOp_ext' depends on axioms: [Quot.sound]
+'FIG22.Basis.binaryFunction_bijection' depends on axioms: [Quot.sound]
+'FIG22.Basis.applyOp_bijective' depends on axioms: [Quot.sound]
+'FIG22.Basis.encodeTruthTable_injective' depends on axioms: [Quot.sound]
+'FIG22.Basis.truthVector_orientation' does not depend on any axioms
+'FIG22.Basis.diagonal_zero_iff' depends on axioms: [propext]
+'FIG22.Basis.diagonal_var_iff' depends on axioms: [propext]
+'FIG22.Basis.diagonal_neg_iff' depends on axioms: [propext]
+'FIG22.Basis.diagonal_one_iff' depends on axioms: [propext]
+'FIG22.Basis.diagonal_partition' depends on axioms: [propext]
+'FIG22.Basis.zeroPreserving_iff' does not depend on any axioms
+'FIG22.Basis.selfDual_iff' depends on axioms: [propext]
+'FIG22.Basis.encodeTruthTable_mem_encodeBasis_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.applyOp_mem_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawFormula.encode_eval' depends on axioms: [propext]
+'FIG22.Basis.RawFormula.encode_size' depends on axioms: [propext]
+'FIG22.Basis.RawFormula.encode_depth' depends on axioms: [propext]
+'FIG22.Basis.RawFormula.encode_allowed' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawFormula.encode_tautology' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Formula.decode_eval' depends on axioms: [propext]
+'FIG22.Basis.Formula.decode_size' depends on axioms: [propext]
+'FIG22.Basis.Formula.decode_depth' depends on axioms: [propext]
+'FIG22.Basis.Formula.decode_allowed' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Formula.decode_tautology' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawFormula.decode_encode' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Formula.encode_decode' depends on axioms: [propext]
+'FIG22.Basis.exactRawFormula_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.exactRawDepth_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.decode_encode' depends on axioms: [Quot.sound]
+'FIG22.Basis.Dag.encode_decode' depends on axioms: [Quot.sound]
+'FIG22.Basis.RawDag.encode_unfold' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_ancestors' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_formula' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_eval' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_depth' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_reachableCount' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_allowed' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.RawDag.encode_isTrue' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_unfold' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_ancestors' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_formula' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_eval' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_depth' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_reachableCount' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_allowed' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.Dag.decode_isTrue' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.exactRawDag_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.exactRawDagDepth_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.rawFormula_blocked_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.rawDag_blocked_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.formula_allowed_mono' does not depend on any axioms
+'FIG22.Basis.TheoremTwo.dag_allowed_mono' does not depend on any axioms
+'FIG22.Basis.TheoremTwo.upper_of_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.upper_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.upper_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.upper_three_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.upper_three_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.upper_five_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.term_allowed_of_subset' does not depend on any axioms
+'FIG22.Basis.TheoremTwo.lower_of_certificates' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.blocked_of_certificate' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.lower_one' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.two_formula_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.two_depth_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.lower_two' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.three_two_formula_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.three_two_depth_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.lower_three_two' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.three_three_formula_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.three_three_depth_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.lower_three_three' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.five_three_formula_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.five_three_depth_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.lower_five_three' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.no_neg_closure_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.final_closure_certificate' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.blocked_no_neg' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.blocked_final' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.classify_of_condition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.branch_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.classify_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.classify_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.exact_of_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.op_exhaustive' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_noC' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_no_neg' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_three_two' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.no_z_after_three' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_three_three' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_five_three' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.subset_final' depends on axioms: [propext]
+'FIG22.Basis.TheoremTwo.theorem_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.ordered_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.mem_allOps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.mem_basisOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.classify_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.theorem_two_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.formula_minimum_unique' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.depth_minimum_unique' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.dag_minimum_unique' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.dag_depth_minimum_unique' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.no_formula_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.every_reachable_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.shared_equals_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.shared_equals_dag_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.formula_optimum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.depth_optimum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.dag_optimum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawExactCosts_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawBlockedCosts_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawResult_iff' depends on axioms: [propext, Quot.sound]
+'FIG22.Basis.TheoremTwo.theorem_two_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.complete_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.no_formula_four_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.every_reachable_cost_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.shared_equals_depth_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.shared_equals_dag_depth_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.mem_rawBasisOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.encode_rawBasisOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.RawFormula.allowed_rawBasisOf_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.RawDag.allowed_rawBasisOf_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawExactCostsBy_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawBlockedCostsBy_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.rawResultBy_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FIG22.Basis.TheoremTwo.theorem_two_raw_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
 
 $ lean incorrect_nor_formula_cost.lean # EXPECTED REJECTION
-/tmp/fig22-lean-kuqz57b_/incorrect_nor_formula_cost.lean:2:48: error: Tactic `decide` proved that the proposition
+/tmp/fig22-lean-o9za812n/incorrect_nor_formula_cost.lean:2:48: error: Tactic `decide` proved that the proposition
   FIG22.Tree.formulaCost FIG22.Tree.Op.nor = 4
 is false
 
 $ lean incorrect_nor_tautology.lean # EXPECTED REJECTION
-/tmp/fig22-lean-kuqz57b_/incorrect_nor_tautology.lean:2:63: error: Tactic `decide` proved that the proposition
+/tmp/fig22-lean-o9za812n/incorrect_nor_tautology.lean:2:63: error: Tactic `decide` proved that the proposition
   ∀ (b : Bool), FIG22.Tree.apply FIG22.Tree.Op.nor b b = true
+is false
+
+$ lean incorrect_theorem_two_empty_branch.lean # EXPECTED REJECTION
+/tmp/fig22-lean-o9za812n/incorrect_theorem_two_empty_branch.lean:2:82: error: Tactic `decide` proved that the proposition
+  FIG22.Basis.TheoremTwo.classify [] = FIG22.Basis.TheoremTwo.Branch.one
+is false
+
+$ lean incorrect_theorem_two_shared_branch.lean # EXPECTED REJECTION
+/tmp/fig22-lean-o9za812n/incorrect_theorem_two_shared_branch.lean:2:86: error: Tactic `decide` proved that the proposition
+  FIG22.Basis.TheoremTwo.classify [8, 0] = FIG22.Basis.TheoremTwo.Branch.two
 is false

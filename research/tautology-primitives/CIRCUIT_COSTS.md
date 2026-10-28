@@ -179,8 +179,9 @@ distinctions rather than treating all improvements as reuse.
 **Theorem 2.** Let B be any subset of the sixteen total binary Boolean
 operations, including the empty set. The following ordered rules give
 all three minimum costs. Each row assumes all preceding rows failed.
-This is an analytical deduction; executable crosschecks below cover the
-136 singleton/pair bases only.
+The full ordered classification and its supporting factors are now Lean 4.35.0
+kernel proved; see [Theorem 2 and its proof map](THEOREM_TWO.md). The earlier
+136-base evidence remains preserved, with a separate all 65,536-basis crosscheck.
 
 Define C={XNOR, X_IMPLIES_Y, Y_IMPLIES_X, TRUE},
 N={NOR, NOT_X, NOT_Y, NAND}, L={NOT_X, NOT_Y}, and
@@ -300,8 +301,8 @@ alone is not substituted for those arguments. The October 27 checkpoint
 provided hand proofs with executable verification. On October 28, the six
 singleton and all 136 singleton/pair cost results additionally passed Lean 4.35.0
 kernel verification; see [the formal proof scope and reproduction](formal/README.md).
-The separate arbitrary-binary-basis Theorem 2 remains hand-proved and is not
-claimed kernel-checked by this finite-population formalization.
+A subsequent twelve-module checkpoint also kernel-proves Theorem 2 for every
+binary basis and all supporting representation factors; see THEOREM_TWO.md.
 
 ## 6. Validated local interface and architecture boundary
 

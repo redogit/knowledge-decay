@@ -23,7 +23,9 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 FORMAL = ROOT / 'formal'
-MODULES = ('TreeProofs', 'DagProofs', 'BasisCertificates', 'BasisDag', 'Interface')
+MODULES = ('TreeProofs', 'DagProofs', 'BasisCertificates', 'BasisDag', 'Interface',
+           'BooleanSupport', 'BooleanDagSupport', 'TheoremTwoUpper',
+           'TheoremTwoLower', 'TheoremTwo', 'TheoremTwoConsequences', 'TheoremTwoRaw')
 STANDARD_AXIOMS = {'propext', 'Quot.sound', 'Classical.choice'}
 VERSION = '4.35.0'
 RELEASE_COMMIT = 'eb6cafb7290e8bd5f2937522d8d804f58f02bafc'
@@ -115,6 +117,13 @@ def run(argv: list[str], *, env: dict, cwd: Path, timeout: int = 300) -> subproc
                           stderr=subprocess.STDOUT, timeout=timeout, check=False)
 
 
+def require_false_rejection(result: subprocess.CompletedProcess, name: str) -> None:
+    if result.returncode == 0:
+        raise RuntimeError(f'Lean unexpectedly accepted false control: {name}')
+    if 'Tactic `decide` proved that the proposition' not in result.stdout or 'is false' not in result.stdout:
+        raise RuntimeError(f'Control {name} failed for an unexpected reason: {result.stdout}')
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--lean', default=shutil.which('lean'))
@@ -203,13 +212,16 @@ def main() -> None:
                 'example : FIG22.Tree.formulaCost .nor = 4 := by decide\n',
             'incorrect_nor_tautology':
                 'example : (∀ b : Bool, FIG22.Tree.apply .nor b b = true) := by decide\n',
+            'incorrect_theorem_two_empty_branch':
+                'example : FIG22.Basis.TheoremTwo.classify ([] : List FIG22.Basis.Op) = .one := by decide\n',
+            'incorrect_theorem_two_shared_branch':
+                'example : FIG22.Basis.TheoremTwo.classify ([8, 0] : List FIG22.Basis.Op) = .two := by decide\n',
         }
         for name, claim in controls.items():
             path = build / f'{name}.lean'
-            path.write_text('import Interface\n' + claim)
+            path.write_text('import TheoremTwoRaw\n' + claim)
             rejected = run([lean, str(path)], env=env, cwd=build)
-            if rejected.returncode == 0:
-                raise RuntimeError(f'Lean unexpectedly accepted false control: {name}')
+            require_false_rejection(rejected, name)
             combined.append(f'$ lean {name}.lean # EXPECTED REJECTION\n' + rejected.stdout)
             negative_controls.append({'name': name, 'exit_status': rejected.returncode,
                                       'expected_result': 'rejected', 'result': 'rejected'})
@@ -224,7 +236,7 @@ def main() -> None:
     kernel_library = Path(lean).parent.parent/'lib/lean/libleanshared.so'
     manifest = {
         'schema': 'fig22-lean-verification-v1',
-        'source_checkpoint': '874992c61f38ecc5ba03d021ab1b8a650c3a98a3',
+        'source_checkpoint': '154d5cb53ad36d8598f6d8239356d2e9d6356a94',
         'started_at': started, 'runtime_seconds': time.perf_counter()-clock,
         'status': 'kernel-checked', 'exit_status': 0,
         'toolchain': {'release': VERSION, 'release_commit': RELEASE_COMMIT,
@@ -242,12 +254,16 @@ def main() -> None:
                          'standard_axioms_allowed': sorted(STANDARD_AXIOMS)},
         'public_theorems_audited': names,
         'theorem_count': len(names),
-        'scope': ['Six singleton formula/depth minima over arbitrary finite input dimensions',
+        'scope': ['Full Theorem2 for every subset/list/predicate basis of all binary Boolean functions',
+                  'All seven ordered branches, exact costs or unbounded non-generation, and their supporting factors',
+                  'Raw-function truth-table bijection, formula/DAG adapters and direct raw-predicate theorem',
+                  'No formula optimum four, shared-size equals both depth optima, and sharp finite upper bounds',
+                  'Six singleton formula/depth minima over arbitrary finite input dimensions',
                   'Six singleton reachable-DAG minima, including dead allocated gates',
                   'All 136 singleton/pair formula/depth and reachable-DAG minima with kernel certificates',
                   'Unary/source renaming preservation and all43 non-generating basis exclusions'],
-        'not_claimed': ['The separate arbitrary-binary-basis cost-rule theorem is not formalized here',
-                        'No P-versus-NP result or external runtime admission',
+        'not_claimed': ['No P-versus-NP result or external runtime admission',
+                        'No weighted hardware, higher-arity, or multi-output theorem',
                         'Lean model correctness still requires statement/model review'],
         'inputs': [{'path': str(p.relative_to(ROOT)), 'sha256_before': before[p],
                     'sha256_after': after[p]} for p in sources],
@@ -256,7 +272,7 @@ def main() -> None:
     (ROOT/'evidence/lean_verification.json').write_text(json.dumps(manifest, indent=2, sort_keys=True)+'\n')
     print(f'Lean {VERSION}: {len(MODULES)} modules compiled; {len(names)} theorem axiom audits passed.')
     print('Axiom dependencies: ' + ', '.join(sorted(axiom_dependencies)))
-    print('All136 basis certificates and six universal singleton minima: kernel checked.')
+    print('Theorem2, all supporting Boolean representation factors and arbitrary-basis corollaries: kernel checked.')
 
 
 if __name__ == '__main__':

@@ -74,7 +74,21 @@ python code/verify_circuit_costs.py
 New evidence: `evidence/minimum_costs.json`, `evidence/raw_minimum_costs.json`,
 `evidence/circuit_cost_run.json`, and `evidence/circuit_cost_sources.json`.
 
-## Lean kernel verification (2026-10-28)
+## Full Theorem 2 in Lean (2026-10-28)
+
+[Theorem 2 and its complete proof map](THEOREM_TWO.md) now cover every subset of
+the sixteen binary Boolean operations, including raw function/predicate bases.
+All seven ordered cases, universal lower bounds, attaining witnesses,
+non-generation, operator representation, exact formula/DAG adapters and
+consequences are kernel proved. Twelve modules compile; all 926 theorem axiom
+audits pass. No formula optimum 4 occurs; shared optimum equals either depth
+optimum; every reachable basis has F≤5 and G,D≤3.
+
+The all 65,536-basis independent crosscheck also agrees. Its role is corroboration,
+while the generic Lean proof establishes the result for every finite circuit.
+See THEOREM_TWO_REVIEW.md for the independent review.
+
+## Lean singleton/pair checkpoint (2026-10-28)
 
 The [formal Lean project](formal/README.md) proves the six singleton minima and
 all 136 singleton/pair formula, shared-DAG and depth results. Universal lower
@@ -86,7 +100,7 @@ Official Lean 4.35.0 compiled all five modules. All 794 public theorem axiom
 audits passed, using only the standard `propext`, `Quot.sound` and
 `Classical.choice` axioms. No proof holes, project-added axioms or
 `native_decide` are used. Two deliberately false claims were rejected.
-The broader arbitrary-subset Theorem 2 remains outside this Lean scope.
+This first five-module checkpoint was followed by the full Theorem 2 proof above.
 
 ```bash
 python code/verify_lean_proofs.py --lean /path/to/lean

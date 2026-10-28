@@ -4,7 +4,7 @@
       "command": [
         "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
         "-o",
-        "/tmp/fig22-lean-kuqz57b_/TreeProofs.olean",
+        "/tmp/fig22-lean-o9za812n/TreeProofs.olean",
         "TreeProofs.lean"
       ],
       "exit_status": 0,
@@ -14,7 +14,7 @@
       "command": [
         "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
         "-o",
-        "/tmp/fig22-lean-kuqz57b_/DagProofs.olean",
+        "/tmp/fig22-lean-o9za812n/DagProofs.olean",
         "DagProofs.lean"
       ],
       "exit_status": 0,
@@ -24,7 +24,7 @@
       "command": [
         "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
         "-o",
-        "/tmp/fig22-lean-kuqz57b_/BasisCertificates.olean",
+        "/tmp/fig22-lean-o9za812n/BasisCertificates.olean",
         "BasisCertificates.lean"
       ],
       "exit_status": 0,
@@ -34,7 +34,7 @@
       "command": [
         "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
         "-o",
-        "/tmp/fig22-lean-kuqz57b_/BasisDag.olean",
+        "/tmp/fig22-lean-o9za812n/BasisDag.olean",
         "BasisDag.lean"
       ],
       "exit_status": 0,
@@ -44,11 +44,81 @@
       "command": [
         "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
         "-o",
-        "/tmp/fig22-lean-kuqz57b_/Interface.olean",
+        "/tmp/fig22-lean-o9za812n/Interface.olean",
         "Interface.lean"
       ],
       "exit_status": 0,
       "module": "Interface"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/BooleanSupport.olean",
+        "BooleanSupport.lean"
+      ],
+      "exit_status": 0,
+      "module": "BooleanSupport"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/BooleanDagSupport.olean",
+        "BooleanDagSupport.lean"
+      ],
+      "exit_status": 0,
+      "module": "BooleanDagSupport"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/TheoremTwoUpper.olean",
+        "TheoremTwoUpper.lean"
+      ],
+      "exit_status": 0,
+      "module": "TheoremTwoUpper"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/TheoremTwoLower.olean",
+        "TheoremTwoLower.lean"
+      ],
+      "exit_status": 0,
+      "module": "TheoremTwoLower"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/TheoremTwo.olean",
+        "TheoremTwo.lean"
+      ],
+      "exit_status": 0,
+      "module": "TheoremTwo"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/TheoremTwoConsequences.olean",
+        "TheoremTwoConsequences.lean"
+      ],
+      "exit_status": 0,
+      "module": "TheoremTwoConsequences"
+    },
+    {
+      "command": [
+        "/workspace/scratch/4fd432e9fb64/lean-install/lean-4.35.0-linux/bin/lean",
+        "-o",
+        "/tmp/fig22-lean-o9za812n/TheoremTwoRaw.olean",
+        "TheoremTwoRaw.lean"
+      ],
+      "exit_status": 0,
+      "module": "TheoremTwoRaw"
     }
   ],
   "environment": {
@@ -84,14 +154,49 @@
       "sha256_before": "9aaee5bb36613d5c27d504c2bc2f87190a601ae0a14ce3c57663800ea2f3a0cd"
     },
     {
+      "path": "formal/BooleanSupport.lean",
+      "sha256_after": "0de170dce6f26f32143bf1da1d7e16c403a4e1a38ceb3397385cce94bd358533",
+      "sha256_before": "0de170dce6f26f32143bf1da1d7e16c403a4e1a38ceb3397385cce94bd358533"
+    },
+    {
+      "path": "formal/BooleanDagSupport.lean",
+      "sha256_after": "e34129eaf3068e963597c15f3b416c5bd6e4d4ae9dbbeddc3ea8330c41fec8cb",
+      "sha256_before": "e34129eaf3068e963597c15f3b416c5bd6e4d4ae9dbbeddc3ea8330c41fec8cb"
+    },
+    {
+      "path": "formal/TheoremTwoUpper.lean",
+      "sha256_after": "cc8617056f2362e369caea68009bac9f27ced15570ff5272c687c369416042ad",
+      "sha256_before": "cc8617056f2362e369caea68009bac9f27ced15570ff5272c687c369416042ad"
+    },
+    {
+      "path": "formal/TheoremTwoLower.lean",
+      "sha256_after": "46f09301b90ed655d6960d8d75e6ade369d3136af9bdee705a152dd26ccd7f5b",
+      "sha256_before": "46f09301b90ed655d6960d8d75e6ade369d3136af9bdee705a152dd26ccd7f5b"
+    },
+    {
+      "path": "formal/TheoremTwo.lean",
+      "sha256_after": "b363ddca2e20895aeb08118a424f9a319d886bc66138b3a433afad8c412c01a2",
+      "sha256_before": "b363ddca2e20895aeb08118a424f9a319d886bc66138b3a433afad8c412c01a2"
+    },
+    {
+      "path": "formal/TheoremTwoConsequences.lean",
+      "sha256_after": "8aebfbb417b68e0b77f125534a31f1d2d8ecf9cea8fada004d011354cb4742f7",
+      "sha256_before": "8aebfbb417b68e0b77f125534a31f1d2d8ecf9cea8fada004d011354cb4742f7"
+    },
+    {
+      "path": "formal/TheoremTwoRaw.lean",
+      "sha256_after": "2de64f7dbd347abd5dc4fd7c028b018ff2c59859640556b6fa6171c692fc7856",
+      "sha256_before": "2de64f7dbd347abd5dc4fd7c028b018ff2c59859640556b6fa6171c692fc7856"
+    },
+    {
       "path": "formal/lean-toolchain",
       "sha256_after": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
       "sha256_before": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
     },
     {
       "path": "formal/lakefile.lean",
-      "sha256_after": "edb47d1971cc862e23aa36083a7bd0361f948eecb50cb5dfb729cd7fed108cb5",
-      "sha256_before": "edb47d1971cc862e23aa36083a7bd0361f948eecb50cb5dfb729cd7fed108cb5"
+      "sha256_after": "4b702a2639db180711039fb1a96e09e46661eeb80d012815b2b7df16b8db4996",
+      "sha256_before": "4b702a2639db180711039fb1a96e09e46661eeb80d012815b2b7df16b8db4996"
     },
     {
       "path": "formal/runtime/proc_self_path.c",
@@ -100,8 +205,8 @@
     },
     {
       "path": "code/verify_lean_proofs.py",
-      "sha256_after": "7107ce6114df379a8615370d0153dcebecc14679d176e4dfa7d9b908987d7bf4",
-      "sha256_before": "7107ce6114df379a8615370d0153dcebecc14679d176e4dfa7d9b908987d7bf4"
+      "sha256_after": "e963a08879d7b82e8b1436b02c1c5e0813e9f3fb343cf1b80b0540429f4870bd",
+      "sha256_before": "e963a08879d7b82e8b1436b02c1c5e0813e9f3fb343cf1b80b0540429f4870bd"
     }
   ],
   "negative_controls": [
@@ -116,21 +221,33 @@
       "expected_result": "rejected",
       "name": "incorrect_nor_tautology",
       "result": "rejected"
+    },
+    {
+      "exit_status": 1,
+      "expected_result": "rejected",
+      "name": "incorrect_theorem_two_empty_branch",
+      "result": "rejected"
+    },
+    {
+      "exit_status": 1,
+      "expected_result": "rejected",
+      "name": "incorrect_theorem_two_shared_branch",
+      "result": "rejected"
     }
   ],
   "not_claimed": [
-    "The separate arbitrary-binary-basis cost-rule theorem is not formalized here",
     "No P-versus-NP result or external runtime admission",
+    "No weighted hardware, higher-arity, or multi-output theorem",
     "Lean model correctness still requires statement/model review"
   ],
   "outputs": [
     {
       "path": "evidence/lean_proofs.log",
-      "sha256": "feec6a625611c149159765e4cb7c3123bce44c9db19ae0da8d9129deba7b4888"
+      "sha256": "b9e4f07a6593d7ad8de1fd427f99718b7c33fc4b47a13007ec79e18354d7bd3b"
     },
     {
       "path": "evidence/lean_axiom_audit.lean",
-      "sha256": "b638c5f15b67e8b3e540b0e6398c8191573c24522e2f8c1e71cd23a094ea3b44"
+      "sha256": "dc05b9cd811179297baf8636e60a8cbd4d75abbc8b71b14ad3a03e2ed9de39a4"
     }
   ],
   "proof_policy": {
@@ -942,7 +1059,139 @@
     "FIG22.Checked.shared_depth_cost_agreement",
     "FIG22.Checked.singleton_exact",
     "FIG22.Checked.dag_depth_exact_of_formula_depth",
-    "FIG22.Checked.every_generating_row_dag_depth"
+    "FIG22.Checked.every_generating_row_dag_depth",
+    "FIG22.Basis.applyOp_encodeBits",
+    "FIG22.Basis.applyOp_encodeTruthTable",
+    "FIG22.Basis.encodeTruthTable_applyOp",
+    "FIG22.Basis.applyOp_injective",
+    "FIG22.Basis.applyOp_surjective",
+    "FIG22.Basis.applyOp_eq_iff",
+    "FIG22.Basis.applyOp_ext",
+    "FIG22.Basis.binaryFunction_bijection",
+    "FIG22.Basis.applyOp_bijective",
+    "FIG22.Basis.encodeTruthTable_injective",
+    "FIG22.Basis.truthVector_orientation",
+    "FIG22.Basis.diagonal_zero_iff",
+    "FIG22.Basis.diagonal_var_iff",
+    "FIG22.Basis.diagonal_neg_iff",
+    "FIG22.Basis.diagonal_one_iff",
+    "FIG22.Basis.diagonal_partition",
+    "FIG22.Basis.zeroPreserving_iff",
+    "FIG22.Basis.selfDual_iff",
+    "FIG22.Basis.encodeTruthTable_mem_encodeBasis_iff",
+    "FIG22.Basis.applyOp_mem_iff",
+    "FIG22.Basis.RawFormula.encode_eval",
+    "FIG22.Basis.RawFormula.encode_size",
+    "FIG22.Basis.RawFormula.encode_depth",
+    "FIG22.Basis.RawFormula.encode_allowed",
+    "FIG22.Basis.RawFormula.encode_tautology",
+    "FIG22.Basis.Formula.decode_eval",
+    "FIG22.Basis.Formula.decode_size",
+    "FIG22.Basis.Formula.decode_depth",
+    "FIG22.Basis.Formula.decode_allowed",
+    "FIG22.Basis.Formula.decode_tautology",
+    "FIG22.Basis.RawFormula.decode_encode",
+    "FIG22.Basis.Formula.encode_decode",
+    "FIG22.Basis.exactRawFormula_iff",
+    "FIG22.Basis.exactRawDepth_iff",
+    "FIG22.Basis.RawDag.decode_encode",
+    "FIG22.Basis.Dag.encode_decode",
+    "FIG22.Basis.RawDag.encode_unfold",
+    "FIG22.Basis.RawDag.encode_ancestors",
+    "FIG22.Basis.RawDag.encode_formula",
+    "FIG22.Basis.RawDag.encode_eval",
+    "FIG22.Basis.RawDag.encode_depth",
+    "FIG22.Basis.RawDag.encode_reachableCount",
+    "FIG22.Basis.RawDag.encode_allowed",
+    "FIG22.Basis.RawDag.encode_isTrue",
+    "FIG22.Basis.Dag.decode_unfold",
+    "FIG22.Basis.Dag.decode_ancestors",
+    "FIG22.Basis.Dag.decode_formula",
+    "FIG22.Basis.Dag.decode_eval",
+    "FIG22.Basis.Dag.decode_depth",
+    "FIG22.Basis.Dag.decode_reachableCount",
+    "FIG22.Basis.Dag.decode_allowed",
+    "FIG22.Basis.Dag.decode_isTrue",
+    "FIG22.Basis.exactRawDag_iff",
+    "FIG22.Basis.exactRawDagDepth_iff",
+    "FIG22.Basis.rawFormula_blocked_iff",
+    "FIG22.Basis.rawDag_blocked_iff",
+    "FIG22.Basis.TheoremTwo.formula_allowed_mono",
+    "FIG22.Basis.TheoremTwo.dag_allowed_mono",
+    "FIG22.Basis.TheoremTwo.upper_of_row",
+    "FIG22.Basis.TheoremTwo.upper_one",
+    "FIG22.Basis.TheoremTwo.upper_two",
+    "FIG22.Basis.TheoremTwo.upper_three_two",
+    "FIG22.Basis.TheoremTwo.upper_three_three",
+    "FIG22.Basis.TheoremTwo.upper_five_three",
+    "FIG22.Basis.TheoremTwo.term_allowed_of_subset",
+    "FIG22.Basis.TheoremTwo.lower_of_certificates",
+    "FIG22.Basis.TheoremTwo.blocked_of_certificate",
+    "FIG22.Basis.TheoremTwo.lower_one",
+    "FIG22.Basis.TheoremTwo.two_formula_certificate",
+    "FIG22.Basis.TheoremTwo.two_depth_certificate",
+    "FIG22.Basis.TheoremTwo.lower_two",
+    "FIG22.Basis.TheoremTwo.three_two_formula_certificate",
+    "FIG22.Basis.TheoremTwo.three_two_depth_certificate",
+    "FIG22.Basis.TheoremTwo.lower_three_two",
+    "FIG22.Basis.TheoremTwo.three_three_formula_certificate",
+    "FIG22.Basis.TheoremTwo.three_three_depth_certificate",
+    "FIG22.Basis.TheoremTwo.lower_three_three",
+    "FIG22.Basis.TheoremTwo.five_three_formula_certificate",
+    "FIG22.Basis.TheoremTwo.five_three_depth_certificate",
+    "FIG22.Basis.TheoremTwo.lower_five_three",
+    "FIG22.Basis.TheoremTwo.no_neg_closure_certificate",
+    "FIG22.Basis.TheoremTwo.final_closure_certificate",
+    "FIG22.Basis.TheoremTwo.blocked_no_neg",
+    "FIG22.Basis.TheoremTwo.blocked_final",
+    "FIG22.Basis.TheoremTwo.classify_of_condition",
+    "FIG22.Basis.TheoremTwo.branch_complete",
+    "FIG22.Basis.TheoremTwo.classify_iff",
+    "FIG22.Basis.TheoremTwo.classify_congr",
+    "FIG22.Basis.TheoremTwo.exact_of_bounds",
+    "FIG22.Basis.TheoremTwo.op_exhaustive",
+    "FIG22.Basis.TheoremTwo.subset_noC",
+    "FIG22.Basis.TheoremTwo.subset_no_neg",
+    "FIG22.Basis.TheoremTwo.subset_three_two",
+    "FIG22.Basis.TheoremTwo.no_z_after_three",
+    "FIG22.Basis.TheoremTwo.subset_three_three",
+    "FIG22.Basis.TheoremTwo.subset_five_three",
+    "FIG22.Basis.TheoremTwo.subset_final",
+    "FIG22.Basis.TheoremTwo.theorem_two",
+    "FIG22.Basis.TheoremTwo.ordered_row",
+    "FIG22.Basis.TheoremTwo.mem_allOps",
+    "FIG22.Basis.TheoremTwo.mem_basisOf",
+    "FIG22.Basis.TheoremTwo.classify_normalize",
+    "FIG22.Basis.TheoremTwo.theorem_two_subset",
+    "FIG22.Basis.TheoremTwo.complete",
+    "FIG22.Basis.TheoremTwo.formula_minimum_unique",
+    "FIG22.Basis.TheoremTwo.depth_minimum_unique",
+    "FIG22.Basis.TheoremTwo.dag_minimum_unique",
+    "FIG22.Basis.TheoremTwo.dag_depth_minimum_unique",
+    "FIG22.Basis.TheoremTwo.no_formula_four",
+    "FIG22.Basis.TheoremTwo.every_reachable_cost",
+    "FIG22.Basis.TheoremTwo.shared_equals_depth",
+    "FIG22.Basis.TheoremTwo.shared_equals_dag_depth",
+    "FIG22.Basis.TheoremTwo.formula_optimum_bound",
+    "FIG22.Basis.TheoremTwo.depth_optimum_bound",
+    "FIG22.Basis.TheoremTwo.dag_optimum_bound",
+    "FIG22.Basis.TheoremTwo.rawExactCosts_iff",
+    "FIG22.Basis.TheoremTwo.rawBlockedCosts_iff",
+    "FIG22.Basis.TheoremTwo.rawResult_iff",
+    "FIG22.Basis.TheoremTwo.theorem_two_raw",
+    "FIG22.Basis.TheoremTwo.complete_raw",
+    "FIG22.Basis.TheoremTwo.no_formula_four_raw",
+    "FIG22.Basis.TheoremTwo.every_reachable_cost_raw",
+    "FIG22.Basis.TheoremTwo.shared_equals_depth_raw",
+    "FIG22.Basis.TheoremTwo.shared_equals_dag_depth_raw",
+    "FIG22.Basis.TheoremTwo.mem_rawBasisOf",
+    "FIG22.Basis.TheoremTwo.encode_rawBasisOf",
+    "FIG22.Basis.TheoremTwo.RawFormula.allowed_rawBasisOf_iff",
+    "FIG22.Basis.TheoremTwo.RawDag.allowed_rawBasisOf_iff",
+    "FIG22.Basis.TheoremTwo.rawExactCostsBy_iff",
+    "FIG22.Basis.TheoremTwo.rawBlockedCostsBy_iff",
+    "FIG22.Basis.TheoremTwo.rawResultBy_iff",
+    "FIG22.Basis.TheoremTwo.theorem_two_raw_subset"
   ],
   "runtime_adapter": {
     "build_command": [
@@ -954,7 +1203,7 @@
       "-Wextra",
       "-Werror",
       "-o",
-      "/tmp/fig22-lean-kuqz57b_/proc_self_path.so",
+      "/tmp/fig22-lean-o9za812n/proc_self_path.so",
       "/workspace/scratch/4fd432e9fb64/knowledge-decay/research/tautology-primitives/formal/runtime/proc_self_path.c",
       "-ldl"
     ],
@@ -965,18 +1214,22 @@
     "source": "formal/runtime/proc_self_path.c",
     "source_sha256": "f1cbab588c0e295ed4ed3618c6d286940c4ad490b03997b187e28bcfde306207"
   },
-  "runtime_seconds": 11.595431882999947,
+  "runtime_seconds": 15.771742596999957,
   "schema": "fig22-lean-verification-v1",
   "scope": [
+    "Full Theorem2 for every subset/list/predicate basis of all binary Boolean functions",
+    "All seven ordered branches, exact costs or unbounded non-generation, and their supporting factors",
+    "Raw-function truth-table bijection, formula/DAG adapters and direct raw-predicate theorem",
+    "No formula optimum four, shared-size equals both depth optima, and sharp finite upper bounds",
     "Six singleton formula/depth minima over arbitrary finite input dimensions",
     "Six singleton reachable-DAG minima, including dead allocated gates",
     "All 136 singleton/pair formula/depth and reachable-DAG minima with kernel certificates",
     "Unary/source renaming preservation and all43 non-generating basis exclusions"
   ],
-  "source_checkpoint": "874992c61f38ecc5ba03d021ab1b8a650c3a98a3",
-  "started_at": "2026-10-28T11:09:36.553094+00:00",
+  "source_checkpoint": "154d5cb53ad36d8598f6d8239356d2e9d6356a94",
+  "started_at": "2026-10-28T11:30:25.102154+00:00",
   "status": "kernel-checked",
-  "theorem_count": 794,
+  "theorem_count": 926,
   "toolchain": {
     "executable_sha256": "bf8d54e4714cc4b03d3f6bb34c83b7202b87e49c8bfcbff6895c085bb90ceb38",
     "kernel_shared_library_sha256": "efef27df56f2197139afe12f1a2b63913a05f1aba81ce88824c44100431ed8c4",

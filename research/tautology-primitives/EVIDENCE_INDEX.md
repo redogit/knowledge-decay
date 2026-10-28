@@ -1,5 +1,17 @@
 # Evidence index
 
+## Full arbitrary-basis Theorem 2 — 2026-10-28
+
+THEOREM_TWO.md restates the seven-case theorem and maps every supporting factor
+to Lean. Twelve modules compile; all 926 theorem axiom audits pass, with only
+standard Lean axioms. Formula/DAG lower bounds and witnesses, both depth metrics,
+all non-generation cases, predicate/function bases and raw representation
+transport are proved. See THEOREM_TWO_REVIEW.md and the current Lean manifest.
+
+The independent exact all 65,536-basis crosscheck is saved in
+`evidence/theorem_two_crosscheck.json`; it is not a premise of the proof.
+
+
 ## Lean proof checkpoint — 2026-10-28
 
 `formal/` is a pinned, Std-only Lean 4.35.0 project. Its five modules establish
@@ -7,7 +19,7 @@ the six singleton exact costs and every one of the 136 singleton/pair results,
 including unbounded formula/depth and reachable-DAG lower bounds, explicit
 witnesses, blocked bases and population completeness. `formal/Interface.lean`
 checks operation semantics across the representations and exposes exact DAG
-depth minima directly. The arbitrary-subset analytical Theorem 2 is not included.
+depth minima directly. This earlier five-module scope was later extended by the full Theorem 2 proof above.
 
 - `formal/README.md`: exact theorem scope and reproduction.
 - `formal/generate_basis_certificates.py`: reproducible candidate generation;

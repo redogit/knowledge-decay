@@ -1,5 +1,8 @@
 # Lean formalization review — 2026-10-28
 
+Historical review of the five-module checkpoint. The subsequent full
+Theorem2 review is preserved separately in THEOREM_TWO_REVIEW.md.
+
 Primary verdict: **proved as written** for the scoped six-singleton and
 136-singleton/pair minimum-cost claims. No mathematical model or engineering
 defect remained after review.
@@ -45,6 +48,8 @@ not external human corroboration. Kernel acceptance and statement/model fidelity
 were checked separately. The review covered prior checkpoint
 874992c61f38ecc5ba03d021ab1b8a650c3a98a3 plus the additive formal files.
 
-The arbitrary-subset binary-basis Theorem2 remains hand-proved, not part of
-this kernel-checked136-base population. Hardware weights, higher arity,
-multi-output optimization and external runtime admission remain separate.
+At this historical five-module checkpoint, arbitrary-subset Theorem2 was
+hand-proved and outside the checked136-base population. The subsequent full
+Theorem2 proof and supporting-factor review are in THEOREM_TWO_REVIEW.md.
+Hardware weights, higher arity, multi-output optimization and external runtime
+admission are separate mathematical targets.

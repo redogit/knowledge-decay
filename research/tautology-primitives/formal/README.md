@@ -2,11 +2,15 @@
 
 Status: **kernel checked with Lean 4.35.0** on 2026-10-28. This is a new
 verification checkpoint for the October 27 hand proofs and Python evidence.
+The complete Theorem 2 and all supporting Boolean factors are now included; see
+[the statement and proof map](../THEOREM_TWO.md).
 
 ## What is proved
 
 | Result | Lean statement / module | Scope |
 | --- | --- | --- |
+| Full Theorem 2 | `Basis.TheoremTwo.theorem_two`, `Basis.TheoremTwo.theorem_two_raw_subset` | Every operation subset, including raw function/predicate bases; all seven branches |
+| Supporting representations and consequences | `BooleanSupport`, `BooleanDagSupport`, `TheoremTwoConsequences`, `TheoremTwoRaw` | Function bijection, exact cost transport, no F=4, G=D, bounds and obstructions |
 | Six exact formula sizes and depths | `Tree.singleton_minima`, `Checked.singleton_exact` | Every nonempty finite input dimension; arbitrary finite trees |
 | Six exact shared-gate minima | `DAG.singleton_minimum` | Arbitrary acyclic circuits, arbitrary outputs and dead allocated gates |
 | Complete 136-base population | `Basis.population_complete` | All 16 singletons and 120 distinct unordered pairs of binary operations |
@@ -55,11 +59,12 @@ python code/verify_lean_proofs.py --lean /path/to/lean
 python -m unittest discover -s tests -v
 ```
 
-The verifier builds all five modules into a fresh temporary directory, imports
+The verifier builds all twelve modules into a fresh temporary directory, imports
 only those fresh proof objects, prints the axiom dependencies of every public
 project theorem, checks input hashes before and after, and saves the actual log
-and manifest. It also requires Lean to reject two deliberately false controls:
-NOR formula cost four, and the claim that NOR(x,x) is a tautology.
+and manifest. It also requires Lean to reject four deliberately false controls: NOR formula cost four, NOR(x,x) as a
+tautology, the empty basis selecting row one, and NOR+FALSE selecting the
+two-formula-gate row. Rejection must explicitly identify a false proposition.
 
 `lake build` from this directory is an ordinary project build. The Python
 verifier additionally performs the complete axiom audit and negative controls.
@@ -100,8 +105,9 @@ hosts need no adapter. The official Lean compiler/kernel remains unchanged.
 - `../evidence/lean_axiom_audit.lean`: generated, replayable audit source.
 - `../LEAN_REVIEW.md`: independent statement/model review and exact reviewed files.
 
-The separate analytical Theorem 2 for arbitrary subsets of the sixteen
-operations is **not** claimed Lean-formalized by this checkpoint. Its hand
-proof remains distinct from the complete singleton/pair kernel proof. Weighted
-hardware costs, higher-arity bases, multi-output optimization, and external
-architecture/runtime admission remain separate obligations.
+The earlier five-module checkpoint left Theorem 2 hand-only. The current
+twelve-module checkpoint proves its full arbitrary-basis statement and
+supporting factors in Lean, including function-labelled circuits and arbitrary
+predicate subsets. Weighted hardware costs, higher-arity bases, multi-output
+optimization and external architecture/runtime admission are separate targets.
+Current full-scope review: `../THEOREM_TWO_REVIEW.md`.

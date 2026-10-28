@@ -28,8 +28,8 @@
   "input_artifacts": [
     {
       "path": "CIRCUIT_COSTS.md",
-      "sha256": "b5510db43ae79920bc948245e8fadce83ea143a61628ae5aa992d937ed8754c4",
-      "sha256_after": "b5510db43ae79920bc948245e8fadce83ea143a61628ae5aa992d937ed8754c4"
+      "sha256": "c7a606f100c28f3d75fda8ddb985d290cfe28b29f3f6d56442128de060a51ae0",
+      "sha256_after": "c7a606f100c28f3d75fda8ddb985d290cfe28b29f3f6d56442128de060a51ae0"
     },
     {
       "path": "COST_PLAN.md",
@@ -58,8 +58,13 @@
     },
     {
       "path": "code/verify_lean_proofs.py",
-      "sha256": "7107ce6114df379a8615370d0153dcebecc14679d176e4dfa7d9b908987d7bf4",
-      "sha256_after": "7107ce6114df379a8615370d0153dcebecc14679d176e4dfa7d9b908987d7bf4"
+      "sha256": "e963a08879d7b82e8b1436b02c1c5e0813e9f3fb343cf1b80b0540429f4870bd",
+      "sha256_after": "e963a08879d7b82e8b1436b02c1c5e0813e9f3fb343cf1b80b0540429f4870bd"
+    },
+    {
+      "path": "code/verify_theorem_two.py",
+      "sha256": "bb349bd0d9a5d7fa81032361f6eb536aea0108dce5e4d7d86b3194d59083a82c",
+      "sha256_after": "bb349bd0d9a5d7fa81032361f6eb536aea0108dce5e4d7d86b3194d59083a82c"
     },
     {
       "path": "evidence/circuit_cost_sources.json",
@@ -82,14 +87,19 @@
       "sha256_after": "c1964c716e074cb1f7748bc9b47cdebef03d5a3fb3eaccc5e64ef07f72b15e66"
     },
     {
+      "path": "tests/test_theorem_two_crosscheck.py",
+      "sha256": "f951e9ef24f4f77d054783fbfa05a4ee5bb0e50e6841936fa0a23d337aeb3f26",
+      "sha256_after": "f951e9ef24f4f77d054783fbfa05a4ee5bb0e50e6841936fa0a23d337aeb3f26"
+    },
+    {
       "path": "tests/test_verify_circuit_costs.py",
       "sha256": "da7853217887a0f49cd0b64493f79567853897a82baf885b7cafaa43be2a5ad6",
       "sha256_after": "da7853217887a0f49cd0b64493f79567853897a82baf885b7cafaa43be2a5ad6"
     },
     {
       "path": "tests/test_verify_lean_proofs.py",
-      "sha256": "995a33ccd984a5e5c1fa65e1d49cbfbcceb44b12ff7288cb51ecdd4fffdc2253",
-      "sha256_after": "995a33ccd984a5e5c1fa65e1d49cbfbcceb44b12ff7288cb51ecdd4fffdc2253"
+      "sha256": "29b5c752edfe1c138b2b87cecb59b4f0518be0c74b7e2930708e1f8d37511949",
+      "sha256_after": "29b5c752edfe1c138b2b87cecb59b4f0518be0c74b7e2930708e1f8d37511949"
     }
   ],
   "mathematics": {
@@ -164,8 +174,8 @@
       "max_threads": null,
       "memory_bytes": null
     },
-    "runtime_seconds": 0.13369415400029538,
-    "started_at": "2026-10-28T11:11:43.395888+00:00",
+    "runtime_seconds": 0.1642537849998007,
+    "started_at": "2026-10-28T11:37:04.138512+00:00",
     "status": "completed"
   },
   "schema_version": 2
