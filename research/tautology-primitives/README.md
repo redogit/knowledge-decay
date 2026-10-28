@@ -74,6 +74,29 @@ python code/verify_circuit_costs.py
 New evidence: `evidence/minimum_costs.json`, `evidence/raw_minimum_costs.json`,
 `evidence/circuit_cost_run.json`, and `evidence/circuit_cost_sources.json`.
 
+## Lean kernel verification (2026-10-28)
+
+The [formal Lean project](formal/README.md) proves the six singleton minima and
+all 136 singleton/pair formula, shared-DAG and depth results. Universal lower
+bounds cover arbitrary finite circuit sizes; source renaming preserves costs;
+actual reachable-node counting excludes dead allocations. The 43 blocked bases
+are excluded at every finite size.
+
+Official Lean 4.35.0 compiled all five modules. All 794 public theorem axiom
+audits passed, using only the standard `propext`, `Quot.sound` and
+`Classical.choice` axioms. No proof holes, project-added axioms or
+`native_decide` are used. Two deliberately false claims were rejected.
+The broader arbitrary-subset Theorem 2 remains outside this Lean scope.
+
+```bash
+python code/verify_lean_proofs.py --lean /path/to/lean
+```
+
+The exact commands, source/toolchain hashes, compatibility adapter, axiom
+dependencies and negative-control results are in `evidence/lean_verification.json`
+and `evidence/lean_proofs.log`. [LEAN_REVIEW.md](LEAN_REVIEW.md) records the
+independent statement/model review.
+
 ## Verified state-cycle implementation
 
 `code/cook_cycle_factories.py` is the factory/builder refactor of the fixed DPLL cycle. The seven-bit word follows

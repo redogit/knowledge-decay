@@ -296,8 +296,12 @@ this excludes all depth improvements to the depth-3 witnesses.
 
 The mathematical reduction, coverage proof, lower bounds, and exact
 enumerations jointly establish the stated costs. Passing software tests
-alone is not substituted for those arguments. These are hand proofs
-with executable verification, not Lean/kernel-checked proofs.
+alone is not substituted for those arguments. The October 27 checkpoint
+provided hand proofs with executable verification. On October 28, the six
+singleton and all 136 singleton/pair cost results additionally passed Lean 4.35.0
+kernel verification; see [the formal proof scope and reproduction](formal/README.md).
+The separate arbitrary-binary-basis Theorem 2 remains hand-proved and is not
+claimed kernel-checked by this finite-population formalization.
 
 ## 6. Validated local interface and architecture boundary
 

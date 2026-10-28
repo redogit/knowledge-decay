@@ -1,5 +1,28 @@
 # Evidence index
 
+## Lean proof checkpoint — 2026-10-28
+
+`formal/` is a pinned, Std-only Lean 4.35.0 project. Its five modules establish
+the six singleton exact costs and every one of the 136 singleton/pair results,
+including unbounded formula/depth and reachable-DAG lower bounds, explicit
+witnesses, blocked bases and population completeness. `formal/Interface.lean`
+checks operation semantics across the representations and exposes exact DAG
+depth minima directly. The arbitrary-subset analytical Theorem 2 is not included.
+
+- `formal/README.md`: exact theorem scope and reproduction.
+- `formal/generate_basis_certificates.py`: reproducible candidate generation;
+  Python is not trusted as a proof oracle.
+- `code/verify_lean_proofs.py`: fresh builds, all-public-theorem axiom audit,
+  source policy, input hashes and false-claim rejection controls.
+- `evidence/lean_proofs.log`, `evidence/lean_axiom_audit.lean`, and
+  `evidence/lean_verification.json`: actual kernel run and provenance.
+- `LEAN_REVIEW.md`: independent mathematical model/statement review.
+
+Observed result: five modules accepted; 794 theorem axiom audits passed; only
+standard `propext`, `Quot.sound`, `Classical.choice`; no placeholders or extra
+axioms. Two deliberately false controls were rejected. This checkpoint extends
+the earlier evidence without upgrading the unformalized generalizations.
+
 ## Minimum-cost extension — 2026-10-27
 
 The predecessor evidence below is retained. The cost extension adds:
@@ -25,8 +48,9 @@ The predecessor evidence below is retained. The cost extension adds:
   `tests/test_verify_circuit_costs.py`: model, identity, boundary and exhaustive
   cost regression checks. Use `python -m unittest discover -s tests -v`.
 
-Hand proofs, finite computational evidence, file integrity, and runtime
-integration retain distinct statuses. No Lean/kernel proof is claimed.
+At this October 27 checkpoint, hand proofs, finite computational evidence,
+file integrity and runtime integration retained distinct statuses; no Lean proof
+had yet been claimed. The October 28 entry above records the later formal scope.
 
 This index separates mathematical derivation, finite computation, implementation tests, literature, project-management provenance, and architecture-transfer evidence.
 
