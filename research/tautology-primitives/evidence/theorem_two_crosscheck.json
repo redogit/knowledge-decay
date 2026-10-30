@@ -1,0 +1,55 @@
+{
+  "basis_masks": {
+    "bits": "bit i selects ordered truth table i",
+    "first": 0,
+    "last": 65535,
+    "population": 65536
+  },
+  "branch_counts": {
+    "row1_diagonal_true": 61440,
+    "row2_zero_preserving": 256,
+    "row3_two_gates": 3728,
+    "row4_shared_false": 56,
+    "row5_three_gates": 36,
+    "row6_nor_tree": 8,
+    "row7_self_dual": 12
+  },
+  "claim_ceiling": "Independent executable corroboration; not a premise of the Lean kernel proof.",
+  "classifier": "First matching row of Theorem2; compared after independent minima",
+  "cost_profiles": {
+    "(1, 1, 1)": 61440,
+    "(2, 2, 2)": 3728,
+    "(3, 2, 2)": 56,
+    "(3, 3, 3)": 36,
+    "(5, 3, 3)": 8,
+    "(None, None, None)": 268
+  },
+  "disagreements": 0,
+  "exit_status": 0,
+  "methods": [
+    "exact integer formula fixed point",
+    "exact integer depth fixed point",
+    "complete available-unary-function BFS for shared gates"
+  ],
+  "ordered_truth_inputs": [
+    "00",
+    "01",
+    "10",
+    "11"
+  ],
+  "profile_stream_sha256": "d06edca09beedca918dca7f6d1f7646d2a5bc512ac24faff3d547e0af85ed6a1",
+  "runtime_seconds": 2.3178169849998085,
+  "schema": "fig22-theorem2-all-bases-crosscheck-v1",
+  "source": "code/verify_theorem_two.py",
+  "source_sha256_after": "bb349bd0d9a5d7fa81032361f6eb536aea0108dce5e4d7d86b3194d59083a82c",
+  "source_sha256_before": "bb349bd0d9a5d7fa81032361f6eb536aea0108dce5e4d7d86b3194d59083a82c",
+  "started_at": "2026-10-28T11:25:41.631616+00:00",
+  "status": "verified",
+  "stream_encoding": "For ascending mask: 2-byte big-endian mask then F,G,D each one byte; unreachable=255",
+  "unary_encoding": [
+    "FALSE",
+    "x",
+    "NOT x",
+    "TRUE"
+  ]
+}

@@ -39,6 +39,78 @@ All `16 + C(16,2) = 136` singleton/pair bases were checked: 93 generate TRUE and
 
 This is not functional completeness. NAND and NOR are the two binary singleton bases that generate all sixteen two-variable Boolean functions.
 
+## Minimum circuit costs (2026-10-27 extension)
+
+The completed classification now has a separate [minimum-cost proof and model](CIRCUIT_COSTS.md).
+With unit-cost binary gates, no primitive constants, and free wires/fanout:
+
+| Basis | Formula gate occurrences | Shared DAG gates | Minimum depth |
+| --- | ---: | ---: | ---: |
+| NOR | 5 | 3 | 3 |
+| NAND | 2 | 2 | 2 |
+| XNOR, either implication, binary TRUE | 1 | 1 | 1 |
+
+The NOR witness computes NOT x, then FALSE, then NOR(FALSE,FALSE), reusing
+the same FALSE node. All 136 singleton/pair bases have exact cost witnesses
+or an obstruction. An independent raw enumerator checks 195,320 trees and
+37,512 straight-line programs; a separate evaluator replays all 279 TRUE
+witnesses. NOR combined with FALSE or either difference operation has
+formula size 3 versus shared size 2. The proof also derives ordered minimum-cost
+rules for arbitrary sets of binary operations; its executable crosscheck is
+explicitly limited to the 136 singleton/pair bases.
+
+`code/circuit_costs.py` provides immutable source-aware local plans, preserves
+input identities and revisions, and measures each cost separately. This is a
+validated Python interface, with external runtime admission still tracked by
+FIG-23. It establishes no P-versus-NP or neural-learning replacement claim.
+
+Reproduce the complete module and new evidence from this folder:
+
+```bash
+python -m unittest discover -s tests -v
+python code/verify_circuit_costs.py
+```
+
+New evidence: `evidence/minimum_costs.json`, `evidence/raw_minimum_costs.json`,
+`evidence/circuit_cost_run.json`, and `evidence/circuit_cost_sources.json`.
+
+## Full Theorem 2 in Lean (2026-10-28)
+
+[Theorem 2 and its complete proof map](THEOREM_TWO.md) now cover every subset of
+the sixteen binary Boolean operations, including raw function/predicate bases.
+All seven ordered cases, universal lower bounds, attaining witnesses,
+non-generation, operator representation, exact formula/DAG adapters and
+consequences are kernel proved. Twelve modules compile; all 926 theorem axiom
+audits pass. No formula optimum 4 occurs; shared optimum equals either depth
+optimum; every reachable basis has F≤5 and G,D≤3.
+
+The all 65,536-basis independent crosscheck also agrees. Its role is corroboration,
+while the generic Lean proof establishes the result for every finite circuit.
+See THEOREM_TWO_REVIEW.md for the independent review.
+
+## Lean singleton/pair checkpoint (2026-10-28)
+
+The [formal Lean project](formal/README.md) proves the six singleton minima and
+all 136 singleton/pair formula, shared-DAG and depth results. Universal lower
+bounds cover arbitrary finite circuit sizes; source renaming preserves costs;
+actual reachable-node counting excludes dead allocations. The 43 blocked bases
+are excluded at every finite size.
+
+Official Lean 4.35.0 compiled all five modules. All 794 public theorem axiom
+audits passed, using only the standard `propext`, `Quot.sound` and
+`Classical.choice` axioms. No proof holes, project-added axioms or
+`native_decide` are used. Two deliberately false claims were rejected.
+This first five-module checkpoint was followed by the full Theorem 2 proof above.
+
+```bash
+python code/verify_lean_proofs.py --lean /path/to/lean
+```
+
+The exact commands, source/toolchain hashes, compatibility adapter, axiom
+dependencies and negative-control results are in `evidence/lean_verification.json`
+and `evidence/lean_proofs.log`. [LEAN_REVIEW.md](LEAN_REVIEW.md) records the
+independent statement/model review.
+
 ## Verified state-cycle implementation
 
 `code/cook_cycle_factories.py` is the factory/builder refactor of the fixed DPLL cycle. The seven-bit word follows

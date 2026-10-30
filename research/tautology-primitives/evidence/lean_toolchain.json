@@ -1,0 +1,13 @@
+{
+  "release": "v4.35.0",
+  "release_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "asset_id": 634574462,
+  "asset_name": "lean-4.35.0-linux.tar.zst",
+  "asset_size_bytes": 594481375,
+  "official_download_url": "https://github.com/leanprover/lean4/releases/download/v4.35.0/lean-4.35.0-linux.tar.zst",
+  "published_digest": "sha256:7289597a44543246c9227b8cae501767e095ce17f6d448b95fc4a8dc97268f6d",
+  "observed_archive_sha256": "7289597a44543246c9227b8cae501767e095ce17f6d448b95fc4a8dc97268f6d",
+  "observation": "Downloaded archive sha256sum matched the published GitHub release metadata; official binary reported 4.35.0.",
+  "runtime_adapter": "formal/runtime/proc_self_path.c",
+  "runtime_adapter_reason": "PID namespace mismatch verified: getpid() and /proc/self differ. Adapter maps only own executable readlink; compiler/kernel unchanged."
+}

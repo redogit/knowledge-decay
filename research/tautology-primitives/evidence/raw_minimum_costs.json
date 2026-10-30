@@ -1,0 +1,9377 @@
+{
+  "assertion_tested": "All ordered unary formula trees through 5 gates and ordered topological programs through 3 gates for all 16 singleton and 120 pair binary bases.",
+  "bases_checked": 136,
+  "dag_bound": 3,
+  "formula_bound": 5,
+  "histogram_formula_dag_depth": {
+    "1,1,1": 58,
+    "2,2,2": 24,
+    "3,2,2": 3,
+    "3,3,3": 4,
+    "5,3,3": 4,
+    "None,None,None": 43
+  },
+  "no_semantic_deduplication": true,
+  "nonexistence_ceiling": "Missing TRUE is only absence in the stated bounds; consult mathematical obstruction proof for global nonexistence.",
+  "rows": [
+    {
+      "basis_ids": [
+        0
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000"
+      ]
+    },
+    {
+      "basis_ids": [
+        1
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001"
+      ]
+    },
+    {
+      "basis_ids": [
+        2
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010"
+      ]
+    },
+    {
+      "basis_ids": [
+        3
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011"
+      ]
+    },
+    {
+      "basis_ids": [
+        4
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0100"
+      ]
+    },
+    {
+      "basis_ids": [
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 2
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 4
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 5
+      },
+      "truth_vectors": [
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 20
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 5
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 42
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 3
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 28
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 9
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 31
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 3
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 28
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 9
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 31
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 12
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 8
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 6
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 1,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 4,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 36,
+          "true_outputs": 36
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 1,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 5,
+          "true_trees": 5
+        },
+        {
+          "gates": 4,
+          "trees": 14,
+          "true_trees": 14
+        },
+        {
+          "gates": 5,
+          "trees": 42,
+          "true_trees": 42
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        1
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0001"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        2
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0010"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        3
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0011"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        4
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0100"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0000",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 1
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 26
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 1
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 12
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 84
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "0000",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 64
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 8
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 128
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0000",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 48
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 37
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 234
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0000",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 103
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 11
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 60
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 368
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0000",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 48
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 37
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 234
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0000",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 103
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 11
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 60
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 368
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0000",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 94
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 11
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 80
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 442
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0000",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        0,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 144
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 20
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 112
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 672
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0000",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        2
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0010"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        3
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0011"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        4
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0100"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0001",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 4
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 16
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 5
+      },
+      "truth_vectors": [
+        "0001",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 7
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 117
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 15
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 70
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 462
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0001",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 6
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 2
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 16
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 114
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "0001",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 144
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 17
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 93
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 567
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0001",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 6
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 2
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 16
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 114
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "0001",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 144
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 17
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 93
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 567
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0001",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 52
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 10
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 56
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 344
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0001",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        1,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0001",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        3
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010",
+        "0011"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        4
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010",
+        "0100"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010",
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0010",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 1
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 22
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 1
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 6
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 42
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "0010",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 69
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 9
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 16
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 230
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0010",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 41
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 3
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 23
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 131
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0010",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 108
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 392
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0010",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 41
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 3
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 23
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 131
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0010",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 108
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 392
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0010",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 88
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 7
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 86
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 320
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0010",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        2,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 151
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 118
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 712
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0010",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        4
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "0100"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 2
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 4
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 5
+      },
+      "truth_vectors": [
+        "0011",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 144
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 17
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 93
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 567
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0011",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0011",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0011",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0011",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 50
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 10
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 58
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 348
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0011",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        3,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 198
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 5
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 27
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 157
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 963
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0011",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        5
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0100",
+        "0101"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0100",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0100",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 1
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 22
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 1
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 6
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 42
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "0100",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 69
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 9
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 16
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 230
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0100",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 41
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 3
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 23
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 131
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0100",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 108
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 392
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0100",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 41
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 3
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 23
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 131
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0100",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 108
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 392
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0100",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 88
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 7
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 86
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 320
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0100",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        4,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 151
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 118
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 712
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0100",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        6
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0101",
+        "0110"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0101",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 2
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 4
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 5
+      },
+      "truth_vectors": [
+        "0101",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 144
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 17
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 93
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 567
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0101",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0101",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0101",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0101",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0101",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 50
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 10
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 58
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 348
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0101",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        5,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 198
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 5
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 27
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 157
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 963
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0101",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        7
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "0110",
+        "0111"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 3
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 46
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 5
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 40
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 200
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0110",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 80
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 20
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 672
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0110",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 68
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 69
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 250
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0110",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 117
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 19
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 74
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 574
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0110",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 68
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 69
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 250
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0110",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 117
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 19
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 74
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 574
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0110",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 7
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 106
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 6
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 3
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 168
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 162
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0110",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        6,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 160
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 26
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 136
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 864
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0110",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        8
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 52
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 10
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 56
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 344
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0111",
+        "1000"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 9
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 171
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 730
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0111",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 54
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 74
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 458
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0111",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 198
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 5
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 27
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 157
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 963
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0111",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 2
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 54
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 74
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 458
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0111",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 198
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 5
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 27
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 157
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 963
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0111",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 100
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 20
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 128
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 752
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "0111",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        7,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 11
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 225
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 6
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 35
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 210
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 1302
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "0111",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        9
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 67
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 6
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 2
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 228
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1000",
+        "1001"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 16
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 12
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 120
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "1000",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 41
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 387
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1000",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 16
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 12
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 120
+        }
+      ],
+      "minimum": {
+        "dag_gates": 3,
+        "depth": 3,
+        "formula_gates": 3
+      },
+      "truth_vectors": [
+        "1000",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 41
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 387
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1000",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 72
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 8
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 384
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "1000",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        8,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 149
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 20
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 112
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 688
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1000",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        10
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 76
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 11
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 24
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 317
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1010"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 192
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 34
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 86
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 1014
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 76
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 11
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 24
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 317
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 192
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 34
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 86
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 1014
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 6
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 101
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 2
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 14
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 72
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 446
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        9,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 12
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 224
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 32
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 144
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 992
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1001",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        10,
+        11
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 55
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 377
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1010",
+        "1011"
+      ]
+    },
+    {
+      "basis_ids": [
+        10,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 0
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 0
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 0
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 0
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 0
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 0
+        }
+      ],
+      "minimum": {
+        "dag_gates": null,
+        "depth": null,
+        "formula_gates": null
+      },
+      "truth_vectors": [
+        "1010",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        10,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 55
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 377
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1010",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        10,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 56
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 272
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "1010",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        10,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 150
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 729
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1010",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        11,
+        12
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 55
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 377
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1011",
+        "1100"
+      ]
+    },
+    {
+      "basis_ids": [
+        11,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 12
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 224
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 32
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 144
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 992
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1011",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        11,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 7
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 124
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 16
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 89
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 537
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1011",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        11,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 14
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 256
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 6
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 34
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 186
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 1134
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1011",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        12,
+        13
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 5
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 96
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 1
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 12
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 55
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 377
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1100",
+        "1101"
+      ]
+    },
+    {
+      "basis_ids": [
+        12,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 0
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 4
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 56
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 0
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 4
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 64
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 272
+        }
+      ],
+      "minimum": {
+        "dag_gates": 2,
+        "depth": 2,
+        "formula_gates": 2
+      },
+      "truth_vectors": [
+        "1100",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        12,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 8
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 150
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 4
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 21
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 120
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 729
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1100",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        13,
+        14
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 7
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 124
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 3
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 16
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 89
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 537
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1101",
+        "1110"
+      ]
+    },
+    {
+      "basis_ids": [
+        13,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 2
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 14
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 256
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 2
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 6
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 34
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 186
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 1134
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1101",
+        "1111"
+      ]
+    },
+    {
+      "basis_ids": [
+        14,
+        15
+      ],
+      "dag_layers": [
+        {
+          "gates": 0,
+          "programs": 1,
+          "true_outputs": 0
+        },
+        {
+          "gates": 1,
+          "programs": 2,
+          "true_outputs": 1
+        },
+        {
+          "gates": 2,
+          "programs": 16,
+          "true_outputs": 10
+        },
+        {
+          "gates": 3,
+          "programs": 288,
+          "true_outputs": 175
+        }
+      ],
+      "formula_layers": [
+        {
+          "gates": 0,
+          "trees": 1,
+          "true_trees": 0
+        },
+        {
+          "gates": 1,
+          "trees": 2,
+          "true_trees": 1
+        },
+        {
+          "gates": 2,
+          "trees": 8,
+          "true_trees": 6
+        },
+        {
+          "gates": 3,
+          "trees": 40,
+          "true_trees": 24
+        },
+        {
+          "gates": 4,
+          "trees": 224,
+          "true_trees": 138
+        },
+        {
+          "gates": 5,
+          "trees": 1344,
+          "true_trees": 814
+        }
+      ],
+      "minimum": {
+        "dag_gates": 1,
+        "depth": 1,
+        "formula_gates": 1
+      },
+      "truth_vectors": [
+        "1110",
+        "1111"
+      ]
+    }
+  ],
+  "schema": "fig22-raw-syntax-v1",
+  "truth_table_order": [
+    "00",
+    "01",
+    "10",
+    "11"
+  ]
+}

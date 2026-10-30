@@ -1,5 +1,69 @@
 # Evidence index
 
+## Full arbitrary-basis Theorem 2 — 2026-10-28
+
+THEOREM_TWO.md restates the seven-case theorem and maps every supporting factor
+to Lean. Twelve modules compile; all 926 theorem axiom audits pass, with only
+standard Lean axioms. Formula/DAG lower bounds and witnesses, both depth metrics,
+all non-generation cases, predicate/function bases and raw representation
+transport are proved. See THEOREM_TWO_REVIEW.md and the current Lean manifest.
+
+The independent exact all 65,536-basis crosscheck is saved in
+`evidence/theorem_two_crosscheck.json`; it is not a premise of the proof.
+
+
+## Lean proof checkpoint — 2026-10-28
+
+`formal/` is a pinned, Std-only Lean 4.35.0 project. Its five modules establish
+the six singleton exact costs and every one of the 136 singleton/pair results,
+including unbounded formula/depth and reachable-DAG lower bounds, explicit
+witnesses, blocked bases and population completeness. `formal/Interface.lean`
+checks operation semantics across the representations and exposes exact DAG
+depth minima directly. This earlier five-module scope was later extended by the full Theorem 2 proof above.
+
+- `formal/README.md`: exact theorem scope and reproduction.
+- `formal/generate_basis_certificates.py`: reproducible candidate generation;
+  Python is not trusted as a proof oracle.
+- `code/verify_lean_proofs.py`: fresh builds, all-public-theorem axiom audit,
+  source policy, input hashes and false-claim rejection controls.
+- `evidence/lean_proofs.log`, `evidence/lean_axiom_audit.lean`, and
+  `evidence/lean_verification.json`: actual kernel run and provenance.
+- `LEAN_REVIEW.md`: independent mathematical model/statement review.
+
+Observed result: five modules accepted; 794 theorem axiom audits passed; only
+standard `propext`, `Quot.sound`, `Classical.choice`; no placeholders or extra
+axioms. Two deliberately false controls were rejected. This checkpoint extends
+the earlier evidence without upgrading the unformalized generalizations.
+
+## Minimum-cost extension — 2026-10-27
+
+The predecessor evidence below is retained. The cost extension adds:
+
+- `CIRCUIT_COSTS.md`: exact model, cost-preserving unary reduction, singleton
+  lower bounds, explicit witnesses, composed-basis costs, and analytical
+  minimum-cost rules for arbitrary binary bases.
+- `code/circuit_costs.py`: exact semantic synthesis and a source-aware local
+  circuit description/evaluator; it does not bind an external runtime.
+- `code/raw_circuit_enumerator.py`: independent enumeration retaining every
+  ordered syntax through 5 tree gates and 3 shared gates over all 136 bases.
+- `code/verify_circuit_costs.py`: checks optimized/raw agreement, unchanged
+  predecessor closure, and separate scalar replay of all 279 TRUE witnesses.
+- `evidence/minimum_costs.json`: concrete per-metric witnesses for all 93
+  generating singleton/pair bases; 43 non-generating bases remain recorded.
+- `evidence/raw_minimum_costs.json`: 195,320 tree and 37,512 program cases;
+  complete finite layer counts, including cheaper alternatives.
+- `evidence/circuit_cost_run.json`: actual command, bounds, environment,
+  run status and before/after input hashes plus output hashes.
+- `evidence/circuit_cost_sources.json`: pinned upstream commit/blob identities
+  and original FIG-22 checkpoint references, without private source text.
+- `tests/test_circuit_costs.py`, `tests/test_raw_circuit_enumerator.py`, and
+  `tests/test_verify_circuit_costs.py`: model, identity, boundary and exhaustive
+  cost regression checks. Use `python -m unittest discover -s tests -v`.
+
+At this October 27 checkpoint, hand proofs, finite computational evidence,
+file integrity and runtime integration retained distinct statuses; no Lean proof
+had yet been claimed. The October 28 entry above records the later formal scope.
+
 This index separates mathematical derivation, finite computation, implementation tests, literature, project-management provenance, and architecture-transfer evidence.
 
 ## Internal mathematical derivation
